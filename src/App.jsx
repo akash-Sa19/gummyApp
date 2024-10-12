@@ -2,6 +2,7 @@ import { useState } from "react";
 import Hero from "./components/Hero";
 import "./index.css";
 import logo from "./assets/logo.svg";
+import Demo from "./components/Demo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
       </div>
       <div className="relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6">
         <Hero />
+        <Demo />
       </div>
     </main>
   );
