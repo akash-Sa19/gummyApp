@@ -33,10 +33,10 @@ const Card = ({ videoId, snippet }) => {
           height="280"
           src={`https://www.youtube.com/embed/${videoId}`}
           title="Video Title"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 

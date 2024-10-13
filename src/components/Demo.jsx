@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Options from "./subComponents/Options";
 import Form from "./subComponents/Form";
-import { youtubeQueryApi } from "../articles/youtubeQueryApi";
+import { youtubeQueryApi } from "../articles/Youtube/youtubeQueryApi";
 import Display from "./Display";
 import History from "./History";
 
@@ -21,6 +21,7 @@ const Demo = () => {
     try {
       const response = await youtubeQueryApi(query, setIsFetching);
       setData(response);
+
       console.log("Demo/line:23 -> ", data);
     } catch (error) {
       console.log(error);
