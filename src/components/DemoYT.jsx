@@ -1,12 +1,10 @@
 import { useState } from "react";
-import Options from "./subComponents/Options";
-import Form from "./subComponents/Form";
 import { youtubeQueryApi } from "../articles/Youtube/youtubeQueryApi";
 import Display from "./Display";
 import History from "./History";
+import FormYT from "./subComponents/FormYT";
 
-const Demo = () => {
-  const [platform, setPlatform] = useState("RE");
+const DemoYT = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
@@ -29,14 +27,9 @@ const Demo = () => {
   };
 
   return (
-    <section className="w-full mt-16">
-      {/* options */}
-      <Options
-        platform={platform}
-        setPlatform={setPlatform}
-      />
+    <section className="w-full mt-4">
       {/* search */}
-      <Form
+      <FormYT
         query={query}
         setQuery={setQuery}
         handleSubmit={handleSubmit}
@@ -46,9 +39,10 @@ const Demo = () => {
         isFetching={isFetching}
         // error={true}
         data={data}
+        platform={platform}
       />
     </section>
   );
 };
 
-export default Demo;
+export default DemoYT;

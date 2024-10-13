@@ -2,24 +2,64 @@ import { linkIcon } from "../../assets";
 
 const orderByOptions = [
   {
+    value: "all",
+    name: "All",
+  },
+  {
+    value: "day",
+    name: "Today",
+  },
+  {
+    value: "week",
+    name: "This Week",
+  },
+  {
+    value: "month",
+    name: "This Month",
+  },
+  {
+    value: "year",
+    name: "This Year",
+  },
+  {
+    value: "lastHour",
+    name: "Last Hour",
+  },
+];
+const serchTypeOptions = [
+  {
+    value: "posts",
+    name: "Posts",
+  },
+  {
+    value: "communities",
+    name: "Communities",
+  },
+  {
+    value: "users",
+    name: "Users",
+  },
+];
+const sortSearchOptions = [
+  {
     value: "relevance",
     name: "Relevance",
   },
   {
-    value: "date",
-    name: "Date",
+    value: "hot",
+    name: "Hot",
   },
   {
-    value: "viewCount",
-    name: "View Count",
+    value: "top",
+    name: "Top",
   },
   {
-    value: "rating",
-    name: "Rating",
+    value: "new",
+    name: "New",
   },
 ];
 
-const Form = ({ query, setQuery, handleSubmit }) => {
+const FormRE = ({ query, setQuery, handleSubmit }) => {
   return (
     <div className="flex flex-col w-full gap-2 mt-6">
       <form
@@ -50,10 +90,10 @@ const Form = ({ query, setQuery, handleSubmit }) => {
           </button>
         </div>
         {/* filters */}
-        <div className="w-full mt-4 flex items-center justify-between">
-          <div className="w-1/2 mr-10">
+        <div className="flex items-center justify-between w-full gap-10 mt-4">
+          <div className="w-1/4">
             <label>
-              <span className="text-gray-600">Order By :</span>
+              <span className="text-gray-600">Order By Time:</span>
               <select
                 className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
                 value={query.orderBy}
@@ -73,7 +113,49 @@ const Form = ({ query, setQuery, handleSubmit }) => {
               </select>
             </label>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/4">
+            <label>
+              <span className="text-gray-600">Search Type :</span>
+              <select
+                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
+                value={query.searchType}
+                onChange={(e) =>
+                  setQuery({ ...query, searchType: e.target.value })
+                }
+              >
+                {serchTypeOptions.map((option) => (
+                  <option
+                    key={option.value}
+                    value={option.value}
+                    className="rounded-md border  border-gray-200 bg-white py-2.5 pl-3 pr-10 text-sm"
+                  >
+                    {option.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+          <div className="w-1/4">
+            <label>
+              <span className="text-gray-600">Sort By :</span>
+              <select
+                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
+                value={query.sortBy}
+                onChange={(e) => setQuery({ ...query, sortBy: e.target.value })}
+              >
+                {sortSearchOptions.map((option) => (
+                  <option
+                    key={option.value}
+                    value={option.value}
+                    className="rounded-md border  border-gray-200 bg-white py-2.5 pl-3 pr-10 text-sm"
+                  >
+                    {option.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+          <div className="w-1/4">
             <span className="text-gray-600">Max Results :</span>
             <label>
               <input
@@ -93,4 +175,4 @@ const Form = ({ query, setQuery, handleSubmit }) => {
   );
 };
 
-export default Form;
+export default FormRE;

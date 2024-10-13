@@ -1,17 +1,7 @@
-import React, { useState } from "react";
 import { arrowRightUp } from "../../assets";
-
-function formatDate(isoDateStr) {
-  const date = new Date(isoDateStr);
-
-  // Format the date to the desired format
-  const options = { year: "numeric", month: "long", day: "numeric" };
-  return date.toLocaleDateString("en-US", options);
-}
+import { formatDate } from "../../utils/formatDate";
 
 const Card = ({ videoId, snippet }) => {
-  const [isPlaying, setIsPlaying] = useState(true);
-
   //   console.log("id :", videoId, "snippet :", snippet);
   const {
     publishedAt,
