@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { getScrapedData } from "../articles/Reddit/redditQueryApi";
-import FormRE from "./subComponents/FormRE";
+import { FormRE } from "./subComponents";
 import Display from "./Display";
 
 const DemoRE = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
-    orderBy: "all", //filterBy ->  "last hour" | "day" | "week" | "month" | "year"
-    searchType: "Posts", // "posts" | "communities" | "users"
+    orderBy: "all", //  "all" | "last hour" | "day" | "week" | "month" | "year"
+    searchType: "posts", // "posts" | "communities" | "users"
     maxResult: 50,
     sortBy: "relevance", // "hot" | "top" | "new"
   });

@@ -1,5 +1,5 @@
 // import { favicon } from "../assets/favicon.png";
-import logo from "../assets/logo.svg";
+// import logo from "../assets/logo.svg";
 
 const Hero = () => {
   return (

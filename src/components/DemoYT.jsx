@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { youtubeQueryApi } from "../articles/Youtube/youtubeQueryApi";
 import Display from "./Display";
-import History from "./History";
-import FormYT from "./subComponents/FormYT";
+// import History from "./History";
+import { FormYT } from "./subComponents";
 
 const DemoYT = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
@@ -34,7 +34,7 @@ const DemoYT = ({ platform }) => {
         setQuery={setQuery}
         handleSubmit={handleSubmit}
       />
-      <History />
+      {/* <History /> */}
       <Display
         isFetching={isFetching}
         // error={true}

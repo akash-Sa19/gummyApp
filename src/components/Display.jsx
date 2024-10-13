@@ -1,14 +1,15 @@
-import React from "react";
 import { loader } from "../assets";
-// import { rawData, redditData } from "../constants/index.js";
-import Card from "./subComponents/Card.jsx";
-import RedditCard from "./subComponents/RedditCard.jsx";
-import RedditCommentCard from "./subComponents/RedditCommentCard.jsx";
-import RedditCommunityCard from "./subComponents/RedditCommunityCard.jsx";
-import RedditUserCard from "./subComponents/RedditUserCard.jsx";
+import { rawData, redditData } from "../constants/index.js";
+import {
+  Card,
+  RedditCard,
+  RedditCommunityCard,
+  RedditUserCard,
+  RedditCommentCard,
+} from "./subComponents";
 
 const Display = ({ isFetching, error, data, platform }) => {
-  // const dummyData = redditData;
+  const dummyData = redditData;
   return (
     <div className="flex items-center justify-center w-full my-10">
       {isFetching ? (

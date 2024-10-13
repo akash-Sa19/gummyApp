@@ -1,9 +1,7 @@
 import { useState } from "react";
-import Hero from "./components/Hero";
 import "./index.css";
-import Options from "./components/subComponents/Options";
-import DemoYT from "./components/DemoYT";
-import DemoRE from "./components/DemoRE";
+import { Options } from "./components/subComponents";
+import { DemoYT, DemoRE, Hero } from "./components";
 
 function App() {
   const [platform, setPlatform] = useState("RE");
