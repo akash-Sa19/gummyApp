@@ -1,25 +1,20 @@
 import { linkIcon } from "../../assets";
-
-const orderByOptions = [
-  {
-    value: "relevance",
-    name: "Relevance",
-  },
-  {
-    value: "date",
-    name: "Date",
-  },
-  {
-    value: "viewCount",
-    name: "View Count",
-  },
-  {
-    value: "rating",
-    name: "Rating",
-  },
-];
+import SelectTag from "./SelectTag";
+import { orderByOptions } from "../../constants";
+import InputTag from "./InputTag";
 
 const FormYT = ({ query, setQuery, handleSubmit }) => {
+  const FilterOptions = [
+    {
+      tag: "select",
+      options: orderByOptions,
+      labelName: "Order By :",
+    },
+    {
+      tag: "input",
+      labelName: "Max Result :",
+    },
+  ];
   return (
     <div className="flex flex-col w-full gap-2 mt-6">
       <form
@@ -50,43 +45,39 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
           </button>
         </div>
         {/* filters */}
-        <div className="flex items-center justify-between w-full mt-4">
-          <div className="w-1/2 mr-10">
-            <label>
-              <span className="text-gray-600">Order By :</span>
-              <select
-                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-                value={query.orderBy}
-                onChange={(e) =>
-                  setQuery({ ...query, orderBy: e.target.value })
-                }
-              >
-                {orderByOptions.map((option) => (
-                  <option
-                    key={option.value}
-                    value={option.value}
-                    className="rounded-md border  border-gray-200 bg-white py-2.5 pl-3 pr-10 text-sm"
-                  >
-                    {option.name}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <div className="w-1/2">
-            <span className="text-gray-600">Max Results :</span>
-            <label>
-              <input
-                type="number"
-                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-                placeholder="Max Results"
-                value={query.maxResult}
-                onChange={(e) =>
-                  setQuery({ ...query, maxResult: e.target.value })
-                }
-              />
-            </label>
-          </div>
+        <div className="flex items-center justify-between w-full gap-10 mt-4">
+          {FilterOptions.map(({ tag, options, labelName }, index) => {
+            if (tag === "select") {
+              return (
+                <div
+                  key={index}
+                  className={`w-1/${FilterOptions.length}`}
+                >
+                  <SelectTag
+                    optionsArray={options}
+                    query={query}
+                    setQuery={setQuery}
+                    labelName={labelName}
+                  />
+                </div>
+              );
+            }
+            if (tag === "input") {
+              return (
+                <div
+                  key={index}
+                  className={`w-1/${FilterOptions.length}`}
+                >
+                  <InputTag
+                    key={labelName}
+                    query={query}
+                    setQuery={setQuery}
+                    labelName={labelName}
+                  />
+                </div>
+              );
+            }
+          })}
         </div>
       </form>
     </div>

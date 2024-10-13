@@ -1,65 +1,35 @@
 import { linkIcon } from "../../assets";
-
-const orderByOptions = [
-  {
-    value: "all",
-    name: "All",
-  },
-  {
-    value: "day",
-    name: "Today",
-  },
-  {
-    value: "week",
-    name: "This Week",
-  },
-  {
-    value: "month",
-    name: "This Month",
-  },
-  {
-    value: "year",
-    name: "This Year",
-  },
-  {
-    value: "lastHour",
-    name: "Last Hour",
-  },
-];
-const serchTypeOptions = [
-  {
-    value: "posts",
-    name: "Posts",
-  },
-  {
-    value: "communities",
-    name: "Communities",
-  },
-  {
-    value: "users",
-    name: "Users",
-  },
-];
-const sortSearchOptions = [
-  {
-    value: "relevance",
-    name: "Relevance",
-  },
-  {
-    value: "hot",
-    name: "Hot",
-  },
-  {
-    value: "top",
-    name: "Top",
-  },
-  {
-    value: "new",
-    name: "New",
-  },
-];
+import SelectTag from "./SelectTag";
+import {
+  timeOptions,
+  serchTypeOptions,
+  sortSearchOptions,
+} from "../../constants";
+import InputTag from "./InputTag";
 
 const FormRE = ({ query, setQuery, handleSubmit }) => {
+  const FilterOptions = [
+    {
+      tag: "select",
+      options: timeOptions,
+
+      labelName: "Order By Time :",
+    },
+    {
+      tag: "select",
+      options: serchTypeOptions,
+      labelName: "Search Type :",
+    },
+    {
+      tag: "select",
+      options: sortSearchOptions,
+      labelName: "Sort Search :",
+    },
+    {
+      tag: "input",
+      labelName: "Max Result :",
+    },
+  ];
   return (
     <div className="flex flex-col w-full gap-2 mt-6">
       <form
@@ -91,84 +61,37 @@ const FormRE = ({ query, setQuery, handleSubmit }) => {
         </div>
         {/* filters */}
         <div className="flex items-center justify-between w-full gap-10 mt-4">
-          <div className="w-1/4">
-            <label>
-              <span className="text-gray-600">Order By Time:</span>
-              <select
-                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-                value={query.orderBy}
-                onChange={(e) =>
-                  setQuery({ ...query, orderBy: e.target.value })
-                }
-              >
-                {orderByOptions.map((option) => (
-                  <option
-                    key={option.value}
-                    value={option.value}
-                    className="rounded-md border  border-gray-200 bg-white py-2.5 pl-3 pr-10 text-sm"
-                  >
-                    {option.name}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <div className="w-1/4">
-            <label>
-              <span className="text-gray-600">Search Type :</span>
-              <select
-                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-                value={query.searchType}
-                onChange={(e) =>
-                  setQuery({ ...query, searchType: e.target.value })
-                }
-              >
-                {serchTypeOptions.map((option) => (
-                  <option
-                    key={option.value}
-                    value={option.value}
-                    className="rounded-md border  border-gray-200 bg-white py-2.5 pl-3 pr-10 text-sm"
-                  >
-                    {option.name}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <div className="w-1/4">
-            <label>
-              <span className="text-gray-600">Sort By :</span>
-              <select
-                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-                value={query.sortBy}
-                onChange={(e) => setQuery({ ...query, sortBy: e.target.value })}
-              >
-                {sortSearchOptions.map((option) => (
-                  <option
-                    key={option.value}
-                    value={option.value}
-                    className="rounded-md border  border-gray-200 bg-white py-2.5 pl-3 pr-10 text-sm"
-                  >
-                    {option.name}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <div className="w-1/4">
-            <span className="text-gray-600">Max Results :</span>
-            <label>
-              <input
-                type="number"
-                className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-                placeholder="Max Results"
-                value={query.maxResult}
-                onChange={(e) =>
-                  setQuery({ ...query, maxResult: e.target.value })
-                }
-              />
-            </label>
-          </div>
+          {/* filter options */}
+          {FilterOptions.map((option, index) => {
+            if (option.tag === "select") {
+              return (
+                <div
+                  key={index}
+                  className={`w-1/${FilterOptions.length}`}
+                >
+                  <SelectTag
+                    optionsArray={option.options}
+                    setQuery={setQuery}
+                    query={query}
+                    labelName={option.labelName}
+                  />
+                </div>
+              );
+            } else if (option.tag === "input") {
+              return (
+                <div
+                  key={index}
+                  className={`w-1${FilterOptions.length}`}
+                >
+                  <InputTag
+                    query={query}
+                    setQuery={setQuery}
+                    labelName={option.labelName}
+                  />
+                </div>
+              );
+            }
+          })}
         </div>
       </form>
     </div>

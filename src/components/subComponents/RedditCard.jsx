@@ -95,7 +95,7 @@ const RedditCard = ({ item }) => {
               <source src={url} type="video/mp4" />
             </video> */}
           </div>
-        ) : imageUrl ? (
+        ) : imageUrl && imageUrl !== "self" ? (
           <div className="w-full mb-4">
             <img
               src={imageUrl}

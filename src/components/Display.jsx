@@ -1,5 +1,5 @@
 import { loader } from "../assets";
-import { rawData, redditData } from "../constants/index.js";
+import { rawData, redditData } from "../constants/rawData.js";
 import {
   Card,
   RedditCard,

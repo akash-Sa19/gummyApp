@@ -9,7 +9,7 @@ export async function getScrapedData(query, setIsFetching) {
         queryString: query.queryString,
         orderBy: query.orderBy,
         searchType: query.searchType,
-        maxResult: query.maxResult,
+        maxResult: parseInt(query.maxResult),
         sortBy: query.sortBy,
       },
       {
