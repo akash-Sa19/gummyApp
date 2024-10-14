@@ -20,7 +20,7 @@ export const timeOptions = [
     name: "This Year",
   },
   {
-    value: "lastHour",
+    value: "hour",
     name: "Last Hour",
   },
 ];

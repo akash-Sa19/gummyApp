@@ -12,7 +12,6 @@ const FormRE = ({ query, setQuery, handleSubmit }) => {
     {
       tag: "select",
       options: timeOptions,
-
       labelName: "Order By Time :",
     },
     {

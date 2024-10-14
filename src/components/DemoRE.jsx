@@ -7,10 +7,10 @@ const DemoRE = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
-    orderBy: "all", //  "all" | "last hour" | "day" | "week" | "month" | "year"
+    orderBy: "all", // "all" | "hour" | "day" | "week" | "month" | "year"
     searchType: "posts", // "posts" | "communities" | "users"
-    maxResult: 50,
     sortBy: "relevance", // "hot" | "top" | "new"
+    maxResult: 50,
   });
   const [data, setData] = useState([]);
 
