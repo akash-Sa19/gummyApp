@@ -30,6 +30,7 @@ const FormRE = ({ query, setQuery, handleSubmit }) => {
       labelName: "Max Result :",
     },
   ];
+  const filterLength = FilterOptions.length;
   return (
     <div className="flex flex-col w-full gap-2 mt-6">
       <form
@@ -67,7 +68,7 @@ const FormRE = ({ query, setQuery, handleSubmit }) => {
               return (
                 <div
                   key={index}
-                  className={`w-1/${FilterOptions.length}`}
+                  className={`w-1/4`}
                 >
                   <SelectTag
                     optionsArray={option.options}
@@ -81,7 +82,7 @@ const FormRE = ({ query, setQuery, handleSubmit }) => {
               return (
                 <div
                   key={index}
-                  className={`w-1${FilterOptions.length}`}
+                  className={`w-1/4`}
                 >
                   <InputTag
                     query={query}
