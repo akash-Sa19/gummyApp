@@ -8,8 +8,14 @@ const DemoYT = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
-    orderBy: "relevance",
+    orderBy: "relevance", // "relevance" | "date" | "rating" | "viewCount" | "likeCount"
+    type: "video", // "video" | "playlist" | "channel"
+    // eventType: "completed", // "live" | "upcoming" | "completed"
     maxResult: 10,
+    publishedAfter: "",
+    publishedBefore: "",
+    location: "",
+    locationRadius: "",
   });
   const [data, setData] = useState([]);
 

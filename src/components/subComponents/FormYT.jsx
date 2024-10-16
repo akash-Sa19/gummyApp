@@ -1,6 +1,6 @@
 import { linkIcon } from "../../assets";
 import SelectTag from "./SelectTag";
-import { orderByOptions } from "../../constants";
+import { eventOptions, orderByOptions, typeOptions } from "../../constants";
 import InputTag from "./InputTag";
 
 const FormYT = ({ query, setQuery, handleSubmit }) => {
@@ -9,10 +9,64 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
       tag: "select",
       options: orderByOptions,
       labelName: "Order By :",
+      query: query,
+      name: "orderBy",
+      isHidden: false,
     },
     {
-      tag: "input",
+      tag: "select",
+      options: typeOptions,
+      labelName: "Type :",
+      query: query,
+      name: "type",
+      isHidden: false,
+    },
+    {
+      tag: "number",
       labelName: "Max Result :",
+      query: query,
+      name: "maxResult",
+      isHidden: false,
+    },
+    {
+      tag: "select",
+      options: eventOptions,
+      labelName: "Event Type :",
+      query: query,
+      name: "eventType",
+      isHidden: false,
+    },
+    {
+      tag: "text",
+      labelName: "Location :",
+      placeholder: "latitude, longitude",
+      query: query,
+      name: "location",
+      isHidden: false,
+    },
+    {
+      tag: "text",
+      labelName: "Location Radius :",
+      placeholder: "100km, 100mi...",
+      query: query,
+      name: "locationRadius",
+      isHidden: false,
+    },
+    {
+      tag: "date",
+      labelName: "published After :",
+      placeholder: "YYYY-MM-DD",
+      query: query,
+      name: "publishedAfter",
+      isHidden: false,
+    },
+    {
+      tag: "date",
+      labelName: "published Before :",
+      placeholder: "YYYY-MM-DD",
+      query: query,
+      name: "publishedBefore",
+      isHidden: false,
     },
   ];
   return (
@@ -45,39 +99,51 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
           </button>
         </div>
         {/* filters */}
-        <div className="flex items-center justify-between w-full gap-10 mt-4">
-          {FilterOptions.map(({ tag, options, labelName }, index) => {
-            if (tag === "select") {
-              return (
-                <div
-                  key={index}
-                  className={`w-1/${FilterOptions.length}`}
-                >
-                  <SelectTag
-                    optionsArray={options}
-                    query={query}
-                    setQuery={setQuery}
-                    labelName={labelName}
-                  />
-                </div>
-              );
+        <div className="flex flex-wrap items-center justify-between w-full gap-10 mt-4">
+          {FilterOptions.map(
+            (
+              { tag, options, labelName, value, isHidden, placeholder, name },
+              index
+            ) => {
+              if (tag === "select" && !isHidden) {
+                return (
+                  <div
+                    key={index}
+                    className={`w-1/4`}
+                  >
+                    <SelectTag
+                      optionsArray={options}
+                      query={query}
+                      setQuery={setQuery}
+                      labelName={labelName}
+                      name={name}
+                    />
+                  </div>
+                );
+              }
+              if (
+                tag === "text" ||
+                tag === "number" ||
+                (tag === "date" && !isHidden)
+              ) {
+                return (
+                  <div
+                    key={index}
+                    className={`w-1/4`}
+                  >
+                    <InputTag
+                      tag={tag}
+                      query={query}
+                      placeholder={placeholder}
+                      setQuery={setQuery}
+                      labelName={labelName}
+                      name={name}
+                    />
+                  </div>
+                );
+              }
             }
-            if (tag === "input") {
-              return (
-                <div
-                  key={index}
-                  className={`w-1/${FilterOptions.length}`}
-                >
-                  <InputTag
-                    key={labelName}
-                    query={query}
-                    setQuery={setQuery}
-                    labelName={labelName}
-                  />
-                </div>
-              );
-            }
-          })}
+          )}
         </div>
       </form>
     </div>

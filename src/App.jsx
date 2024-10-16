@@ -4,7 +4,7 @@ import { Options } from "./components/subComponents";
 import { DemoYT, DemoRE, Hero } from "./components";
 
 function App() {
-  const [platform, setPlatform] = useState("RE");
+  const [platform, setPlatform] = useState("YT");
   // console.log(process.env);
 
   return (

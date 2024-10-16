@@ -74,3 +74,31 @@ export const orderByOptions = [
     name: "Rating",
   },
 ];
+export const typeOptions = [
+  {
+    value: "video",
+    name: "Video",
+  },
+  {
+    value: "playlist",
+    name: "Playlist",
+  },
+  {
+    value: "channel",
+    name: "Channel",
+  },
+];
+export const eventOptions = [
+  {
+    value: "completed",
+    name: "Completed",
+  },
+  {
+    value: "live",
+    name: "Live",
+  },
+  {
+    value: "upcoming",
+    name: "Upcoming",
+  },
+];
