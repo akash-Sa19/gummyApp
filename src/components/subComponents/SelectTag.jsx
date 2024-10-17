@@ -4,12 +4,10 @@ const SelectTag = ({ optionsArray, setQuery, labelName, query, name }) => {
       <span className="text-gray-600">{labelName}</span>
       <select
         className="block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0"
-        value={query[name]}
-        onChange={(e) => {
-          setQuery({ ...query, [name]: e.target.value });
-          console.log(query[name]);
-        }}
+        value={query[name] || ""}
+        onChange={(e) => setQuery({ ...query, [name]: e.target.value })}
       >
+        <option value="">Select an option</option>
         {optionsArray.map((option) => (
           <option
             key={option.value}

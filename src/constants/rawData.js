@@ -1299,3 +1299,3054 @@ export const redditData = [
     dataType: "comment",
   },
 ];
+
+export const aiSearchRawData = [
+  {
+    kind: "youtube#searchResult",
+    etag: "5s_r_fVDfDZAb7AIm_CR6h0akp4",
+    id: {
+      kind: "youtube#video",
+      videoId: "ZRtdQ81jPUQ",
+    },
+    snippet: {
+      publishedAt: "2023-04-12T15:30:09Z",
+      channelId: "UCvpredjG93ifbCP1Y77JyFA",
+      title: "YOASOBI「アイドル」 Official Music Video",
+      description:
+        "Streaming & Download : https://orcd.co/yoasobi_idol Music : Ayase (https://twitter.com/ayase_0404) Vocal : ikura ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Ayase / YOASOBI",
+      liveBroadcastContent: "none",
+      publishTime: "2023-04-12T15:30:09Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "Pvv1IvikwR7RQBHubn1fOUVmMpM",
+    id: {
+      kind: "youtube#video",
+      videoId: "nmHzvQr3kYE",
+    },
+    snippet: {
+      publishedAt: "2023-07-30T00:00:23Z",
+      channelId: "UCd5hdemikI6GxwGKhJCwzww",
+      title: "Ai robots taking over ping pong 👀 #shorts",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/nmHzvQr3kYE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/nmHzvQr3kYE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/nmHzvQr3kYE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Highlight Reel",
+      liveBroadcastContent: "none",
+      publishTime: "2023-07-30T00:00:23Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "yzGYugOJ5EzyxYW__AOSo57lxPE",
+    id: {
+      kind: "youtube#video",
+      videoId: "dwdjHh5S3qs",
+    },
+    snippet: {
+      publishedAt: "2024-06-17T13:36:07Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "Gummy Bears Are Chasing Me (Ai Edition) 🐻 #ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/dwdjHh5S3qs/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/dwdjHh5S3qs/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/dwdjHh5S3qs/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-06-17T13:36:07Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "l9i6MY5EQw6AV2sN0A5FFI_sTvg",
+    id: {
+      kind: "youtube#video",
+      videoId: "B2fPYlGKdXM",
+    },
+    snippet: {
+      publishedAt: "2014-12-03T18:26:26Z",
+      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
+      title: "AI - Story",
+      description:
+        "AIオールタイム・ベストアルバム 「THE BEST –DELUXE EDITION」 UPCH-20417/8 ￥3056+税 大ヒット御礼のオールタイム ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "AIVEVO",
+      liveBroadcastContent: "none",
+      publishTime: "2014-12-03T18:26:26Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "nBMU8MgtB12DII0HhH-jYGGlAB4",
+    id: {
+      kind: "youtube#video",
+      videoId: "G9D_PL61_pA",
+    },
+    snippet: {
+      publishedAt: "2022-12-30T16:37:37Z",
+      channelId: "UCSqqWfEwyODjgFmraGhrYjw",
+      title: "Something doesn&#39;t feel right #shorts #ai #aiart",
+      description:
+        "My socials: • Twitter - https://twitter.com/WhoanaK • Instagram - https://www.instagram.com/whoana.keli/ • Tiktok ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/G9D_PL61_pA/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/G9D_PL61_pA/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/G9D_PL61_pA/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Whoana Keli",
+      liveBroadcastContent: "none",
+      publishTime: "2022-12-30T16:37:37Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "EeVsEWsSB_du3BIDSqIVxtXGbcQ",
+    id: {
+      kind: "youtube#video",
+      videoId: "U1QPgNQXH5I",
+    },
+    snippet: {
+      publishedAt: "2024-01-19T13:59:26Z",
+      channelId: "UCwyJ6Xmnv1FtNZlZrkpOZ1A",
+      title: "Brenno &amp; Matheus - Ai Cowboy (BeM Interior) [Clipe Oficial]",
+      description:
+        "Sertanejo #BrennoeMatheus #NewMusicBrasil #BeMInterior OUÇA AGORA EM SEU APP FAVORITO: https://bfan.link/ai-cowboy ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Brenno e Matheus",
+      liveBroadcastContent: "none",
+      publishTime: "2024-01-19T13:59:26Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "i-Gf9LNcrmW6IvledJoa6-_C2xM",
+    id: {
+      kind: "youtube#video",
+      videoId: "LNBJDcHdugM",
+    },
+    snippet: {
+      publishedAt: "2023-04-28T16:58:41Z",
+      channelId: "UCSd6xd7dKy9mb0JhHGpyOIQ",
+      title: "AI versus Uncle Roger (Part 2)",
+      description: "PHEW @mich_mengo #shorts #uncleroger #ai #friedrice.",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/LNBJDcHdugM/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/LNBJDcHdugM/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/LNBJDcHdugM/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Uncle Roger Shorts",
+      liveBroadcastContent: "none",
+      publishTime: "2023-04-28T16:58:41Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "LUoZxyPHdOlwBPa-xp6GrHf9OTQ",
+    id: {
+      kind: "youtube#video",
+      videoId: "5FNCZ8dfH8Q",
+    },
+    snippet: {
+      publishedAt: "2022-01-01T21:00:01Z",
+      channelId: "UCAdpXDXkrrYQXFtAbJixRUg",
+      title:
+        "Ai, Que Coceira, Joãozinho! | Canal do Joãozinho - Little Angel Português",
+      description:
+        "Picadas de insetos causam coceira, mas se a gente coça, só piora! Joãozinho é picado por um mosquito e quer coçar o braço na ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Little Angel - Músicas Infantis em Português",
+      liveBroadcastContent: "none",
+      publishTime: "2022-01-01T21:00:01Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "fOVVf32o0PPVzevw41bZ2GFoMv4",
+    id: {
+      kind: "youtube#video",
+      videoId: "dRPNp7mcAMI",
+    },
+    snippet: {
+      publishedAt: "2023-09-12T17:15:19Z",
+      channelId: "UC02rAIf5RYrww6AWhoI5S0w",
+      title:
+        "ARE THEY ROBOTS OR REAL PEOPLE!!😳🤖 #shorts #ai #robot #scary #artificialintelligence",
+      description:
+        "make sure to SUBSCRIBE and LIKE this video to see more! FOLLOW ME ON... instagram: ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/dRPNp7mcAMI/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/dRPNp7mcAMI/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/dRPNp7mcAMI/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Katie Feeney",
+      liveBroadcastContent: "none",
+      publishTime: "2023-09-12T17:15:19Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "GjCVBf5RvMMxtT-xldZAzF7Ypt8",
+    id: {
+      kind: "youtube#video",
+      videoId: "OASTvqNGspE",
+    },
+    snippet: {
+      publishedAt: "2022-01-07T19:26:55Z",
+      channelId: "UCj7wKsOBhRD9Jy4yahkMRMw",
+      title:
+        "Do androids believe in God? Watch our interview with Ameca, a humanoid #robot at   #CES2022 #Shorts",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/OASTvqNGspE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/OASTvqNGspE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/OASTvqNGspE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "CGTN America",
+      liveBroadcastContent: "none",
+      publishTime: "2022-01-07T19:26:55Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "xariZ2hvtNKtWN_4XVCbriG-yT4",
+    id: {
+      kind: "youtube#video",
+      videoId: "_ocaTEGBo-Y",
+    },
+    snippet: {
+      publishedAt: "2024-06-08T23:42:38Z",
+      channelId: "UCal_2JvDuhNySJ64Wz1TACg",
+      title:
+        "Always lend a helping hand to others #cat #ai #catvideos #catlover #poorcat #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/_ocaTEGBo-Y/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/_ocaTEGBo-Y/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/_ocaTEGBo-Y/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Mpminds",
+      liveBroadcastContent: "none",
+      publishTime: "2024-06-08T23:42:38Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "yv0VFss67rMQj8KSTA9aUCzAXbg",
+    id: {
+      kind: "youtube#video",
+      videoId: "IRMhT4FWBrc",
+    },
+    snippet: {
+      publishedAt: "2024-02-29T11:28:41Z",
+      channelId: "UCdoDYkupTElV62K7ttA_E4w",
+      title: "Unbelievable AI Robot ! - Talks Like a Human 🤯 #shorts",
+      description:
+        "Free Music For Creators : http://share.epidemicsound.com/sVvGB == Watch Bhagawad Geeta ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/IRMhT4FWBrc/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/IRMhT4FWBrc/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/IRMhT4FWBrc/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "TechBar",
+      liveBroadcastContent: "none",
+      publishTime: "2024-02-29T11:28:41Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "ctIKzi5pCvrobUV9-E8oOPSjGrs",
+    id: {
+      kind: "youtube#video",
+      videoId: "o84uCYRdmlg",
+    },
+    snippet: {
+      publishedAt: "2024-04-12T12:04:55Z",
+      channelId: "UCEwG3ksd6rKYdMblqH76Iow",
+      title:
+        "Lumie&#39;s Revenge: Fight for daddy #ai #cat #cutecat #catlover #story #kitten",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/o84uCYRdmlg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/o84uCYRdmlg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/o84uCYRdmlg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Cat Realm AI",
+      liveBroadcastContent: "none",
+      publishTime: "2024-04-12T12:04:55Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "s006IPmITl66Qf5X_4JoVHl28Qo",
+    id: {
+      kind: "youtube#video",
+      videoId: "Cu9ilFoSsqg",
+    },
+    snippet: {
+      publishedAt: "2023-05-20T05:38:25Z",
+      channelId: "UCcYTCcPMaMrHIiTr-5hxcJw",
+      title: "Hoshino Ai ❤️ Oshi no Ko -  Sculpting Anime Clay Art Figure",
+      description:
+        "Hello guys, this is Clay KM. I made Hoshino Ai from Anime Oshi no Ko with air dry clay. I am using air dry clay called 'I CLAY' from ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/Cu9ilFoSsqg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/Cu9ilFoSsqg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/Cu9ilFoSsqg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "클레이 꼼망 Clay KM",
+      liveBroadcastContent: "none",
+      publishTime: "2023-05-20T05:38:25Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "A72UP9T495o0ZwiZSkBcmcD5s4I",
+    id: {
+      kind: "youtube#video",
+      videoId: "hg7BSqRZ5M4",
+    },
+    snippet: {
+      publishedAt: "2017-10-30T14:10:25Z",
+      channelId: "UCwg_21agm3NCVW5lyBVG1xQ",
+      title: "AI QUE VIDA - HD",
+      description:
+        "Em meados dos anos de 1990, a fictícia cidade de Poço Fundo, interior do Nordeste, está vivendo um verdadeiro caos em sua ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "TvM FILMES",
+      liveBroadcastContent: "none",
+      publishTime: "2017-10-30T14:10:25Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "A3cP8k9zN61Mzjdx-55zosHVFNo",
+    id: {
+      kind: "youtube#video",
+      videoId: "e4Iy7Qe_qQI",
+    },
+    snippet: {
+      publishedAt: "2023-06-04T05:21:32Z",
+      channelId: "UCdoDYkupTElV62K7ttA_E4w",
+      title: "Unbelievable AI in Photoshop! #shorts",
+      description:
+        "Free Music For Creators : http://share.epidemicsound.com/sVvGB == Follow TechBar Facebook: ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/e4Iy7Qe_qQI/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/e4Iy7Qe_qQI/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/e4Iy7Qe_qQI/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "TechBar",
+      liveBroadcastContent: "none",
+      publishTime: "2023-06-04T05:21:32Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "EdU0PPvBBge2sNggs8m_75Zn2LU",
+    id: {
+      kind: "youtube#video",
+      videoId: "uKgmu8g-kXE",
+    },
+    snippet: {
+      publishedAt: "2011-12-13T04:39:49Z",
+      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
+      title: "AI - ハピネス",
+      description:
+        "AIの新曲「ハピネス」がCoca-Cola 2011 Christmas Campaign TV-CMソングとしてタイアップ決定。コカ・コーラのCMとして ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "AIVEVO",
+      liveBroadcastContent: "none",
+      publishTime: "2011-12-13T04:39:49Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "ywBsA0K9SJvsnXNp21CJphfy6Mk",
+    id: {
+      kind: "youtube#video",
+      videoId: "N3XbZvD3lRo",
+    },
+    snippet: {
+      publishedAt: "2020-08-26T15:59:21Z",
+      channelId: "UCsyBVa0eTR-lL0sRnKpIe8w",
+      title: "GHOSTEMANE - AI (OFFICIAL VIDEO)",
+      description:
+        "GHOSTEMANE - AI (OFFICIAL VIDEO), a Studio Linguini Production (@studio_linguini) ☿ ☿ ☿ Copyright: Blackmage Publisher: ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "GHOSTEMANE",
+      liveBroadcastContent: "none",
+      publishTime: "2020-08-26T15:59:21Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "ls7WGOHM2XfDuF1o7Cmivv18HOg",
+    id: {
+      kind: "youtube#video",
+      videoId: "wDReqVmzxUg",
+    },
+    snippet: {
+      publishedAt: "2023-06-21T01:06:53Z",
+      channelId: "UC7rsYYvQbqQrJDGhqWmtAgQ",
+      title: "Meet My AI Robot Pet, Loona",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/wDReqVmzxUg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/wDReqVmzxUg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/wDReqVmzxUg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Kyle Krueger",
+      liveBroadcastContent: "none",
+      publishTime: "2023-06-21T01:06:53Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "_2adnhfVq59QbtGvccyXIlKJsso",
+    id: {
+      kind: "youtube#video",
+      videoId: "DhpN3lbcgZo",
+    },
+    snippet: {
+      publishedAt: "2023-06-16T14:08:05Z",
+      channelId: "UCLtNLP4wxWCVUv8bSgIfNvw",
+      title: "I ASKED AI TO MAKE A SONG THAT SOUNDS LIKE #music #ai",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/DhpN3lbcgZo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/DhpN3lbcgZo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/DhpN3lbcgZo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Forrest Frank",
+      liveBroadcastContent: "none",
+      publishTime: "2023-06-16T14:08:05Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "0jfBp09DEhRipv4ZeUKI7GvyHyI",
+    id: {
+      kind: "youtube#video",
+      videoId: "yGNd14Sm7Yg",
+    },
+    snippet: {
+      publishedAt: "2024-07-02T10:01:28Z",
+      channelId: "UC_ZGH2nFrFg-leJpVNhMe9A",
+      title: "Si Ai",
+      description:
+        "Provided to YouTube by Colonize Media, Inc. Si Ai · Tayna Si Ai ℗ 2024 PENDRAGON Released on: 2024-06-11 Composer: ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Tayna - Topic",
+      liveBroadcastContent: "none",
+      publishTime: "2024-07-02T10:01:28Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "2PqITKuK9j0zdMqEOVJAvQYfP5c",
+    id: {
+      kind: "youtube#video",
+      videoId: "1rgRV12ZrZA",
+    },
+    snippet: {
+      publishedAt: "2024-10-10T08:30:01Z",
+      channelId: "UCqnNLRrry0NAHdVicdo8-pQ",
+      title:
+        "Bakso Tumpah! Bebek Sedih Banget 😢🍲 #bebeklucu #duckshorts #bebek #ai #shorts",
+      description:
+        "Bebek kecil ini sedang menikmati semangkuk bakso yang lezat, tapi tiba-tiba baksonya tumpah! Lihat bagaimana ekspresinya ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/1rgRV12ZrZA/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/1rgRV12ZrZA/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/1rgRV12ZrZA/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Joyful Storytime",
+      liveBroadcastContent: "none",
+      publishTime: "2024-10-10T08:30:01Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "-rv0x4L4KoZibYIYrNfw9Uh9070",
+    id: {
+      kind: "youtube#video",
+      videoId: "r-BhWxHjJuo",
+    },
+    snippet: {
+      publishedAt: "2024-08-02T04:00:42Z",
+      channelId: "UCEdvpU2pFRCVqU6yIPyTpMQ",
+      title: "Tayna - Si Ai (Marshmello &amp; UKAY Remix)",
+      description:
+        "Tayna - Si Ai (Marshmello & UKAY Remix) Stream: https://marshmello.ffm.to/taynaremix Official Marshmello Merch ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Marshmello",
+      liveBroadcastContent: "none",
+      publishTime: "2024-08-02T04:00:42Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "YFhkmh8HdgpTdECLvyGBHHe0rKs",
+    id: {
+      kind: "youtube#video",
+      videoId: "YrYoEvbZ6ew",
+    },
+    snippet: {
+      publishedAt: "2024-06-27T17:48:58Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "I Live With Roaches (Ai Edition) 🪳 #ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/YrYoEvbZ6ew/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/YrYoEvbZ6ew/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/YrYoEvbZ6ew/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-06-27T17:48:58Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "hpt72IAUjpiInRpdp_25lyZXe3o",
+    id: {
+      kind: "youtube#video",
+      videoId: "XA6nhzMGVFo",
+    },
+    snippet: {
+      publishedAt: "2024-01-09T04:54:20Z",
+      channelId: "UCH_eu1lvvxpgoFc2lVruhkQ",
+      title: "The perfect imperfection 🥺  #ai #aiart #chatgpt",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/XA6nhzMGVFo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/XA6nhzMGVFo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/XA6nhzMGVFo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "NoMulify",
+      liveBroadcastContent: "none",
+      publishTime: "2024-01-09T04:54:20Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "m09fgsi7L9u9jeTmnRJs10pOtSs",
+    id: {
+      kind: "youtube#video",
+      videoId: "Je2K5t5s61A",
+    },
+    snippet: {
+      publishedAt: "2023-07-28T16:44:13Z",
+      channelId: "UC9-fmDIX2kdZqUeeFVco4xw",
+      title: "Toma toma dance ai edit #shorts #tiktok #edit",
+      description:
+        "Toma toma dance ai edit #shorts #tiktok #edit #youtubeshorts #trending #ytshorts #dilara Credits to @Di1araa.s.",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/Je2K5t5s61A/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/Je2K5t5s61A/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/Je2K5t5s61A/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "MrSantu",
+      liveBroadcastContent: "none",
+      publishTime: "2023-07-28T16:44:13Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "JJm5fRXHYKISlmMofrhqZuaj-Qw",
+    id: {
+      kind: "youtube#video",
+      videoId: "SuNJ9gZaPpg",
+    },
+    snippet: {
+      publishedAt: "2023-05-05T12:50:14Z",
+      channelId: "UC2OPPQoFSorD_tB_tlCwpEQ",
+      title: "//🪴for real 🌿\\\\#characterai #ai #alightmotion #ibispaintx",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/SuNJ9gZaPpg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/SuNJ9gZaPpg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/SuNJ9gZaPpg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "KhaiiSaja._",
+      liveBroadcastContent: "none",
+      publishTime: "2023-05-05T12:50:14Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "EoPJhi-N7ESsuhcNpQn1R79l2FI",
+    id: {
+      kind: "youtube#video",
+      videoId: "lEZDfyUSZUs",
+    },
+    snippet: {
+      publishedAt: "2024-01-28T19:14:58Z",
+      channelId: "UCZkqQqewWkgcWyl7INs2XNg",
+      title: "Guess The Word w/MrBeast 💀",
+      description:
+        "DISCLAIMER: The following video contains AI generated voices of several real people. The A.I. voices here do not reflect their ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/lEZDfyUSZUs/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/lEZDfyUSZUs/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/lEZDfyUSZUs/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Voice Verse",
+      liveBroadcastContent: "none",
+      publishTime: "2024-01-28T19:14:58Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "WCM9HVnkqMe26xDebIr1z8uc4eQ",
+    id: {
+      kind: "youtube#video",
+      videoId: "rNBq5MJzzTw",
+    },
+    snippet: {
+      publishedAt: "2023-07-28T00:50:56Z",
+      channelId: "UCjWoiheJcpvpSY4ZVIRSifw",
+      title:
+        "Table Tennis Robot vs Human, Who Wins? | NOT Real | Incredible Wonder Studio Ai  #shorts",
+      description:
+        "Table Tennis Robot vs Human, Who Wins? | NOT Real Incredible Wonder Studio Ai | Robot vs Human | This video shows how an ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/rNBq5MJzzTw/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/rNBq5MJzzTw/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/rNBq5MJzzTw/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Solomon Jagwe",
+      liveBroadcastContent: "none",
+      publishTime: "2023-07-28T00:50:56Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "bxc924gw5a7NPl33vCKTWHuEF50",
+    id: {
+      kind: "youtube#video",
+      videoId: "vx0_3BIwUwE",
+    },
+    snippet: {
+      publishedAt: "2023-12-14T20:45:02Z",
+      channelId: "UCJvBXBYPWE1aIlrM0r1Ilhw",
+      title: "TROLLING CHATGPT 4",
+      description:
+        "I decided to troll ChatGPT by pushing its buttons. Show me a picture of nothing, ChatGPT. It's that simple. In this video I use the AI ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/vx0_3BIwUwE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/vx0_3BIwUwE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/vx0_3BIwUwE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Greenskull AI",
+      liveBroadcastContent: "none",
+      publishTime: "2023-12-14T20:45:02Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "xJbeOM5ujKV4Af_nFBA35pI5lO0",
+    id: {
+      kind: "youtube#video",
+      videoId: "YqGg0igv5fo",
+    },
+    snippet: {
+      publishedAt: "2024-05-23T21:15:36Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "Welcome To China Airline (Ai Edition) #ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/YqGg0igv5fo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/YqGg0igv5fo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/YqGg0igv5fo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-05-23T21:15:36Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "70JIffy51GSl_K-V2eOQsYanPdU",
+    id: {
+      kind: "youtube#video",
+      videoId: "aYduRkOidEc",
+    },
+    snippet: {
+      publishedAt: "2021-07-05T12:00:14Z",
+      channelId: "UCX4fV50d398w_YSGgKwa51Q",
+      title: "AI - 「THE MOMENT feat ¥ellow Bucks」 (official video)",
+      description:
+        "「THE MOMENT feat. ¥ellow Bucks」 Listen Here：https://lnk.to/AIthemoment MUSIC Lyrics AI, ¥ellow Bucks Music AI, DJ RYOW ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "AI",
+      liveBroadcastContent: "none",
+      publishTime: "2021-07-05T12:00:14Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "FKVx8YfEbJJoay9-DtLdh1bALf8",
+    id: {
+      kind: "youtube#video",
+      videoId: "aVc6u25ZSrc",
+    },
+    snippet: {
+      publishedAt: "2024-05-12T21:42:48Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "I Ain&#39;t Yo Momma (Ai Edition) 🧓🏿 #ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/aVc6u25ZSrc/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/aVc6u25ZSrc/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/aVc6u25ZSrc/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-05-12T21:42:48Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "tZJ0gE35u3Te0AkjhwqvuWO3iOE",
+    id: {
+      kind: "youtube#video",
+      videoId: "CO5pP2vsPRs",
+    },
+    snippet: {
+      publishedAt: "2024-04-03T21:09:41Z",
+      channelId: "UCUfUzo5AvQKMdzUpWI1cCZw",
+      title: "Random Kid Loses His Mind🫣 #ai #aiart #chatgpt",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/CO5pP2vsPRs/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/CO5pP2vsPRs/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/CO5pP2vsPRs/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Dude",
+      liveBroadcastContent: "none",
+      publishTime: "2024-04-03T21:09:41Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "Ywbp-du7Z4wb8RkiZ2-ZUoyQytY",
+    id: {
+      kind: "youtube#video",
+      videoId: "yytKtP-SjpQ",
+    },
+    snippet: {
+      publishedAt: "2023-08-01T12:00:48Z",
+      channelId: "UC487FZX-RwumY3xDWAL4o7g",
+      title: "Meet Chloe, the World&#39;s First Self-Learning Female AI Robot",
+      description:
+        "Join our newsletter for weekly updates of all things AI Robotics: https://scalingwcontent.ck.page/newsletter Meet Chloe, the ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/yytKtP-SjpQ/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/yytKtP-SjpQ/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/yytKtP-SjpQ/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "AI Insider SHORTZ",
+      liveBroadcastContent: "none",
+      publishTime: "2023-08-01T12:00:48Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "JwO3I6LULlDXng_OsCx5eFSripw",
+    id: {
+      kind: "youtube#video",
+      videoId: "KSyd89kugj0",
+    },
+    snippet: {
+      publishedAt: "2021-12-01T10:00:19Z",
+      channelId: "UCr4fZBNv69P-09f98l7CshA",
+      title:
+        "【まさかの本人】ストリートピアノで&quot;AIさん&quot;鳥肌モノの生歌披露...⁉️ショッピングモールがパニックにww【Story】",
+      description:
+        "ハラミちゃん 47都道府県ピアノツアー ～特急ハラミ号、出発進行だぬ！～』チケット一般発売スタート！！ チケット購入は ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ハラミちゃん〈harami_piano〉",
+      liveBroadcastContent: "none",
+      publishTime: "2021-12-01T10:00:19Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "RoLpaJ-7-NXfJqgCXu6Z9TVO0qI",
+    id: {
+      kind: "youtube#video",
+      videoId: "0dl78OUYEuA",
+    },
+    snippet: {
+      publishedAt: "2023-05-20T11:55:54Z",
+      channelId: "UCiymGrMPtIZHuVlChqjEW_Q",
+      title: "Humans VS AI | Mirchi ShAI | Pankit",
+      description:
+        "Kaun jeeta? Comment karke batao. Also, please welcome Mirchi ShAI :D #comedy #ai #india Connect Mirchi Murga on Social ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/0dl78OUYEuA/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/0dl78OUYEuA/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/0dl78OUYEuA/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Mirchi Murga",
+      liveBroadcastContent: "none",
+      publishTime: "2023-05-20T11:55:54Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "hHqjMmxqL-efbgVVi8atihlsaNc",
+    id: {
+      kind: "youtube#video",
+      videoId: "DY4tXjhEA5Y",
+    },
+    snippet: {
+      publishedAt: "2024-04-10T23:50:09Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "How To Deal With a Breakup 🥲 #ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/DY4tXjhEA5Y/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/DY4tXjhEA5Y/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/DY4tXjhEA5Y/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-04-10T23:50:09Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "o5xura2aKQE1VSooAAfxYFeeEuM",
+    id: {
+      kind: "youtube#video",
+      videoId: "PSqGM9ElqGg",
+    },
+    snippet: {
+      publishedAt: "2023-10-20T12:00:31Z",
+      channelId: "UCsEAO4ehnGEl3ET68yfSu5A",
+      title:
+        "AIイラストじゃないこと証明してみた【宝鐘マリン】#shorts #イラスト  #イラストメイキング #宝鐘マリン #アナログイラスト",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/PSqGM9ElqGg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/PSqGM9ElqGg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/PSqGM9ElqGg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "爪あぶら",
+      liveBroadcastContent: "none",
+      publishTime: "2023-10-20T12:00:31Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "tpZpp2rDSqThYCv8HH_cHX88LiM",
+    id: {
+      kind: "youtube#video",
+      videoId: "bKUsY9oMl8Q",
+    },
+    snippet: {
+      publishedAt: "2024-05-24T22:08:11Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "I&#39;m a Pretty Princess (Ai Edition) 👸🏼#ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/bKUsY9oMl8Q/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/bKUsY9oMl8Q/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/bKUsY9oMl8Q/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-05-24T22:08:11Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "cZNQvVERNBgJ-x5W--7OZbsuxi0",
+    id: {
+      kind: "youtube#video",
+      videoId: "aO1qDzkU9o0",
+    },
+    snippet: {
+      publishedAt: "2022-12-23T14:04:11Z",
+      channelId: "UChC_apOWk6MSl03byUiVZRQ",
+      title:
+        "Artificial Intelligence can NEVER be Sentient?! #technology #artificialintelligence #ai",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/aO1qDzkU9o0/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/aO1qDzkU9o0/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/aO1qDzkU9o0/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Thomas Mulligan",
+      liveBroadcastContent: "none",
+      publishTime: "2022-12-23T14:04:11Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "Yij_Pcwag3PDemTG0-9f2vfKFfg",
+    id: {
+      kind: "youtube#video",
+      videoId: "XAs10sExSGU",
+    },
+    snippet: {
+      publishedAt: "2024-07-13T02:02:02Z",
+      channelId: "UCMNXQXXzScIlVyBEuJI3bYw",
+      title: "Luma ai cat memes",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/XAs10sExSGU/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/XAs10sExSGU/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/XAs10sExSGU/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Alejandra vallejo♥︎",
+      liveBroadcastContent: "none",
+      publishTime: "2024-07-13T02:02:02Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "B7M0dYMu0LB9w9Iu3_g_EMu7ZXg",
+    id: {
+      kind: "youtube#video",
+      videoId: "OEVd0I7H4Nk",
+    },
+    snippet: {
+      publishedAt: "2022-03-16T08:44:18Z",
+      channelId: "UCRfxI01xPgzql7ZBS6WlebQ",
+      title: "Escape from the Gear - AI Human Survival Race in Unity",
+      description:
+        "Who will win? *The 24th place will not be able to participate in the next race with 24 colors. [Colors] 1.Red 2.Orange 3.Yellow 4.",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "MIKAN",
+      liveBroadcastContent: "none",
+      publishTime: "2022-03-16T08:44:18Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "SaLQFoq3llMZJlb3DlxSozPLZ1o",
+    id: {
+      kind: "youtube#video",
+      videoId: "bJmMOUC4lhE",
+    },
+    snippet: {
+      publishedAt: "2024-04-30T12:55:53Z",
+      channelId: "UCr8kiUsdXm4kzOb2H0GN86w",
+      title:
+        "CaseOh Reacts To HILARIOUS Ai Song #caseoh #funny #caseohfunnymoments",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/bJmMOUC4lhE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/bJmMOUC4lhE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/bJmMOUC4lhE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "YankClips",
+      liveBroadcastContent: "none",
+      publishTime: "2024-04-30T12:55:53Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "057ii1hSvwNS2R1OvzS88RV02X8",
+    id: {
+      kind: "youtube#video",
+      videoId: "82ZTNQNEQgE",
+    },
+    snippet: {
+      publishedAt: "2023-08-16T13:00:08Z",
+      channelId: "UC3O-gNkOsgemkuhuAopEGbA",
+      title: "tlinh - “ái” album | THE LISTENING EXPERIENCE",
+      description:
+        "tlinh - “ái” album | THE LISTENING EXPERIENCE #tlinh #aialbum #aislabel #ai #tlinhmusic #album #albumsong 00:00 tình yêu ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/82ZTNQNEQgE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/82ZTNQNEQgE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/82ZTNQNEQgE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "tlinh",
+      liveBroadcastContent: "none",
+      publishTime: "2023-08-16T13:00:08Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "G9Gf1EQLhQ1Bv1OY833v3xgRD_0",
+    id: {
+      kind: "youtube#video",
+      videoId: "Bq8EShLJFec",
+    },
+    snippet: {
+      publishedAt: "2023-08-21T11:43:29Z",
+      channelId: "UCdp6GUwjKscp5ST4M4WgIpw",
+      title: "Must Try 2 Free AI Websites!",
+      description:
+        "We Are Hiring! APPLY HERE: https://techwiser.com/we-are-hiring Please leave a LIKE ❤️ and SUBSCRIBE For More Videos ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/Bq8EShLJFec/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/Bq8EShLJFec/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/Bq8EShLJFec/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "TechWiser",
+      liveBroadcastContent: "none",
+      publishTime: "2023-08-21T11:43:29Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "qe_FgcPqHvici1uN2dP-5uBqtXo",
+    id: {
+      kind: "youtube#video",
+      videoId: "EX17M_7zVGE",
+    },
+    snippet: {
+      publishedAt: "2024-02-25T14:20:27Z",
+      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
+      title: "The Tale Of Barry The Bar of Soap 🧼 #ai #chatgpt #aiart",
+      description: "",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/EX17M_7zVGE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/EX17M_7zVGE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/EX17M_7zVGE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      liveBroadcastContent: "none",
+      publishTime: "2024-02-25T14:20:27Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "fsmI30sSB-g0QC8jxRzFW6kjPO8",
+    id: {
+      kind: "youtube#video",
+      videoId: "-JpSMf-c3Vk",
+    },
+    snippet: {
+      publishedAt: "2023-07-10T12:15:49Z",
+      channelId: "UCdp6GUwjKscp5ST4M4WgIpw",
+      title: "3 AI Websites That Will Blow your Mind!",
+      description:
+        "We Are Hiring! APPLY HERE: https://techwiser.com/we-are-hiring Please leave a LIKE ❤️ and SUBSCRIBE For More Videos ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/-JpSMf-c3Vk/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/-JpSMf-c3Vk/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/-JpSMf-c3Vk/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "TechWiser",
+      liveBroadcastContent: "none",
+      publishTime: "2023-07-10T12:15:49Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "PWQxSb0sv3eI2bGhgW_VDdH9zFc",
+    id: {
+      kind: "youtube#video",
+      videoId: "ymi432pgUP4",
+    },
+    snippet: {
+      publishedAt: "2024-09-25T11:01:10Z",
+      channelId: "UCQ3lvanwwQ_tE_MgT1SMg2g",
+      title:
+        "Theng | Cười Xĩu Với &quot;ĐẠI CA ĐI HỌC BIẾN HÌNH&quot; Và &quot;AI LÀM LỚP TRƯỞNG?&quot; | Hài Ngắn Siêu Hay",
+      description:
+        'Theng | Cười Xĩu Với "ĐẠI CA ĐI HỌC BIẾN HÌNH" Và "AI LÀM LỚP TRƯỞNG?" | Hài Ngắn Siêu Hay A DAY WITHOUT ...',
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/ymi432pgUP4/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/ymi432pgUP4/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/ymi432pgUP4/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "Theng",
+      liveBroadcastContent: "none",
+      publishTime: "2024-09-25T11:01:10Z",
+    },
+  },
+  {
+    kind: "youtube#searchResult",
+    etag: "HQbqvl2TsNmq25w37oUGlZQIsuA",
+    id: {
+      kind: "youtube#video",
+      videoId: "_yAYDTEMHms",
+    },
+    snippet: {
+      publishedAt: "2024-04-05T13:00:07Z",
+      channelId: "UCYtoZVD24Dh4OlCIGxZvtlQ",
+      title: "AI - DOEL SUMBANG | 3PEMUDA BERBAHAYA FEAT SALLSA BINTAN COVER",
+      description:
+        "Judul : AI Artist : 3 Pemuda Berbahaya feat. Sallsa Bintan Pencipta : Doel Sumbang Dipopulerkan : Doel Sumbang Publisher ...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/_yAYDTEMHms/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/_yAYDTEMHms/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/_yAYDTEMHms/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: "3 pemuda berbahaya",
+      liveBroadcastContent: "none",
+      publishTime: "2024-04-05T13:00:07Z",
+    },
+  },
+];
+
+export const aiVideosRawData = [
+  {
+    kind: "youtube#video",
+    etag: "UBc1aACD_BelHmQAqrpX780kHN0",
+    id: "Ks-_Mh1QhMc",
+    snippet: {
+      publishedAt: "2012-10-01T15:27:35Z",
+      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
+      title: "Your Body Language May Shape Who You Are | Amy Cuddy | TED",
+      description:
+        "Body language affects how others see us, but it may also change how we see ourselves. Social psychologist Amy Cuddy argues that \"power posing\" -- standing in a posture of confidence, even when we don't feel confident -- can boost feelings of confidence, and might have an impact on our chances for success. (Note: Some of the findings presented in this talk have been referenced in an ongoing debate among social scientists about robustness and reproducibility. Read Amy Cuddy's response here: http://ideas.ted.com/inside-the-debate-about-power-posing-a-q-a-with-amy-cuddy/)\n\nGet TED Talks recommended just for you! Learn more at https://www.ted.com/signup.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "TED",
+      tags: [
+        "Amy Cuddy",
+        "TED",
+        "TEDTalk",
+        "TEDTalks",
+        "TED Talk",
+        "TED Talks",
+        "TEDGlobal",
+        "brain",
+        "business",
+        "psychology",
+        "self",
+        "success",
+      ],
+      categoryId: "22",
+      liveBroadcastContent: "none",
+      defaultLanguage: "en",
+      localized: {
+        title: "Your Body Language May Shape Who You Are | Amy Cuddy | TED",
+        description:
+          "Body language affects how others see us, but it may also change how we see ourselves. Social psychologist Amy Cuddy argues that \"power posing\" -- standing in a posture of confidence, even when we don't feel confident -- can boost feelings of confidence, and might have an impact on our chances for success. (Note: Some of the findings presented in this talk have been referenced in an ongoing debate among social scientists about robustness and reproducibility. Read Amy Cuddy's response here: http://ideas.ted.com/inside-the-debate-about-power-posing-a-q-a-with-amy-cuddy/)\n\nGet TED Talks recommended just for you! Learn more at https://www.ted.com/signup.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED",
+      },
+      defaultAudioLanguage: "en",
+    },
+    contentDetails: {
+      duration: "PT21M3S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "true",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "25787089",
+      likeCount: "466531",
+      favoriteCount: "0",
+      commentCount: "10030",
+    },
+  },
+  {
+    kind: "youtube#video",
+    etag: "-N7rova9SEOSsmxfWjIpjF1JIx0",
+    id: "c0KYU2j0TM4",
+    snippet: {
+      publishedAt: "2012-03-02T19:03:16Z",
+      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
+      title: "The power of introverts | Susan Cain | TED",
+      description:
+        "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nIn a culture where being social and outgoing are prized above all else, it can be difficult, even shameful, to be an introvert. But, as Susan Cain argues in this passionate talk, introverts bring extraordinary talents and abilities to the world, and should be encouraged and celebrated.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "TED",
+      tags: [
+        "Susan Cain",
+        "culture",
+        "psychology",
+        "introvert",
+        "Quiet",
+        "Power of Introverts Book",
+        "extravert",
+        "TED",
+        "TED2012",
+        "TEDTalk",
+        "TEDTalks",
+        "TED Talk",
+        "TED Talks",
+      ],
+      categoryId: "22",
+      liveBroadcastContent: "none",
+      defaultLanguage: "en",
+      localized: {
+        title: "The power of introverts | Susan Cain | TED",
+        description:
+          "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nIn a culture where being social and outgoing are prized above all else, it can be difficult, even shameful, to be an introvert. But, as Susan Cain argues in this passionate talk, introverts bring extraordinary talents and abilities to the world, and should be encouraged and celebrated.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
+      },
+    },
+    contentDetails: {
+      duration: "PT19M5S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "true",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "16422369",
+      likeCount: "420955",
+      favoriteCount: "0",
+      commentCount: "18890",
+    },
+  },
+  {
+    kind: "youtube#video",
+    etag: "XOlPYC4ty-HMH-hzK0k-5ImbDfE",
+    id: "eIho2S0ZahI",
+    snippet: {
+      publishedAt: "2014-06-27T15:10:18Z",
+      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
+      title:
+        "How to Speak So That People Want to Listen | Julian Treasure | TED",
+      description:
+        "Have you ever felt like you're talking, but nobody is listening? Here's Julian Treasure to help you fix that. As the sound expert demonstrates some useful vocal exercises and shares tips on how to speak with empathy, he offers his vision for a sonorous world of listening and understanding. (Recorded at TEDGlobal 2013 on June 10, 2013)\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nX: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/juliantreasure\n\nhttps://youtu.be/eIho2S0ZahI\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #speech",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/eIho2S0ZahI/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/eIho2S0ZahI/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/eIho2S0ZahI/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/eIho2S0ZahI/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/eIho2S0ZahI/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "TED",
+      tags: [
+        "TEDTalk",
+        "TEDTalks",
+        "TED Talk",
+        "TED Talks",
+        "TED",
+        "Julian Treasure",
+        "culture",
+        "sound",
+        "speech",
+        "TEDGlobal",
+      ],
+      categoryId: "26",
+      liveBroadcastContent: "none",
+      defaultLanguage: "en",
+      localized: {
+        title:
+          "How to Speak So That People Want to Listen | Julian Treasure | TED",
+        description:
+          "Have you ever felt like you're talking, but nobody is listening? Here's Julian Treasure to help you fix that. As the sound expert demonstrates some useful vocal exercises and shares tips on how to speak with empathy, he offers his vision for a sonorous world of listening and understanding. (Recorded at TEDGlobal 2013 on June 10, 2013)\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nX: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/juliantreasure\n\nhttps://youtu.be/eIho2S0ZahI\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #speech",
+      },
+    },
+    contentDetails: {
+      duration: "PT9M59S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "true",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "42416979",
+      likeCount: "905326",
+      favoriteCount: "0",
+      commentCount: "11227",
+    },
+  },
+];
+
+export const filteredDateFromTrendingVideos = [
+  {
+    snippet: {
+      publishedAt: "2023-04-12T15:30:09Z",
+      channelId: "UCvpredjG93ifbCP1Y77JyFA",
+      title: "YOASOBI「アイドル」 Official Music Video",
+      description:
+        'Streaming & Download : https://orcd.co/yoasobi_idol\nMusic : Ayase (https://twitter.com/ayase_0404)\nVocal : ikura (https://twitter.com/ikutalilas)\n\nBackground Chorus English Lyrics：Konnie Aoki\nBackground Chorus：Ebony Bowens, Chloe Kibble, Marista Stubbs, Imani J. Dawson, Kyte, Lyle Carr, Andrew Soda\nBackground Shouts：REAL AKIBA BOYZ (https://www.youtube.com/@realakibaboyz )\n\n原作小説「45510」(赤坂アカ 著)\n4/12(水)24時30分同時公開\nhttps://youngjump.jp/oshinoko/novel_45510/\n\n○TVアニメ『【推しの子】』オープニング主題歌\n2023年4月12日(水)よりTVアニメ放送開始！\nhttps://ichigoproduction.com/\n\n＜INTRODUCTION＞ \n「この芸能界（せかい）において嘘は武器だ」\n地方都市で働く産婦人科医・ゴロー。\nある日"推し"のアイドル「B小町」のアイが彼の前に現れた。\n彼女はある禁断の秘密を抱えており…。\nそんな二人の"最悪"の出会いから、運命が動き出していく―。\n\n©赤坂アカ×横槍メンゴ／集英社・【推しの子】製作委員会\n\n○インスト音源はこちら\nhttps://piapro.jp/t/KQn0\n\n○YOASOBI初のアリーナツアー「YOASOBI ARENA TOUR 電光石火」追加公演決定！\n6月23日(金)・24日(土)＠神奈川県・ぴあアリーナMM\nhttps://www.yoasobi-music.jp/news/551184\n--\n無敵の笑顔で荒らすメディア\n知りたいその秘密ミステリアス\n抜けてるとこさえ彼女のエリア\n完璧で嘘つきな君は\n天才的なアイドル様\n\n今日何食べた？\n好きな本は？\n遊びに行くならどこに行くの？\n何も食べてない\nそれは内緒\n何を聞かれても\nのらりくらり\n\nそう淡々と\nだけど燦々と\n見えそうで見えない秘密は蜜の味\nあれもないないない\nこれもないないない\n好きなタイプは？\n相手は？\nさあ答えて\n\n「誰かを好きになることなんて\n私分からなくてさ」\n嘘か本当か知り得ない\nそんな言葉に\nまた一人堕ちる\nまた好きにさせる\n\n誰もが目を奪われていく\n君は完璧で究極のアイドル\n金輪際現れない\n一番星の生まれ変わり\nその笑顔で\n愛してるで\n誰も彼も虜にしていく\nその瞳が\nその言葉が\n嘘でもそれは\n完全なアイ\n\nはいはいあの子は特別です\n我々は端からおまけです\nお星様の引き立て役Bです\n全てがあの子のお陰な訳ない\nしゃらくさい\n妬み嫉妬なんてない訳がない\nこれはネタじゃない\nからこそ許せない\n完璧じゃない君じゃ許せない\n自分を許せない\n誰よりも強い君以外は認めない\n\n誰もが信じ崇めてる\nまさに最強で無敵のアイドル\n弱点なんて見当たらない\n一番星を宿している\n弱いとこなんて見せちゃ\nダメダメ\n知りたくないとこは見せずに\n唯一無二じゃなくちゃ\nイヤイヤ\nそれこそ本物のアイ\n\n得意の笑顔で沸かすメディア\n隠しきるこの秘密だけは\n愛してるって嘘で積むキャリア\nこれこそ私なりの愛だ\n\n流れる汗も綺麗なアクア\nルビーを隠したこの瞼\n歌い踊り舞う私はマリア\nそう嘘はとびきりの愛だ\n\n誰かに愛されたことも\n誰かのこと愛したこともない\nそんな私の嘘がいつか本当になること\n信じてる\n\nいつかきっと全部手に入れる\n私はそう欲張りなアイドル\n等身大でみんなのこと\nちゃんと愛したいから\n今日も嘘をつくの\nこの言葉が\nいつか本当になる日を願って\nそれでもまだ\n君と君にだけは言えずにいたけど\nやっと言えた\nこれは絶対嘘じゃない\n愛してる\n--\nMVディレクター・絵コンテ・演出：中山直哉\n編集：齊藤雄磨\nビジュアルデベロップメント・モーショングラフィックス：齊藤雄磨、山口駿\nロゴデザイン：lowpolydog\n作画監督：平山寛菜\n作画監督補佐：夘野智子、稲手遥香\n原画：菊地奨之、室賀彩花、山本ゆうすけ、尾辻浩晃、秦ほのか、引口奈緒子、北村由佳、水野公彰、中山薫、福家いおり、米村雅人、松井怜、夘野智子、卓子意、沢田犬二、辻彩夏、TOMATO\n動画工房作画部\n第二原画：動画工房作画部\n全後映、劉官林、中山薫、1110\n動画検査：大原真琴\n動画：大原真琴、小田道子、中山薫、米村雅人、松井怜\n寿門堂\nRadplus\n色彩設計：石黒けい\n色彩設計補佐：芦原明音\n色指定・仕上げ検査：伊藤裕香\n仕上げ：呉政宏、村田栞、真壁源太\n寿門堂\nRadplus\n撮影監督：桒野貴文\n撮影監督補佐：工藤康史\n撮影：福岡由惟、塩野修平\n美術監督：宇佐美哲也(スタジオイースター)\n美術設定：水本浩太(スタジオイースター)\n背景：スタジオイースター\n平田卓也、今井公平、廣川翔一、山口琴実、宇佐美哲也\n3DLO：渡辺悦啓、石橋涼介\nモニターワークス：前田大輔(レイ）\n制作プロデューサー：小林涼\n制作チーフ・制作進行：増田拓朗\n\nアニメーション制作 動画工房\n製作 【推しの子】製作委員会\n--\n#YOASOBI #アイドル #推しの子',
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Ayase / YOASOBI",
+      tags: [
+        "YOASOBI",
+        "ヨアソビ",
+        "推しの子",
+        "OSHINOKO",
+        "横槍メンゴ",
+        "赤坂アカ",
+      ],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "YOASOBI「アイドル」 Official Music Video",
+        description:
+          'Streaming & Download : https://orcd.co/yoasobi_idol\nMusic : Ayase (https://twitter.com/ayase_0404)\nVocal : ikura (https://twitter.com/ikutalilas)\n\nBackground Chorus English Lyrics：Konnie Aoki\nBackground Chorus：Ebony Bowens, Chloe Kibble, Marista Stubbs, Imani J. Dawson, Kyte, Lyle Carr, Andrew Soda\nBackground Shouts：REAL AKIBA BOYZ (https://www.youtube.com/@realakibaboyz )\n\n原作小説「45510」(赤坂アカ 著)\n4/12(水)24時30分同時公開\nhttps://youngjump.jp/oshinoko/novel_45510/\n\n○TVアニメ『【推しの子】』オープニング主題歌\n2023年4月12日(水)よりTVアニメ放送開始！\nhttps://ichigoproduction.com/\n\n＜INTRODUCTION＞ \n「この芸能界（せかい）において嘘は武器だ」\n地方都市で働く産婦人科医・ゴロー。\nある日"推し"のアイドル「B小町」のアイが彼の前に現れた。\n彼女はある禁断の秘密を抱えており…。\nそんな二人の"最悪"の出会いから、運命が動き出していく―。\n\n©赤坂アカ×横槍メンゴ／集英社・【推しの子】製作委員会\n\n○インスト音源はこちら\nhttps://piapro.jp/t/KQn0\n\n○YOASOBI初のアリーナツアー「YOASOBI ARENA TOUR 電光石火」追加公演決定！\n6月23日(金)・24日(土)＠神奈川県・ぴあアリーナMM\nhttps://www.yoasobi-music.jp/news/551184\n--\n無敵の笑顔で荒らすメディア\n知りたいその秘密ミステリアス\n抜けてるとこさえ彼女のエリア\n完璧で嘘つきな君は\n天才的なアイドル様\n\n今日何食べた？\n好きな本は？\n遊びに行くならどこに行くの？\n何も食べてない\nそれは内緒\n何を聞かれても\nのらりくらり\n\nそう淡々と\nだけど燦々と\n見えそうで見えない秘密は蜜の味\nあれもないないない\nこれもないないない\n好きなタイプは？\n相手は？\nさあ答えて\n\n「誰かを好きになることなんて\n私分からなくてさ」\n嘘か本当か知り得ない\nそんな言葉に\nまた一人堕ちる\nまた好きにさせる\n\n誰もが目を奪われていく\n君は完璧で究極のアイドル\n金輪際現れない\n一番星の生まれ変わり\nその笑顔で\n愛してるで\n誰も彼も虜にしていく\nその瞳が\nその言葉が\n嘘でもそれは\n完全なアイ\n\nはいはいあの子は特別です\n我々は端からおまけです\nお星様の引き立て役Bです\n全てがあの子のお陰な訳ない\nしゃらくさい\n妬み嫉妬なんてない訳がない\nこれはネタじゃない\nからこそ許せない\n完璧じゃない君じゃ許せない\n自分を許せない\n誰よりも強い君以外は認めない\n\n誰もが信じ崇めてる\nまさに最強で無敵のアイドル\n弱点なんて見当たらない\n一番星を宿している\n弱いとこなんて見せちゃ\nダメダメ\n知りたくないとこは見せずに\n唯一無二じゃなくちゃ\nイヤイヤ\nそれこそ本物のアイ\n\n得意の笑顔で沸かすメディア\n隠しきるこの秘密だけは\n愛してるって嘘で積むキャリア\nこれこそ私なりの愛だ\n\n流れる汗も綺麗なアクア\nルビーを隠したこの瞼\n歌い踊り舞う私はマリア\nそう嘘はとびきりの愛だ\n\n誰かに愛されたことも\n誰かのこと愛したこともない\nそんな私の嘘がいつか本当になること\n信じてる\n\nいつかきっと全部手に入れる\n私はそう欲張りなアイドル\n等身大でみんなのこと\nちゃんと愛したいから\n今日も嘘をつくの\nこの言葉が\nいつか本当になる日を願って\nそれでもまだ\n君と君にだけは言えずにいたけど\nやっと言えた\nこれは絶対嘘じゃない\n愛してる\n--\nMVディレクター・絵コンテ・演出：中山直哉\n編集：齊藤雄磨\nビジュアルデベロップメント・モーショングラフィックス：齊藤雄磨、山口駿\nロゴデザイン：lowpolydog\n作画監督：平山寛菜\n作画監督補佐：夘野智子、稲手遥香\n原画：菊地奨之、室賀彩花、山本ゆうすけ、尾辻浩晃、秦ほのか、引口奈緒子、北村由佳、水野公彰、中山薫、福家いおり、米村雅人、松井怜、夘野智子、卓子意、沢田犬二、辻彩夏、TOMATO\n動画工房作画部\n第二原画：動画工房作画部\n全後映、劉官林、中山薫、1110\n動画検査：大原真琴\n動画：大原真琴、小田道子、中山薫、米村雅人、松井怜\n寿門堂\nRadplus\n色彩設計：石黒けい\n色彩設計補佐：芦原明音\n色指定・仕上げ検査：伊藤裕香\n仕上げ：呉政宏、村田栞、真壁源太\n寿門堂\nRadplus\n撮影監督：桒野貴文\n撮影監督補佐：工藤康史\n撮影：福岡由惟、塩野修平\n美術監督：宇佐美哲也(スタジオイースター)\n美術設定：水本浩太(スタジオイースター)\n背景：スタジオイースター\n平田卓也、今井公平、廣川翔一、山口琴実、宇佐美哲也\n3DLO：渡辺悦啓、石橋涼介\nモニターワークス：前田大輔(レイ）\n制作プロデューサー：小林涼\n制作チーフ・制作進行：増田拓朗\n\nアニメーション制作 動画工房\n製作 【推しの子】製作委員会\n--\n#YOASOBI #アイドル #推しの子',
+      },
+      defaultAudioLanguage: "ja",
+    },
+    contentDetails: {
+      duration: "PT3M46S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: false,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "538279728",
+      likeCount: "4479342",
+      favoriteCount: "0",
+      commentCount: "163376",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2014-12-03T18:26:26Z",
+      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
+      title: "AI - Story",
+      description:
+        "AIオールタイム・ベストアルバム\n「THE BEST –DELUXE EDITION」\nUPCH-20417/8　￥3,056+税\n\n大ヒット御礼のオールタイムベストアルバム「THE BEST」に、ファンからの要望が多かった名曲、コラボ曲などを追加収録。\n2016年の年明けから『au三太郎CM』で話題になった「みんながみんな英雄」も初収録した、豪華2枚組デラックス盤！\n総ダウンロード数1100万を超えるヒット曲満載の全27曲、文字通りの“THE BEST”な、“マチガイナイ”AIの決定盤！\n\n\n米ロサンゼルス生まれの鹿児島育ち。\n「Story」や「ハピネス」「みんながみんな英雄」など大ヒットソングを世に送り出す、\n日本が世界に誇るグローバル・スタンダード・アーティスト。\n2016年は約50公演のベストツアーで全国を駆け巡る。 \n \nOfficial Site: http://AImusic.tv\nFacebook: http://www.facebook.com/AI\nTwitter: @micaholic1981\nInstagram: @officialai \n\n\n-AI BIOGRAPHY-\n\nJapanese R&B star AI moves freely between pop, hip hop and dance, combining American soul with the deep emotion of Japanese ballads. Her international reputation has grown with exciting collaborations with Snoop Dogg, Jim Jones, Trey Songz, Lloyd, Jeremih, Boyz II Men, K’Naan, Judith Hill, Rain, The Jacksons and Chaka Khan. \n\nWith her trademark husky voice, she instills soulful undertones into everything from inspirational ballads to upbeat dance numbers. Especially in Japan, her music is known for its strength and substance. Despite the fame she's achieved, her down-to-earth personality shines during every performance. As AI will tell you, she'll do anything to get a smile from her fans.\n\nWith a strong, soulful sound, Japanese R&B phenomenon AI is poised to take over the world with her inspiring message of love and happiness.",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "AIVEVO",
+      tags: ["Story", "Island", "Records", "邦楽ポップス"],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "AI - Story",
+        description:
+          "AIオールタイム・ベストアルバム\n「THE BEST –DELUXE EDITION」\nUPCH-20417/8　￥3,056+税\n\n大ヒット御礼のオールタイムベストアルバム「THE BEST」に、ファンからの要望が多かった名曲、コラボ曲などを追加収録。\n2016年の年明けから『au三太郎CM』で話題になった「みんながみんな英雄」も初収録した、豪華2枚組デラックス盤！\n総ダウンロード数1100万を超えるヒット曲満載の全27曲、文字通りの“THE BEST”な、“マチガイナイ”AIの決定盤！\n\n\n米ロサンゼルス生まれの鹿児島育ち。\n「Story」や「ハピネス」「みんながみんな英雄」など大ヒットソングを世に送り出す、\n日本が世界に誇るグローバル・スタンダード・アーティスト。\n2016年は約50公演のベストツアーで全国を駆け巡る。 \n \nOfficial Site: http://AImusic.tv\nFacebook: http://www.facebook.com/AI\nTwitter: @micaholic1981\nInstagram: @officialai \n\n\n-AI BIOGRAPHY-\n\nJapanese R&B star AI moves freely between pop, hip hop and dance, combining American soul with the deep emotion of Japanese ballads. Her international reputation has grown with exciting collaborations with Snoop Dogg, Jim Jones, Trey Songz, Lloyd, Jeremih, Boyz II Men, K’Naan, Judith Hill, Rain, The Jacksons and Chaka Khan. \n\nWith her trademark husky voice, she instills soulful undertones into everything from inspirational ballads to upbeat dance numbers. Especially in Japan, her music is known for its strength and substance. Despite the fame she's achieved, her down-to-earth personality shines during every performance. As AI will tell you, she'll do anything to get a smile from her fans.\n\nWith a strong, soulful sound, Japanese R&B phenomenon AI is poised to take over the world with her inspiring message of love and happiness.",
+      },
+      defaultAudioLanguage: "en-US",
+    },
+    contentDetails: {
+      duration: "PT4M55S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      regionRestriction: {
+        blocked: ["CA", "PR", "US"],
+      },
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "60357582",
+      likeCount: "202110",
+      favoriteCount: "0",
+      commentCount: "7402",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2024-01-19T13:59:26Z",
+      channelId: "UCwyJ6Xmnv1FtNZlZrkpOZ1A",
+      title: "Brenno & Matheus - Ai Cowboy (BeM Interior) [Clipe Oficial]",
+      description:
+        '#Sertanejo #BrennoeMatheus #NewMusicBrasil #BeMInterior\n\nOUÇA AGORA EM SEU APP FAVORITO: https://bfan.link/ai-cowboy\nInscreva-se no canal: https://bit.ly/brennoematheusyt\nCrie seu Shorts com "Ai Cowboy": https://www.youtube.com/source/SPiQ3uTNapA/shorts\n\nAssista agora ao vídeo oficial da faixa "Ai Cowboy" de #brennoematheus, faixa do novo projeto "BeM Interior"!\n\nSIGA NAS REDES SOCIAIS:\nINSTAGRAM: https://www.instagram.com/brennoematheus\nFACEBOOK :https://www.facebook.com/brennoematheus\n\nLETRA\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no Pós\n\n\nFICHA TÉCNICA\n\nProjeto: DVD BeM Interior\nDireção Geral / Produção Executiva: Tiba Cleber / Nivaldo Cassucce\nProdução: BM Produtora / Angelo Lima\nProdutora de Video: Sete4\nDireção de Video: Jacques Jr\nLocal: San Lorenzzo - Maringá - Pr\nCompositor/Autor: Mateus Felix, Léo Souzza, Tiago Marcelo, Guilherme Ferraz\nArranjador: Guilherme Ferraz \nProdutor Musical: Eduardo Godoy \nBateria: Leonardo Steffler Bertoldo\nBass: Pablo Rosseline Araujo Coelho da Nobrega\nViolão: Mateus Tiago Nunes\nPercussão: Mauricio Bana Rossi\nSanfona: Matheus Felipe Stoll\nMix/Efeitos: André Luiz Mota Feitosa\nEfeito: Eduardo Jardim \n\nISRC: BX-NT6-22-07930',
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Brenno e Matheus",
+      tags: [
+        "Ai Cowboy",
+        "BeM Interior",
+        "Brenno e Matheus",
+        "Country",
+        "New Music",
+        "Sertanejo",
+        "breno e matheus",
+        "funknejo",
+        "brutaiada",
+        "cowboy",
+        "ai cowboy brenno e matheus",
+        "ai cawboy",
+        "brenno e matheus ai cowboy",
+        "ai cowboy eu fico fraca",
+        "breno e mateus",
+        "breno matheus",
+      ],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "Brenno & Matheus - Ai Cowboy (BeM Interior) [Clipe Oficial]",
+        description:
+          '#Sertanejo #BrennoeMatheus #NewMusicBrasil #BeMInterior\n\nOUÇA AGORA EM SEU APP FAVORITO: https://bfan.link/ai-cowboy\nInscreva-se no canal: https://bit.ly/brennoematheusyt\nCrie seu Shorts com "Ai Cowboy": https://www.youtube.com/source/SPiQ3uTNapA/shorts\n\nAssista agora ao vídeo oficial da faixa "Ai Cowboy" de #brennoematheus, faixa do novo projeto "BeM Interior"!\n\nSIGA NAS REDES SOCIAIS:\nINSTAGRAM: https://www.instagram.com/brennoematheus\nFACEBOOK :https://www.facebook.com/brennoematheus\n\nLETRA\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no Pós\n\n\nFICHA TÉCNICA\n\nProjeto: DVD BeM Interior\nDireção Geral / Produção Executiva: Tiba Cleber / Nivaldo Cassucce\nProdução: BM Produtora / Angelo Lima\nProdutora de Video: Sete4\nDireção de Video: Jacques Jr\nLocal: San Lorenzzo - Maringá - Pr\nCompositor/Autor: Mateus Felix, Léo Souzza, Tiago Marcelo, Guilherme Ferraz\nArranjador: Guilherme Ferraz \nProdutor Musical: Eduardo Godoy \nBateria: Leonardo Steffler Bertoldo\nBass: Pablo Rosseline Araujo Coelho da Nobrega\nViolão: Mateus Tiago Nunes\nPercussão: Mauricio Bana Rossi\nSanfona: Matheus Felipe Stoll\nMix/Efeitos: André Luiz Mota Feitosa\nEfeito: Eduardo Jardim \n\nISRC: BX-NT6-22-07930',
+      },
+      defaultAudioLanguage: "en-US",
+    },
+    contentDetails: {
+      duration: "PT2M29S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      regionRestriction: {
+        blocked: ["AQ"],
+      },
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "49888153",
+      likeCount: "207440",
+      favoriteCount: "0",
+      commentCount: "2553",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2022-01-01T21:00:01Z",
+      channelId: "UCAdpXDXkrrYQXFtAbJixRUg",
+      title:
+        "Ai, Que Coceira, Joãozinho! | Canal do Joãozinho - Little Angel Português",
+      description:
+        "Picadas de insetos causam coceira, mas se a gente coça, só piora! Joãozinho é picado por um mosquito e quer coçar o braço na hora! Mas a mamãe e o papai mostram ao bebê que é melhor passar uma pomadinha em vez de coçar! #littleangelportuguês #infantil\n\n(🔔) Inscreva-se para ver vídeos novos toda semana► http://bit.ly/la_Inscreva-sejá\n*****\nLetra:   \nAi que coceira, coceirinha\nO meu braço está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nNão se coce\nPode machucar\nCoçar só vai piorar\n\nSe não coçar\nVai melhorar\nEssa pomada vai ajudar\n\nAi que coceira, coceirinha\nMinha perna está coçando\nCoça, coça, coça e não para\nOh, papai me ajude aqui\nNão consigo parar de coçar\n\nIsso está muito irritado\nVamos lavar \npara melhorar\n \nAgora é só \nnão encostar\nNem coçar\nE logo vai passar\n\nAi que coceira, coceirinha\nMeu bracinho está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nQuando temos alergia\nNossa pele\nFica vermelha e inchada\n\nSem coçar\nPra não machucar\nCom a pomada vai melhorar\n\nAi que coceira, coceirinha\nEstá tudo coçando\nCoça, coça, coça e não para\nAi, alguém me ajuda aqui\nNão consigo parar de coçar\n\nPapai também \nnão pode coçar\nPara não se machucar\n\nQuando coçar\nÉ só chamar\nE a pomadinha vai ajudar\n*****\n\nAcompanhe a playlist Coleção do Bebê Joãozinho► http://bit.ly/coleçãoJoãozinho\n\nEstes vídeos, desenvolvidos especialmente para bebês e crianças pequenas, ajudam a ensinar habilidades básicas e melhoram a capacidade de compreender e seguir instruções. Cirandas, canções de ninar e músicas infantis aceleram a consciência fonética, melhorando as habilidades de compreensão, leitura e escrita das crianças.\n\nCurta, deixe um 👍 e conte para gente qual é o seu personagem preferido!\n\nAcompanhe as nossas redes sociais:\n★ Facebook: https://www.facebook.com/LittleAngelPortugues\n★ Instagram: https://www.instagram.com/littleangelportugues/?hl=en\n\nMúsica infantil, canções de ninar, português para crianças, canções de ninar em português, canções infantis em português, portuguese songs for kids, musica infantil, desenhos animados crianças, Músicas em português para crianças, desenho animado, desenhos.",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Little Angel - Músicas Infantis em Português",
+      tags: [
+        "ai que coceira joãozinho",
+        "canal do joãozinho",
+        "coça coça",
+        "coça-coça",
+        "desenho animado",
+        "desenhos",
+        "historinhas",
+        "joaozinho",
+        "joãozinho",
+        "little angel",
+        "little angel portugues",
+        "little angel português",
+        "mamãe e bebê",
+        "mosquitos",
+        "música infantil",
+        "picada de insetos",
+        "saúde do bebê",
+        "vídeo educativo",
+      ],
+      categoryId: "27",
+      liveBroadcastContent: "none",
+      defaultLanguage: "pt",
+      localized: {
+        title:
+          "Ai, Que Coceira, Joãozinho! | Canal do Joãozinho - Little Angel Português",
+        description:
+          "Picadas de insetos causam coceira, mas se a gente coça, só piora! Joãozinho é picado por um mosquito e quer coçar o braço na hora! Mas a mamãe e o papai mostram ao bebê que é melhor passar uma pomadinha em vez de coçar! #littleangelportuguês #infantil\n\n(🔔) Inscreva-se para ver vídeos novos toda semana► http://bit.ly/la_Inscreva-sejá\n*****\nLetra:   \nAi que coceira, coceirinha\nO meu braço está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nNão se coce\nPode machucar\nCoçar só vai piorar\n\nSe não coçar\nVai melhorar\nEssa pomada vai ajudar\n\nAi que coceira, coceirinha\nMinha perna está coçando\nCoça, coça, coça e não para\nOh, papai me ajude aqui\nNão consigo parar de coçar\n\nIsso está muito irritado\nVamos lavar \npara melhorar\n \nAgora é só \nnão encostar\nNem coçar\nE logo vai passar\n\nAi que coceira, coceirinha\nMeu bracinho está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nQuando temos alergia\nNossa pele\nFica vermelha e inchada\n\nSem coçar\nPra não machucar\nCom a pomada vai melhorar\n\nAi que coceira, coceirinha\nEstá tudo coçando\nCoça, coça, coça e não para\nAi, alguém me ajuda aqui\nNão consigo parar de coçar\n\nPapai também \nnão pode coçar\nPara não se machucar\n\nQuando coçar\nÉ só chamar\nE a pomadinha vai ajudar\n*****\n\nAcompanhe a playlist Coleção do Bebê Joãozinho► http://bit.ly/coleçãoJoãozinho\n\nEstes vídeos, desenvolvidos especialmente para bebês e crianças pequenas, ajudam a ensinar habilidades básicas e melhoram a capacidade de compreender e seguir instruções. Cirandas, canções de ninar e músicas infantis aceleram a consciência fonética, melhorando as habilidades de compreensão, leitura e escrita das crianças.\n\nCurta, deixe um 👍 e conte para gente qual é o seu personagem preferido!\n\nAcompanhe as nossas redes sociais:\n★ Facebook: https://www.facebook.com/LittleAngelPortugues\n★ Instagram: https://www.instagram.com/littleangelportugues/?hl=en\n\nMúsica infantil, canções de ninar, português para crianças, canções de ninar em português, canções infantis em português, portuguese songs for kids, musica infantil, desenhos animados crianças, Músicas em português para crianças, desenho animado, desenhos.",
+      },
+      defaultAudioLanguage: "pt",
+    },
+    contentDetails: {
+      duration: "PT3M33S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "46431086",
+      likeCount: "55108",
+      favoriteCount: "0",
+      commentCount: "0",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2017-10-30T14:10:25Z",
+      channelId: "UCwg_21agm3NCVW5lyBVG1xQ",
+      title: "AI QUE VIDA - HD",
+      description:
+        "Em meados dos anos de 1990, a fictícia cidade de Poço Fundo, interior do Nordeste, está vivendo um verdadeiro caos em sua administração pública. O Prefeito Zé Leitão (Feliciano Popô) é um administrador corrupto e há quatro anos no poder pouco fez pela cidade.\nRevoltada com a situação da cidade, a microempresária Cleonice da Cruz Piedade (Toinha Catingueiro) decide concorre ao cargo de prefeita e lutar por melhorias na cidade. Idealista e de bom coração, Cleonice vai iniciar uma divertida batalha pela atenção do eleitor.\nNos bastidores, um triângulo amoroso toma forma: o individualista Jerod (Welligton Alencar), o boêmio Valdir (Rômulo Augusto) e a romântica Charleni (Irisceli Queiroz). Charleni, dançarina de banda de forró, é uma moça de bom coração, que ajuda, nas horas vagas, em uma instituição filantrópica. Noiva de Jerod, Charlene fica em dúvidas quanto ao futuro do relacionamento, porque desconfia do namorado. Durante esse conflito psicológico, surge um outro homem em sua vida: Valdir (Rômulo Augusto), um jovem de uma beleza diferente e um passado nada animador. A relação inicialmente conturbada dá origem a uma outra, cada vez mais intensa.\n“Ai que vida” tem um enredo recheado de divertidas histórias que farão o espectador rir, chorar, se emocionar e também refletir sobre os valores morais das personagens.\nMuitos outros temas são abordados nessa proposta inovadora de fazer arte no Maranhão e Piauí. A filantropia, o caráter e a ética do ser humano, o amor, o respeito ao próximo e os valores familiares são aspectos trabalhados no filme, porém, a mais importante vertente é a “politicagem” no interior do Brasil, contribuindo, de maneira crítica, embora não panfletária e partidária, para a valorização da cidadania.\n\nFICHA TÉCNICA\nTítulo: AI QUE VIDA\nDireção: Cícero Filho\nAtores: Rômulo Augusto, Feliciano Popo, Virgílio Queiroz, Eli Sibita, Danilo Costa, Toinha Catingueiro e Irisceli Queiroz.\nRoteiro: Cícero Filho \nAno: 2007\nDuração: 100min\nGênero: Comédia \nClassificação: LIVRE\nDireção de Trilha Sonora: Myel Araújo \nEdição e finalização: David Marinho\nDireção de Produção: Kelly Rocha\n\nCOMPRE O DVD ORIGINAL \nSOLICITE O SEU PELO E-MAIL: tvmfilmes@hotmail.com",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "TvM FILMES",
+      tags: [
+        "ai que vida",
+        "cinema piauiense",
+        "Piauí",
+        "cinema",
+        "comédia",
+        "sucesso nacional",
+        "flor de abril",
+        "entre o amor e a razão",
+        "o cão chupando manga",
+        "o milagre do amor",
+        "Brasil",
+        "vídeos engraçados",
+        "Maranhão",
+        "Poção de Pedras",
+        "Esperantinópolis",
+        "Timon",
+        "São Francisco do Maranhão",
+        "Amarante",
+        "cavalo piancó",
+        "filme AI QUE VIDA completo",
+        "ai que vida cinema filme completo",
+      ],
+      categoryId: "1",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "AI QUE VIDA - HD",
+        description:
+          "Em meados dos anos de 1990, a fictícia cidade de Poço Fundo, interior do Nordeste, está vivendo um verdadeiro caos em sua administração pública. O Prefeito Zé Leitão (Feliciano Popô) é um administrador corrupto e há quatro anos no poder pouco fez pela cidade.\nRevoltada com a situação da cidade, a microempresária Cleonice da Cruz Piedade (Toinha Catingueiro) decide concorre ao cargo de prefeita e lutar por melhorias na cidade. Idealista e de bom coração, Cleonice vai iniciar uma divertida batalha pela atenção do eleitor.\nNos bastidores, um triângulo amoroso toma forma: o individualista Jerod (Welligton Alencar), o boêmio Valdir (Rômulo Augusto) e a romântica Charleni (Irisceli Queiroz). Charleni, dançarina de banda de forró, é uma moça de bom coração, que ajuda, nas horas vagas, em uma instituição filantrópica. Noiva de Jerod, Charlene fica em dúvidas quanto ao futuro do relacionamento, porque desconfia do namorado. Durante esse conflito psicológico, surge um outro homem em sua vida: Valdir (Rômulo Augusto), um jovem de uma beleza diferente e um passado nada animador. A relação inicialmente conturbada dá origem a uma outra, cada vez mais intensa.\n“Ai que vida” tem um enredo recheado de divertidas histórias que farão o espectador rir, chorar, se emocionar e também refletir sobre os valores morais das personagens.\nMuitos outros temas são abordados nessa proposta inovadora de fazer arte no Maranhão e Piauí. A filantropia, o caráter e a ética do ser humano, o amor, o respeito ao próximo e os valores familiares são aspectos trabalhados no filme, porém, a mais importante vertente é a “politicagem” no interior do Brasil, contribuindo, de maneira crítica, embora não panfletária e partidária, para a valorização da cidadania.\n\nFICHA TÉCNICA\nTítulo: AI QUE VIDA\nDireção: Cícero Filho\nAtores: Rômulo Augusto, Feliciano Popo, Virgílio Queiroz, Eli Sibita, Danilo Costa, Toinha Catingueiro e Irisceli Queiroz.\nRoteiro: Cícero Filho \nAno: 2007\nDuração: 100min\nGênero: Comédia \nClassificação: LIVRE\nDireção de Trilha Sonora: Myel Araújo \nEdição e finalização: David Marinho\nDireção de Produção: Kelly Rocha\n\nCOMPRE O DVD ORIGINAL \nSOLICITE O SEU PELO E-MAIL: tvmfilmes@hotmail.com",
+      },
+    },
+    contentDetails: {
+      duration: "PT1H40M42S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: false,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "34467924",
+      likeCount: "359544",
+      favoriteCount: "0",
+      commentCount: "16571",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2011-12-13T04:39:49Z",
+      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
+      title: "AI - ハピネス",
+      description:
+        "AIの新曲「ハピネス」がCoca-Cola 2011 Christmas Campaign　TV-CMソングとしてタイアップ決定。コカ・コーラのCMとして日本オリジナル楽曲が起用されるのは約10年ぶり。プロモーションビデオでもCMの世界観そのままに掃除婦や校長先生、コカ・コーラの営業マンに扮したAIが生徒のみんなと楽しく歌唱。まさにハピネスなビデオになってます。\nシングル「ハピネス/Letter In The Sky feat.The Jacksons」12/14発売。",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "AIVEVO",
+      tags: [
+        "ハピネス",
+        "emi",
+        "music",
+        "japan",
+        "video",
+        "Coca-Cola",
+        "2011",
+        "Christmas",
+        "Campaign",
+        "コカコーラ",
+        "クリスマス",
+        "キャンペーン",
+        "happiness",
+      ],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "AI - ハピネス",
+        description:
+          "AIの新曲「ハピネス」がCoca-Cola 2011 Christmas Campaign　TV-CMソングとしてタイアップ決定。コカ・コーラのCMとして日本オリジナル楽曲が起用されるのは約10年ぶり。プロモーションビデオでもCMの世界観そのままに掃除婦や校長先生、コカ・コーラの営業マンに扮したAIが生徒のみんなと楽しく歌唱。まさにハピネスなビデオになってます。\nシングル「ハピネス/Letter In The Sky feat.The Jacksons」12/14発売。",
+      },
+      defaultAudioLanguage: "en-US",
+    },
+    contentDetails: {
+      duration: "PT4M36S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "33448741",
+      likeCount: "98737",
+      favoriteCount: "0",
+      commentCount: "3795",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2020-08-26T15:59:21Z",
+      channelId: "UCsyBVa0eTR-lL0sRnKpIe8w",
+      title: "GHOSTEMANE - AI (OFFICIAL VIDEO)",
+      description:
+        "GHOSTEMANE - AI (OFFICIAL VIDEO), a Studio Linguini Production (@studio_linguini)\n\n☿ ☿ ☿\n\nCopyright: Blackmage\nPublisher: Blackmage\n\nCreated/Produced by Studio Linguini: @studio_linguini \nNick Cinelli (Director/Animator)\nJenny Shaughnessy (Producer)\nVenturia Animation Studios (2D Animation): @venturia.animation \nMiryam Jacomini (Production Design) : @miryamjdesign \nHarry Richardson (Puppets) : @harry_f_richardson\nAlice Simonato (Props) : @alicesimonato\nYsabel King (Lead Compositor) : @toowo\n\nConcept by Jon Tanners (@jontanners) and Nick Cinelli (@galactic.nicolas)\n\nANTI-ICON ALBUM OUT EVERYWHERE OCTOBER 21ST\n\nSTREAM AI - https://ghostemane.ffm.to/a__i\n\nLYRICS - https://genius.com/Ghostemane-ai-lyrics",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+      },
+      channelTitle: "GHOSTEMANE",
+      categoryId: "24",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "GHOSTEMANE - AI (OFFICIAL VIDEO)",
+        description:
+          "GHOSTEMANE - AI (OFFICIAL VIDEO), a Studio Linguini Production (@studio_linguini)\n\n☿ ☿ ☿\n\nCopyright: Blackmage\nPublisher: Blackmage\n\nCreated/Produced by Studio Linguini: @studio_linguini \nNick Cinelli (Director/Animator)\nJenny Shaughnessy (Producer)\nVenturia Animation Studios (2D Animation): @venturia.animation \nMiryam Jacomini (Production Design) : @miryamjdesign \nHarry Richardson (Puppets) : @harry_f_richardson\nAlice Simonato (Props) : @alicesimonato\nYsabel King (Lead Compositor) : @toowo\n\nConcept by Jon Tanners (@jontanners) and Nick Cinelli (@galactic.nicolas)\n\nANTI-ICON ALBUM OUT EVERYWHERE OCTOBER 21ST\n\nSTREAM AI - https://ghostemane.ffm.to/a__i\n\nLYRICS - https://genius.com/Ghostemane-ai-lyrics",
+      },
+    },
+    contentDetails: {
+      duration: "PT2M57S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "29006918",
+      likeCount: "628318",
+      favoriteCount: "0",
+      commentCount: "16439",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2024-07-02T10:01:28Z",
+      channelId: "UC_ZGH2nFrFg-leJpVNhMe9A",
+      title: "Si Ai",
+      description:
+        "Provided to YouTube by Colonize Media, Inc.\n\nSi Ai · Tayna\n\nSi Ai\n\n℗ 2024 PENDRAGON\n\nReleased on: 2024-06-11\n\nComposer: Benny Bee\nComposer: Marco Tolo\nComposer: Morey Parisi\nComposer: Medin Uka\nComposer: Adam Piastowski\nComposer: Black Eagle Beats\nAuthor: Doruntina Shala\n\nAuto-generated by YouTube.",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Tayna - Topic",
+      tags: ["Tayna", "Si Ai"],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "Si Ai",
+        description:
+          "Provided to YouTube by Colonize Media, Inc.\n\nSi Ai · Tayna\n\nSi Ai\n\n℗ 2024 PENDRAGON\n\nReleased on: 2024-06-11\n\nComposer: Benny Bee\nComposer: Marco Tolo\nComposer: Morey Parisi\nComposer: Medin Uka\nComposer: Adam Piastowski\nComposer: Black Eagle Beats\nAuthor: Doruntina Shala\n\nAuto-generated by YouTube.",
+      },
+    },
+    contentDetails: {
+      duration: "PT2M46S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      regionRestriction: {
+        allowed: [
+          "AE",
+          "AR",
+          "AS",
+          "AT",
+          "AU",
+          "AW",
+          "AZ",
+          "BA",
+          "BD",
+          "BE",
+          "BG",
+          "BH",
+          "BM",
+          "BO",
+          "BR",
+          "BY",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GE",
+          "GF",
+          "GH",
+          "GP",
+          "GR",
+          "GT",
+          "GU",
+          "HK",
+          "HN",
+          "HR",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IN",
+          "IQ",
+          "IS",
+          "IT",
+          "JM",
+          "JO",
+          "JP",
+          "KE",
+          "KH",
+          "KR",
+          "KW",
+          "KY",
+          "KZ",
+          "LA",
+          "LB",
+          "LI",
+          "LK",
+          "LT",
+          "LU",
+          "LV",
+          "LY",
+          "MA",
+          "MK",
+          "MP",
+          "MQ",
+          "MT",
+          "MX",
+          "MY",
+          "NC",
+          "NG",
+          "NI",
+          "NL",
+          "NO",
+          "NP",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PF",
+          "PG",
+          "PH",
+          "PK",
+          "PL",
+          "PR",
+          "PT",
+          "PY",
+          "QA",
+          "RE",
+          "RO",
+          "RS",
+          "RU",
+          "SA",
+          "SE",
+          "SG",
+          "SI",
+          "SK",
+          "SN",
+          "SV",
+          "TC",
+          "TH",
+          "TN",
+          "TR",
+          "TW",
+          "TZ",
+          "UA",
+          "UG",
+          "US",
+          "UY",
+          "VE",
+          "VI",
+          "VN",
+          "YE",
+          "YT",
+          "ZA",
+          "ZW",
+        ],
+      },
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "24554392",
+      likeCount: "226716",
+      favoriteCount: "0",
+      commentCount: "0",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2024-08-02T04:00:42Z",
+      channelId: "UCEdvpU2pFRCVqU6yIPyTpMQ",
+      title: "Tayna - Si Ai (Marshmello & UKAY Remix)",
+      description:
+        "Tayna - Si Ai (Marshmello & UKAY Remix)\nStream: https://marshmello.ffm.to/taynaremix\n\nOfficial Marshmello Merch ▶ https://marshmellomusic.com\n\nSUBSCRIBE HERE ▶ http://youtube.com/marshmellomusic?sub_confirmation=1\n\n---MORE Marshmello Music\nListen to SHOCKWAVE ▶ https://marshmello.ffm.to/shockwave\nListen to Joytime III ▶ https://ffm.to/joytimeiii\nListen to Joytime II ▶ http://smarturl.it/JOYTIMEII\n\nWATCH LBYLM MUSIC VIDEO ▶ https://youtu.be/hmUyEDG7Jy0\nWATCH COME & GO MUSIC VIDEO ▶ https://youtu.be/Dxm3cHrKcbA\nWATCH HAPPIER MUSIC VIDEO ▶ https://youtu.be/m7Bc3pLyij0\nWATCH FRIENDS MUSIC VIDEO ▶ https://youtu.be/jzD_yyEcp0M\nWATCH SILENCE MUSIC VIDEO ▶ https://youtu.be/Tx1sqYc3qas\nWATCH WOLVES MUSIC VIDEO ▶ https://youtu.be/cH4E_t3m3xM\nWATCH ALONE MUSIC VIDEO ▶ https://youtu.be/ALZHF5UqnU4\n\nMARSHMELLO:\nMerch | https://mellogang.com/collections/new-arrivals/\nSpotify | http://spoti.fi/Marshmello\nApple Music | http://apple.co/2n8Evz6\nSoundCloud | http://soundcloud.com/marshmellomusic\nInstagram | http://instagram.com/marshmello\nFacebook | http://facebook.com/marshmello\nTwitter | http://twitter.com/marshmello\nTwitch | http://twitch.tv/marshmellomusic\nTikTok | https://tiktok.com/@marshmello\n\nTAYNA:\nhttp://instagram.com/tayna\n@itstayna \n\nUKAY:\nhttp://instagram.com/deejayukay\n\n#Marshmello #tayna #SiAi",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Marshmello",
+      tags: [
+        "marshmello",
+        "marshmallow",
+        "dance",
+        "music",
+        "si ai",
+        "tayna si ai",
+        "tayna si ai remix",
+        "marshmello remix",
+        "tayna marshmello",
+        "marshmello tayna",
+        "si ai marshmello",
+        "ukay",
+        "si ai speed",
+        "si ai sped up",
+        "si ai nightcore",
+        "tiktok trends",
+        "tiktok songs 2024",
+        "si ai tiktok",
+        "albania",
+        "albanian music",
+        "keinemusik",
+        "keinemusik move",
+        "move",
+        "zerb mwaki",
+        "afro house",
+        "deep house",
+        "deep house mix",
+        "chill house music",
+        "si ai ai",
+        "si ai ai ai",
+        "si ai tayna",
+        "si ai lyrics",
+        "si ai remix",
+        "marshmello si ai",
+        "shqip",
+      ],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      defaultLanguage: "en",
+      localized: {
+        title: "Tayna - Si Ai (Marshmello & UKAY Remix)",
+        description:
+          "Tayna - Si Ai (Marshmello & UKAY Remix)\nStream: https://marshmello.ffm.to/taynaremix\n\nOfficial Marshmello Merch ▶ https://marshmellomusic.com\n\nSUBSCRIBE HERE ▶ http://youtube.com/marshmellomusic?sub_confirmation=1\n\n---MORE Marshmello Music\nListen to SHOCKWAVE ▶ https://marshmello.ffm.to/shockwave\nListen to Joytime III ▶ https://ffm.to/joytimeiii\nListen to Joytime II ▶ http://smarturl.it/JOYTIMEII\n\nWATCH LBYLM MUSIC VIDEO ▶ https://youtu.be/hmUyEDG7Jy0\nWATCH COME & GO MUSIC VIDEO ▶ https://youtu.be/Dxm3cHrKcbA\nWATCH HAPPIER MUSIC VIDEO ▶ https://youtu.be/m7Bc3pLyij0\nWATCH FRIENDS MUSIC VIDEO ▶ https://youtu.be/jzD_yyEcp0M\nWATCH SILENCE MUSIC VIDEO ▶ https://youtu.be/Tx1sqYc3qas\nWATCH WOLVES MUSIC VIDEO ▶ https://youtu.be/cH4E_t3m3xM\nWATCH ALONE MUSIC VIDEO ▶ https://youtu.be/ALZHF5UqnU4\n\nMARSHMELLO:\nMerch | https://mellogang.com/collections/new-arrivals/\nSpotify | http://spoti.fi/Marshmello\nApple Music | http://apple.co/2n8Evz6\nSoundCloud | http://soundcloud.com/marshmellomusic\nInstagram | http://instagram.com/marshmello\nFacebook | http://facebook.com/marshmello\nTwitter | http://twitter.com/marshmello\nTwitch | http://twitch.tv/marshmellomusic\nTikTok | https://tiktok.com/@marshmello\n\nTAYNA:\nhttp://instagram.com/tayna\n@itstayna \n\nUKAY:\nhttp://instagram.com/deejayukay\n\n#Marshmello #tayna #SiAi",
+      },
+      defaultAudioLanguage: "en",
+    },
+    contentDetails: {
+      duration: "PT3M5S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "21534467",
+      likeCount: "137429",
+      favoriteCount: "0",
+      commentCount: "5192",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2021-07-05T12:00:14Z",
+      channelId: "UCX4fV50d398w_YSGgKwa51Q",
+      title: "AI - 「THE MOMENT feat ¥ellow Bucks」 (official video)",
+      description:
+        "「THE MOMENT feat. ¥ellow Bucks」\nListen Here：https://lnk.to/AIthemoment\n\nMUSIC\nLyrics AI, ¥ellow Bucks  Music AI, DJ RYOW & SPACE DUST CLUB\nProduced by AI, DJ RYOW & SPACE DUST CLUB\nMixed by D.O.I.\n\nMUSIC VIDEO\nDIRECTOR：YUE\nPRODUCER：Kohki Takei\n\n＜AI Information＞\n https://bio.to/AI_Link\n\n＜¥ellow Bucks Information＞\nhttps://www.tothetopgang.com/\nhttps://twitter.com/yellowbucks\nhttps://www.instagram.com/yellowbucks_tttg/\nhttps://www.youtube.com/channel/UC-yOrQ25-k6SeUivR6NF8ug\n\n＜DJ RYOW Information＞\nhttp://www.djryow.jp/\nhttps://twitter.com/djryow\nhttps://www.instagram.com/djryow/\nhttps://www.facebook.com/djryow.official\nhttps://www.youtube.com/channel/UCyhiR-5J7J22LILKbHqn86Q\n\n#AI #THEMOMENT #YellowBucks #DJRYOW #SPACEDUSTCLUB #TTTG\n#ThelmaAoyama #RIEHATA #LUNA #SID #TEE",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/aYduRkOidEc/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "AI",
+      tags: ["AI", "THE MOMENT", "YellowBucks", "MV"],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "AI - 「THE MOMENT feat ¥ellow Bucks」 (official video)",
+        description:
+          "「THE MOMENT feat. ¥ellow Bucks」\nListen Here：https://lnk.to/AIthemoment\n\nMUSIC\nLyrics AI, ¥ellow Bucks  Music AI, DJ RYOW & SPACE DUST CLUB\nProduced by AI, DJ RYOW & SPACE DUST CLUB\nMixed by D.O.I.\n\nMUSIC VIDEO\nDIRECTOR：YUE\nPRODUCER：Kohki Takei\n\n＜AI Information＞\n https://bio.to/AI_Link\n\n＜¥ellow Bucks Information＞\nhttps://www.tothetopgang.com/\nhttps://twitter.com/yellowbucks\nhttps://www.instagram.com/yellowbucks_tttg/\nhttps://www.youtube.com/channel/UC-yOrQ25-k6SeUivR6NF8ug\n\n＜DJ RYOW Information＞\nhttp://www.djryow.jp/\nhttps://twitter.com/djryow\nhttps://www.instagram.com/djryow/\nhttps://www.facebook.com/djryow.official\nhttps://www.youtube.com/channel/UCyhiR-5J7J22LILKbHqn86Q\n\n#AI #THEMOMENT #YellowBucks #DJRYOW #SPACEDUSTCLUB #TTTG\n#ThelmaAoyama #RIEHATA #LUNA #SID #TEE",
+      },
+      defaultAudioLanguage: "en",
+    },
+    contentDetails: {
+      duration: "PT3M24S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "true",
+      licensedContent: false,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "13214346",
+      likeCount: "58659",
+      favoriteCount: "0",
+      commentCount: "1010",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2023-07-16T15:05:29Z",
+      channelId: "UC-CSyyi47VX1lD9zyeABW3w",
+      title:
+        "The Truth about Artificial Intelligence and ChatGPT | Dhruv Rathee",
+      description:
+        "🤖 Join my AI Course: https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \nUse coupon code: TAKE41 for 41% discount! \nHurry up! Offer only valid for the first 1000 people \n\nLink to course: https://academy.dhruvrathee.com/chatgpt\n\nOver the past year, artificial intelligence has emerged as a prominent and widely discussed subject. It is no longer merely a buzzword, but rather a practical tool that we can actively employ. Revolutionary platforms such as ChatGPT and Midjourney are transforming the functioning of our world. However, the advancement of AI also raises significant and profound inquiries. Will AI supersede human capabilities? Does it pose a threat to humanity's existence? What about the potential job displacement caused by AI? If you share these concerns, watch this video by Dhruv Rathee, where he delves into the realities of artificial intelligence, offering insights and answers to these pressing questions.\n\nLink to the videos mentioned - \nHow Online Betting & Fantasy Apps Fool You! | Business Model | Dhruv Rathee - https://youtu.be/tzi43LUfzFc\n---------------------------------------------------- \nJOIN MY COURSE: \n✏️ Time Management and Productivity Course:  https://academy.dhruvrathee.com\nLearn how to manage time and maximize productivity in my specialised online course. \n🤖 Master ChatGPT - Full Course : https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \n\nLISTEN TO MY PODCAST: \n🎧 My Spotify exclusive podcast. Learn about how India works, only on Maha Bharat with Dhruv Rathee: https://spoti.fi/3IhBW51\n\nFOLLOW ME ON:\n▶️ Main Channel: http://www.youtube.com/dhruvrathee\n🎦 Vlog Channel: http://www.youtube.com/dhruvratheevlogs\n🩳 Shorts Channel: https://www.youtube.com/channel/UCw4IHIMsDO5wpIiprOSXiEA\n📸 Instagram: http://www.instagram.com/dhruvrathee\n🐦  Twitter: http://www.twitter.com/dhruv_rathee\n\nMY VIDEO TOPICS:\n🗺 Geopolitics: https://youtube.com/playlist?list=PL8828Z-IEhFGkz7F_paNquqsFyd357oYA\n📘 History: https://youtube.com/playlist?list=PL8828Z-IEhFGSI3R-AkaB95EJBO7nBjGS\n🔬 Science: https://youtube.com/playlist?list=PL8828Z-IEhFGrt2Tf1b0qg40g3AFw4YKp\n☠️ Mystery: https://youtube.com/playlist?list=PL8828Z-IEhFGF2LJQrRHRtoEfS7BZHZIK\n💰Finance: https://youtube.com/playlist?list=PL8828Z-IEhFEG47-MiL0G7Mh6J-T8eBoq\n🇮🇳 Indian Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFErzy-eKRAiTta0GLrzn6fM\n🌍 International Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFFs3hT95-ZnEHDyLduo40FU\n\nDOWNLOAD MY APP: \n📱Android app: https://play.google.com/store/apps/details?id=com.arStudios.dhruvRatheeApp&hl=en&gl=US\n📱iOS App: https://apps.apple.com/ie/app/dhruv-rathee/id1553920898\n----------------------------------------------------",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/vJefOB8kec8/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/vJefOB8kec8/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/vJefOB8kec8/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/vJefOB8kec8/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/vJefOB8kec8/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Dhruv Rathee",
+      tags: [
+        "Dhruv Rathee",
+        "Dhruv",
+        "Rathee",
+        "indian youtuber",
+        "khan sir",
+        "khan sir patna",
+        "will ai replace programmers",
+        "will ai take over the world",
+        "is ai dangerous",
+        "chat gpt kya hai",
+        "chatgpt",
+        "midjourney",
+        "ai",
+        "artificial intelligence",
+        "is chatgpt safe",
+        "how to use chatgpt",
+        "chatgpt tutorial",
+        "is ai conscious",
+        "is ai a good career",
+        "is ai going to replace programmers",
+        "how ai is dangerous",
+        "ai and human",
+        "what is chatgpt",
+        "what is chatgpt in hindi",
+        "Dhruv Rathee Course",
+        "Dhruv Rathee Course free download",
+      ],
+      categoryId: "27",
+      liveBroadcastContent: "none",
+      defaultLanguage: "en",
+      localized: {
+        title:
+          "The Truth about Artificial Intelligence and ChatGPT | Dhruv Rathee",
+        description:
+          "🤖 Join my AI Course: https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \nUse coupon code: TAKE41 for 41% discount! \nHurry up! Offer only valid for the first 1000 people \n\nLink to course: https://academy.dhruvrathee.com/chatgpt\n\nOver the past year, artificial intelligence has emerged as a prominent and widely discussed subject. It is no longer merely a buzzword, but rather a practical tool that we can actively employ. Revolutionary platforms such as ChatGPT and Midjourney are transforming the functioning of our world. However, the advancement of AI also raises significant and profound inquiries. Will AI supersede human capabilities? Does it pose a threat to humanity's existence? What about the potential job displacement caused by AI? If you share these concerns, watch this video by Dhruv Rathee, where he delves into the realities of artificial intelligence, offering insights and answers to these pressing questions.\n\nLink to the videos mentioned - \nHow Online Betting & Fantasy Apps Fool You! | Business Model | Dhruv Rathee - https://youtu.be/tzi43LUfzFc\n---------------------------------------------------- \nJOIN MY COURSE: \n✏️ Time Management and Productivity Course:  https://academy.dhruvrathee.com\nLearn how to manage time and maximize productivity in my specialised online course. \n🤖 Master ChatGPT - Full Course : https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \n\nLISTEN TO MY PODCAST: \n🎧 My Spotify exclusive podcast. Learn about how India works, only on Maha Bharat with Dhruv Rathee: https://spoti.fi/3IhBW51\n\nFOLLOW ME ON:\n▶️ Main Channel: http://www.youtube.com/dhruvrathee\n🎦 Vlog Channel: http://www.youtube.com/dhruvratheevlogs\n🩳 Shorts Channel: https://www.youtube.com/channel/UCw4IHIMsDO5wpIiprOSXiEA\n📸 Instagram: http://www.instagram.com/dhruvrathee\n🐦  Twitter: http://www.twitter.com/dhruv_rathee\n\nMY VIDEO TOPICS:\n🗺 Geopolitics: https://youtube.com/playlist?list=PL8828Z-IEhFGkz7F_paNquqsFyd357oYA\n📘 History: https://youtube.com/playlist?list=PL8828Z-IEhFGSI3R-AkaB95EJBO7nBjGS\n🔬 Science: https://youtube.com/playlist?list=PL8828Z-IEhFGrt2Tf1b0qg40g3AFw4YKp\n☠️ Mystery: https://youtube.com/playlist?list=PL8828Z-IEhFGF2LJQrRHRtoEfS7BZHZIK\n💰Finance: https://youtube.com/playlist?list=PL8828Z-IEhFEG47-MiL0G7Mh6J-T8eBoq\n🇮🇳 Indian Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFErzy-eKRAiTta0GLrzn6fM\n🌍 International Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFFs3hT95-ZnEHDyLduo40FU\n\nDOWNLOAD MY APP: \n📱Android app: https://play.google.com/store/apps/details?id=com.arStudios.dhruvRatheeApp&hl=en&gl=US\n📱iOS App: https://apps.apple.com/ie/app/dhruv-rathee/id1553920898\n----------------------------------------------------",
+      },
+      defaultAudioLanguage: "hi",
+    },
+    contentDetails: {
+      duration: "PT22M37S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "true",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "11146596",
+      likeCount: "485866",
+      favoriteCount: "0",
+      commentCount: "30159",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2021-12-01T10:00:19Z",
+      channelId: "UCr4fZBNv69P-09f98l7CshA",
+      title:
+        '【まさかの本人】ストリートピアノで"AIさん"鳥肌モノの生歌披露...⁉️ショッピングモールがパニックにww【Story】',
+      description:
+        '『ハラミちゃん 47都道府県ピアノツアー ～特急ハラミ号、出発進行だぬ！～』チケット一般発売スタート！！\n\nチケット購入はコチラ↓\n　●イープラス https://eplus.jp/harami/\n　●mu-mo TICKET http://r.y-tickets.jp/haramichan2301\n　●チケットぴあ https://w.pia.jp/t/harami/\n　●ローソンチケット https://l-tike.com/harami/\n　●CNプレイガイド　https://www.cnplayguide.com/harami/\n　●楽天チケット　http://r-t.jp/harami\n\n【特設サイト】\nhttps://harami47tour.com/\n\n＜第1弾発表！＞　\n2023年4月9日(日)  埼玉：大宮ソニックシティ 大ホール\n2023年4月22日(土) 石川：北國新聞赤羽ホール\n2023年4月23日(日) 福井：福井県県民ホール\n2023年5月3日(水祝)  大阪：大阪国際会議場 メインホール（グランキューブ大阪）\n2023年5月6日(土)  和歌山：和歌山城ホール 小ホール\n2023年5月7日(日)  徳島：阿南市文化会館 夢ホール\n2023年5月13日(土) 鳥取：とりぎん文化会館 小ホール\n2023年5月14日(日) 島根：島根県民会館 中ホール\n2023年5月20日(土) 岩手：岩手県民会館 中ホール\n2023年5月21日(日) 福島：けんしん郡山文化センター 中ホール\n2023年6月3日(土)  岡山：マービーふれあいセンター\n2023年6月4日(日)  香川：レクザムホール 小ホール\n2023年6月17日(土) 福岡：福岡国際会議場 メインホール\n2023年6月18日(日) 熊本：熊本城ホール シビックホール\n2023年7月15日(土) 滋賀：びわ湖ホール 中ホール\n2023年7月16日(日) 京都：ロームシアター京都　サウスホール\n2023年8月13日(日) 神奈川：神奈川県民ホール 大ホール\n\n14:00開場 15:00開演\n\n※熊本公演のみ 16:00開場 17:00開演 \n\n※開場・開演時間は変更になる場合がございます。\n\n■チケット：\n・一般ハラミ定食券  6,300円　\n\n・一般ハラミ定食券（こども学生割引）5,300円\n\n・特上ハラミ定食券　8,800円\n（メッセージ入りデザインLIVEチケット、季節で変わる！ハラミちゃんデザイン限定グッズ）\n\n・極上ハラミ定食券　29,000円\n（メッセージ入りデザインLIVEチケット、超希少部位！前方席確保！\n季節で変わる！ハラミちゃんデザイン限定グッズ、終演後ハラミちゃんとツ―ショット記念撮影！“MEET MEAT”へご招待！）\n\n■注意事項\n・3歳以上有料／3歳未満は膝上鑑賞無料（但し席が必要な場合は有料）\n・学割チケットは、公演日時点で3歳～18歳(高校生)が対象となります。\n　ご入場時に身分証明書の確認を行いますので、学生証や保険証等を必ずお持ちください。\n・限定グッズは会場でのお渡しのみとなります。\n・季節で変わる！ハラミちゃんデザイングッズは予告なく変更させていただきます。\n・政府自治体の新型コロナウイルスによりイベントの開催制限等の見解に基づき収容人数を決定いたします。今後のガイドラインの緩和により収容人数の変更が出る場合は、ご了承ください。\n\nNHK連続テレビ小説『カムカムエヴリバディ』主題歌\nAI「アルデバラン」     \n作詞・作曲：森山直太朗  編曲：斎藤ネコ\nListen Here：https://lnk.to/AI_ald\nOfficial Video：https://www.youtube.com/watch?v=8IOSztadymc\nSpecial Site：https://sp.universal-music.co.jp/ai/aldebaran/\n\n#ストリートピアノ #AI #Story\n\nNHK連続テレビ小説「カムカムエヴリバディ」\nhttps://www.nhk.or.jp/comecome/\n\nTikTokで「＃AIと歌おう 」キャンペーン開催中(12/3まで)\n＃AIと歌おう ：https://vt.tiktok.com/ZSeA38CWy/\nオフィシャルアカウント：https://www.tiktok.com/@aiofficialtiktok　　\n\n日本武道館公演『STREET PIANO in 日本武道館 ～ハラミちゃん947日目のキセキ～』の開催が決定しました！\n\n👇一般発売受付開始！チケット購入はコチラ👇\nイープラス　https://eplus.jp/harami/\nYahoo!チケット http://r.y-tickets.jp/haramichan2102\nチケットぴあ https://w.pia.jp/t/harami/\nローソンチケットhttps://l-tike.com/harami/\n\n※受付期間及び取扱券種はプレイガイド毎にご確認ください。\n\n【公演情報】\n日程：2022年1月4日(火) \n会場：日本武道館　\n時間：昼公演「はじまりの音」　12:00開場 / 13:00開演　\n　　　夜公演「ありがとうの場所」　17:00開場 / 18:00開演\n\n※昼公演と夜公演で公演内容が異なります。\n\n【チケット料金】\n●一般ハラミ定食券：8,300円（税込）　\n＜内容＞ LIVEチケット\nハラミちゃんお年玉くじ付年賀状\n\n●特上ハラミ定食券：12,900円（税込）　\n ＜内容＞ \nLIVEチケット（ハラミちゃんメッセージ入りデザインチケット＊昼夜絵柄違い）\nハラミちゃんお年玉くじ付年賀状\nハラミちゃん手描き絵本 ～947日目のキセキ～\n\n●極上ハラミ定食券：29,000円（税込）\n ＜内容＞\nLIVEチケット（ハラミちゃんメッセージ入りデザインチケット＊昼夜絵柄違い）\nハラミちゃんお年玉くじ付年賀状\nアリーナ席最前ブロック確保！\nハラミちゃん手描き絵本 ～947日目のキセキ～\n終演後アフターパーティへご招待\n\n【注意事項】\n3歳以上有料／3歳未満は膝上鑑賞無料(但し席が必要な場合は有料)\n非売品グッズは会場でのお渡しのみとなります。\n\n【公演に関して】\n政府自治体の新型コロナウイルスによるイベントの開催制限等の見解に基づき収容人数を決定いたします。\n今後のガイドラインの緩和により収容人数の変更が出る場合は、ご了承ください。\n　ご来場における注意事項、実施におけるガイドラインは改めてご案内させていただきます。\n\n2021年5月19日(水)にハラミ初のエッセイ本、「好きのパワーは無限大」が発売中！\n■予約はこちらから\nhttps://www.amazon.co.jp/dp/4046052023/\n\n■2021/1/27(水)CD2ndアルバム発売しました✨😭👏\n▶︎CD+DVD\nhttps://avex.lnk.to/OKAWARI_CDDVD\n▶︎CD Only\nhttps://avex.lnk.to/OKAWARI_CD\n\n■ハラミがYoutubeをしている理由\nピアノ="子供の習い事"や"クラシカル"なイメージがまだまだあると思います。\nもっとピアノという楽器が「楽しい」ということを知って欲しい！\nもっともっと身近にピアノを感じてもらいたい！\nそんな思いで動画を投稿しています♪\nよかったらチャンネル登録していただけると励みになります✨\n↓↓↓↓\nhttps://www.youtube.com/channel/UCr4fZBNv69P-09f98l7CshA?sub_confirmation=1 \n\n■お仕事依頼や連絡はコチラ📩\nhararapiano@gmail.com \n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n▼ファンクラブ🍖🎹\nいつでも入会お待ちしております♪いつ抜けていただいても構いません！\n・限定生配信ピアノコンサート\n・限定スタンプ＆限定バッチ(コメントで使えます)\n・限定Q&A生配信\n・限定オフショット＆限定ブログ などなど..\nhttps://www.youtube.com/channel/UCr4fZBNv69P-09f98l7CshA/join\n\n▼サブチャンネル🍖🎹\nゆるゆる日常、飯テロしてます🍚\nhttps://www.youtube.com/channel/UCDzNUObGnzyegwPYMDDJmjg?sub_confirmation=1\n\n▼Twitter🍖🎹\nhttps://bit.ly/3a8S09a\n\n▼instagram🍖🎹\nhttps://www.instagram.com/harami_piano\n\n▼プロフィール🍖🎹\n・ポップスピアニスト【ハラミちゃん】と申します🍖🎹\n・2019年6月〜活動開始\n・お肉とポムポムプリンが大好きで絶対音感持ちです🍮\n・2019年デビューしたYouTuberで再生回数ランキング18位\n・2020年7月に1stCDアルバム「ハラミ定食〜Streetpiano Collection〜」を発売\n👑ビルボード週間総合ランキング1位\n👑オリコン週間総合ランキング2位\n👑オリコン週間J-POP部門1位\n・2020年8月に中野サンプラザでワンマンLIVE開催\n・2020年8月にa-nationに初のピアノ1台で出演\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\nこんにちは、ハラミです🍖🎹\n\nアリオ橋本さんで、AIさんの「Story」を弾かせていただきました！\n\n是非最後までご覧ください！！\n良かったと思ったらチャンネル登録、高評価の方をよろしくお願い致します！🙌🍖🙏✨\n\n#ストリートピアノ #AI #Story #ドッキリ #AI #アルデバラン #aldebaran #上白石萌音 #深津絵里 #川栄李奈 #松村北斗 #村上虹郎 #森山直太朗 #斎藤ネコ #カムカムエヴリバディ\n\nストリートピアノ/streetpiano/ピアノ/Piano/カバー/cover',
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/KSyd89kugj0/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "ハラミちゃん〈harami_piano〉",
+      tags: ["音楽"],
+      categoryId: "10",
+      liveBroadcastContent: "none",
+      defaultLanguage: "ja",
+      localized: {
+        title:
+          '【まさかの本人】ストリートピアノで"AIさん"鳥肌モノの生歌披露...⁉️ショッピングモールがパニックにww【Story】',
+        description:
+          '『ハラミちゃん 47都道府県ピアノツアー ～特急ハラミ号、出発進行だぬ！～』チケット一般発売スタート！！\n\nチケット購入はコチラ↓\n　●イープラス https://eplus.jp/harami/\n　●mu-mo TICKET http://r.y-tickets.jp/haramichan2301\n　●チケットぴあ https://w.pia.jp/t/harami/\n　●ローソンチケット https://l-tike.com/harami/\n　●CNプレイガイド　https://www.cnplayguide.com/harami/\n　●楽天チケット　http://r-t.jp/harami\n\n【特設サイト】\nhttps://harami47tour.com/\n\n＜第1弾発表！＞　\n2023年4月9日(日)  埼玉：大宮ソニックシティ 大ホール\n2023年4月22日(土) 石川：北國新聞赤羽ホール\n2023年4月23日(日) 福井：福井県県民ホール\n2023年5月3日(水祝)  大阪：大阪国際会議場 メインホール（グランキューブ大阪）\n2023年5月6日(土)  和歌山：和歌山城ホール 小ホール\n2023年5月7日(日)  徳島：阿南市文化会館 夢ホール\n2023年5月13日(土) 鳥取：とりぎん文化会館 小ホール\n2023年5月14日(日) 島根：島根県民会館 中ホール\n2023年5月20日(土) 岩手：岩手県民会館 中ホール\n2023年5月21日(日) 福島：けんしん郡山文化センター 中ホール\n2023年6月3日(土)  岡山：マービーふれあいセンター\n2023年6月4日(日)  香川：レクザムホール 小ホール\n2023年6月17日(土) 福岡：福岡国際会議場 メインホール\n2023年6月18日(日) 熊本：熊本城ホール シビックホール\n2023年7月15日(土) 滋賀：びわ湖ホール 中ホール\n2023年7月16日(日) 京都：ロームシアター京都　サウスホール\n2023年8月13日(日) 神奈川：神奈川県民ホール 大ホール\n\n14:00開場 15:00開演\n\n※熊本公演のみ 16:00開場 17:00開演 \n\n※開場・開演時間は変更になる場合がございます。\n\n■チケット：\n・一般ハラミ定食券  6,300円　\n\n・一般ハラミ定食券（こども学生割引）5,300円\n\n・特上ハラミ定食券　8,800円\n（メッセージ入りデザインLIVEチケット、季節で変わる！ハラミちゃんデザイン限定グッズ）\n\n・極上ハラミ定食券　29,000円\n（メッセージ入りデザインLIVEチケット、超希少部位！前方席確保！\n季節で変わる！ハラミちゃんデザイン限定グッズ、終演後ハラミちゃんとツ―ショット記念撮影！“MEET MEAT”へご招待！）\n\n■注意事項\n・3歳以上有料／3歳未満は膝上鑑賞無料（但し席が必要な場合は有料）\n・学割チケットは、公演日時点で3歳～18歳(高校生)が対象となります。\n　ご入場時に身分証明書の確認を行いますので、学生証や保険証等を必ずお持ちください。\n・限定グッズは会場でのお渡しのみとなります。\n・季節で変わる！ハラミちゃんデザイングッズは予告なく変更させていただきます。\n・政府自治体の新型コロナウイルスによりイベントの開催制限等の見解に基づき収容人数を決定いたします。今後のガイドラインの緩和により収容人数の変更が出る場合は、ご了承ください。\n\nNHK連続テレビ小説『カムカムエヴリバディ』主題歌\nAI「アルデバラン」     \n作詞・作曲：森山直太朗  編曲：斎藤ネコ\nListen Here：https://lnk.to/AI_ald\nOfficial Video：https://www.youtube.com/watch?v=8IOSztadymc\nSpecial Site：https://sp.universal-music.co.jp/ai/aldebaran/\n\n#ストリートピアノ #AI #Story\n\nNHK連続テレビ小説「カムカムエヴリバディ」\nhttps://www.nhk.or.jp/comecome/\n\nTikTokで「＃AIと歌おう 」キャンペーン開催中(12/3まで)\n＃AIと歌おう ：https://vt.tiktok.com/ZSeA38CWy/\nオフィシャルアカウント：https://www.tiktok.com/@aiofficialtiktok　　\n\n日本武道館公演『STREET PIANO in 日本武道館 ～ハラミちゃん947日目のキセキ～』の開催が決定しました！\n\n👇一般発売受付開始！チケット購入はコチラ👇\nイープラス　https://eplus.jp/harami/\nYahoo!チケット http://r.y-tickets.jp/haramichan2102\nチケットぴあ https://w.pia.jp/t/harami/\nローソンチケットhttps://l-tike.com/harami/\n\n※受付期間及び取扱券種はプレイガイド毎にご確認ください。\n\n【公演情報】\n日程：2022年1月4日(火) \n会場：日本武道館　\n時間：昼公演「はじまりの音」　12:00開場 / 13:00開演　\n　　　夜公演「ありがとうの場所」　17:00開場 / 18:00開演\n\n※昼公演と夜公演で公演内容が異なります。\n\n【チケット料金】\n●一般ハラミ定食券：8,300円（税込）　\n＜内容＞ LIVEチケット\nハラミちゃんお年玉くじ付年賀状\n\n●特上ハラミ定食券：12,900円（税込）　\n ＜内容＞ \nLIVEチケット（ハラミちゃんメッセージ入りデザインチケット＊昼夜絵柄違い）\nハラミちゃんお年玉くじ付年賀状\nハラミちゃん手描き絵本 ～947日目のキセキ～\n\n●極上ハラミ定食券：29,000円（税込）\n ＜内容＞\nLIVEチケット（ハラミちゃんメッセージ入りデザインチケット＊昼夜絵柄違い）\nハラミちゃんお年玉くじ付年賀状\nアリーナ席最前ブロック確保！\nハラミちゃん手描き絵本 ～947日目のキセキ～\n終演後アフターパーティへご招待\n\n【注意事項】\n3歳以上有料／3歳未満は膝上鑑賞無料(但し席が必要な場合は有料)\n非売品グッズは会場でのお渡しのみとなります。\n\n【公演に関して】\n政府自治体の新型コロナウイルスによるイベントの開催制限等の見解に基づき収容人数を決定いたします。\n今後のガイドラインの緩和により収容人数の変更が出る場合は、ご了承ください。\n　ご来場における注意事項、実施におけるガイドラインは改めてご案内させていただきます。\n\n2021年5月19日(水)にハラミ初のエッセイ本、「好きのパワーは無限大」が発売中！\n■予約はこちらから\nhttps://www.amazon.co.jp/dp/4046052023/\n\n■2021/1/27(水)CD2ndアルバム発売しました✨😭👏\n▶︎CD+DVD\nhttps://avex.lnk.to/OKAWARI_CDDVD\n▶︎CD Only\nhttps://avex.lnk.to/OKAWARI_CD\n\n■ハラミがYoutubeをしている理由\nピアノ="子供の習い事"や"クラシカル"なイメージがまだまだあると思います。\nもっとピアノという楽器が「楽しい」ということを知って欲しい！\nもっともっと身近にピアノを感じてもらいたい！\nそんな思いで動画を投稿しています♪\nよかったらチャンネル登録していただけると励みになります✨\n↓↓↓↓\nhttps://www.youtube.com/channel/UCr4fZBNv69P-09f98l7CshA?sub_confirmation=1 \n\n■お仕事依頼や連絡はコチラ📩\nhararapiano@gmail.com \n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n▼ファンクラブ🍖🎹\nいつでも入会お待ちしております♪いつ抜けていただいても構いません！\n・限定生配信ピアノコンサート\n・限定スタンプ＆限定バッチ(コメントで使えます)\n・限定Q&A生配信\n・限定オフショット＆限定ブログ などなど..\nhttps://www.youtube.com/channel/UCr4fZBNv69P-09f98l7CshA/join\n\n▼サブチャンネル🍖🎹\nゆるゆる日常、飯テロしてます🍚\nhttps://www.youtube.com/channel/UCDzNUObGnzyegwPYMDDJmjg?sub_confirmation=1\n\n▼Twitter🍖🎹\nhttps://bit.ly/3a8S09a\n\n▼instagram🍖🎹\nhttps://www.instagram.com/harami_piano\n\n▼プロフィール🍖🎹\n・ポップスピアニスト【ハラミちゃん】と申します🍖🎹\n・2019年6月〜活動開始\n・お肉とポムポムプリンが大好きで絶対音感持ちです🍮\n・2019年デビューしたYouTuberで再生回数ランキング18位\n・2020年7月に1stCDアルバム「ハラミ定食〜Streetpiano Collection〜」を発売\n👑ビルボード週間総合ランキング1位\n👑オリコン週間総合ランキング2位\n👑オリコン週間J-POP部門1位\n・2020年8月に中野サンプラザでワンマンLIVE開催\n・2020年8月にa-nationに初のピアノ1台で出演\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\nこんにちは、ハラミです🍖🎹\n\nアリオ橋本さんで、AIさんの「Story」を弾かせていただきました！\n\n是非最後までご覧ください！！\n良かったと思ったらチャンネル登録、高評価の方をよろしくお願い致します！🙌🍖🙏✨\n\n#ストリートピアノ #AI #Story #ドッキリ #AI #アルデバラン #aldebaran #上白石萌音 #深津絵里 #川栄李奈 #松村北斗 #村上虹郎 #森山直太朗 #斎藤ネコ #カムカムエヴリバディ\n\nストリートピアノ/streetpiano/ピアノ/Piano/カバー/cover',
+      },
+      defaultAudioLanguage: "ja",
+    },
+    contentDetails: {
+      duration: "PT8M10S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: false,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "10586930",
+      likeCount: "92167",
+      favoriteCount: "0",
+      commentCount: "2102",
+    },
+  },
+  {
+    snippet: {
+      publishedAt: "2022-03-16T08:44:18Z",
+      channelId: "UCRfxI01xPgzql7ZBS6WlebQ",
+      title: "Escape from the Gear - AI Human Survival Race in Unity",
+      description:
+        "Who will win?\n\n*The 24th place will not be able to participate in the next race with 24 colors.\n\n[Colors]\n1.Red\n2.Orange\n3.Yellow\n4.Lime\n5.Cyan\n6.Blue\n7.Purple\n8.Magenta\n9.Maroon\n10.Brown\n11.Olive\n12.Green\n13.Teal\n14.Navy\n15.Indigo\n16.Violet\n17.Salmon\n18.Tan\n19.Mint\n20.Lavender\n21.White\n22.Gray\n23.Rainbow\n24.Monochrome\n\n\n[App] \nUnity\nhttps://unity.com/\n\n\n[Music]\n\n1.\nTrack: Facading - Walk Away [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/vIE6cuAhR4o\nFree Download / Stream: http://ncs.io/WalkAway\n\n2.\nTrack: MELO.KIDS x EMDI - My Love [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/5Z_A459fWGY\nFree Download / Stream: http://ncs.io/MyLove\n\n3.\nTrack: NIVIRO - Memes [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/hgXZQfHySDw\nFree Download / Stream: http://ncs.io/MemesYO\n\n4.\nTrack: Midranger - Apocalypse [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/Whw1sWDpAvE\nFree Download / Stream: http://ncs.io/Apocalypse\n\n5.\nTrack: 3rd Prototype - Dancefloor [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/ZLohS_HScwc\nFree Download / Stream: http://ncs.io/DancefloorYO\n\n6.\nTrack: Max Brhon - Cyberpunk [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/iqoNoU-rm14\nFree Download / Stream: http://ncs.io/Cyberpunk\n\n\n[3D Channel]\nhttps://www.youtube.com/channel/UCTC_Yg9Hxe34L5KIVxxx31Q\n\n[VR Channel]\nhttps://www.youtube.com/channel/UC8Ao5ZVnI-ChT4fMjgcK7vA\n\n[Download Contents]\nhttps://mikan-world.myshopify.com",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "MIKAN",
+      tags: ["unity", "AI", "survival race"],
+      categoryId: "20",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "Escape from the Gear - AI Human Survival Race in Unity",
+        description:
+          "Who will win?\n\n*The 24th place will not be able to participate in the next race with 24 colors.\n\n[Colors]\n1.Red\n2.Orange\n3.Yellow\n4.Lime\n5.Cyan\n6.Blue\n7.Purple\n8.Magenta\n9.Maroon\n10.Brown\n11.Olive\n12.Green\n13.Teal\n14.Navy\n15.Indigo\n16.Violet\n17.Salmon\n18.Tan\n19.Mint\n20.Lavender\n21.White\n22.Gray\n23.Rainbow\n24.Monochrome\n\n\n[App] \nUnity\nhttps://unity.com/\n\n\n[Music]\n\n1.\nTrack: Facading - Walk Away [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/vIE6cuAhR4o\nFree Download / Stream: http://ncs.io/WalkAway\n\n2.\nTrack: MELO.KIDS x EMDI - My Love [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/5Z_A459fWGY\nFree Download / Stream: http://ncs.io/MyLove\n\n3.\nTrack: NIVIRO - Memes [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/hgXZQfHySDw\nFree Download / Stream: http://ncs.io/MemesYO\n\n4.\nTrack: Midranger - Apocalypse [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/Whw1sWDpAvE\nFree Download / Stream: http://ncs.io/Apocalypse\n\n5.\nTrack: 3rd Prototype - Dancefloor [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/ZLohS_HScwc\nFree Download / Stream: http://ncs.io/DancefloorYO\n\n6.\nTrack: Max Brhon - Cyberpunk [NCS Release]\nMusic provided by NoCopyrightSounds.\nWatch: https://youtu.be/iqoNoU-rm14\nFree Download / Stream: http://ncs.io/Cyberpunk\n\n\n[3D Channel]\nhttps://www.youtube.com/channel/UCTC_Yg9Hxe34L5KIVxxx31Q\n\n[VR Channel]\nhttps://www.youtube.com/channel/UC8Ao5ZVnI-ChT4fMjgcK7vA\n\n[Download Contents]\nhttps://mikan-world.myshopify.com",
+      },
+    },
+    contentDetails: {
+      duration: "PT8M36S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "9427279",
+      likeCount: "26706",
+      favoriteCount: "0",
+      commentCount: "646",
+    },
+  },
+];

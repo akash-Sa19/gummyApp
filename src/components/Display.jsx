@@ -1,5 +1,9 @@
 import { loader } from "../assets";
-import { rawData, redditData } from "../constants/rawData.js";
+import {
+  filteredDateFromTrendingVideos,
+  rawData,
+  redditData,
+} from "../constants/rawData.js";
 import {
   Card,
   RedditCard,
@@ -7,6 +11,7 @@ import {
   RedditUserCard,
   RedditCommentCard,
 } from "./subComponents";
+import YouTubeCard from "./subComponents/YouTubeCard.jsx";
 
 const Display = ({ isFetching, error, data, platform }) => {
   const dummyData = redditData;
@@ -33,13 +38,24 @@ const Display = ({ isFetching, error, data, platform }) => {
           }`}
         >
           {platform === "YT"
-            ? data.map(({ id, snippet }, index) => {
-                //   console.log("id :", id, "snippet :", snippet);
+            ? // data.map(({ id, snippet }, index) => {
+              //     //   console.log("id :", id, "snippet :", snippet);
+              //     return (
+              //       <Card
+              //         key={id.videoId}
+              //         videoId={id.videoId}
+              //         snippet={snippet}
+              //       />
+              //     );
+              //   })
+              // filteredDateFromTrendingVideos.map((item, index) => {
+              data.map((item, index) => {
                 return (
-                  <Card
-                    key={id.videoId}
-                    videoId={id.videoId}
-                    snippet={snippet}
+                  <YouTubeCard
+                    key={index}
+                    snippet={item.snippet}
+                    statistics={item.statistics}
+                    id={item.id}
                   />
                 );
               })

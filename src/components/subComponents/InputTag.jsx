@@ -11,10 +11,7 @@ const InputTag = ({ setQuery, labelName, placeholder, tag, query, name }) => {
         type={tag}
         placeholder={placeholder ? placeholder : undefined}
         value={query[name]}
-        onChange={(e) => {
-          setQuery({ ...query, [name]: e.target.value });
-          console.log(query[name]);
-        }}
+        onChange={(e) => setQuery({ ...query, [name]: e.target.value })}
       />
     </label>
   );

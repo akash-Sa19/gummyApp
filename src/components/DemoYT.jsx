@@ -1,16 +1,20 @@
 import { useState } from "react";
-import { youtubeQueryApi } from "../articles/Youtube/youtubeQueryApi";
+import { youtubeSearchQueryApi } from "../articles/Youtube/youtubeSearchQueryApi";
 import Display from "./Display";
 // import History from "./History";
 import { FormYT } from "./subComponents";
+import {
+  analyzeHotVideos,
+  analyzeTrendingVideos,
+} from "../utils/filterRawDataForValidContent";
 
 const DemoYT = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
-    orderBy: "relevance", // "relevance" | "date" | "rating" | "viewCount" | "likeCount"
-    type: "video", // "video" | "playlist" | "channel"
-    // eventType: "completed", // "live" | "upcoming" | "completed"
+    orderBy: "", // "relevance" | "date" | "rating" | "viewCount" | "likeCount"
+    type: "", // "video" | "playlist" | "channel"
+    eventType: "", // "live" | "upcoming" | "completed"
     maxResult: 10,
     publishedAfter: "",
     publishedBefore: "",
@@ -23,11 +27,14 @@ const DemoYT = ({ platform }) => {
     event.preventDefault();
     setIsFetching(true);
     try {
-      const response = await youtubeQueryApi(query, setIsFetching);
-      setData(response);
-
-      console.log("Demo/line:23 -> ", data);
+      const response = await youtubeSearchQueryApi(query, setIsFetching);
+      console.log("response from youtubeSearchQueryApi", response);
+      const videoContentArray = await analyzeTrendingVideos(response);
+      console.log("data from analyzeTrendingVideos", videoContentArray);
+      setData(videoContentArray);
+      setIsFetching(false);
     } catch (error) {
+      setIsFetching(false);
       console.log(error);
     }
   };
