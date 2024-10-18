@@ -7,6 +7,11 @@ export const analyzeTrendingVideos = async (rawDataArray) => {
   const videoContentArray = await youtubeVideoQueryApi(videoIds);
 
   let trendingVideos = [];
+  videoContentArray.sort(
+    (a, b) =>
+      b.statistics.viewCount - a.statistics.viewCount ||
+      b.statistics.likeCount - a.statistics.likeCount
+  );
   videoContentArray.forEach(({ id, snippet, contentDetails, statistics }) => {
     let views = statistics.viewCount;
     let likes = statistics.likeCount;

@@ -12,10 +12,8 @@ const DemoYT = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
-    orderBy: "", // "relevance" | "date" | "rating" | "viewCount" | "likeCount"
-    type: "", // "video" | "playlist" | "channel"
-    eventType: "", // "live" | "upcoming" | "completed"
-    maxResult: 10,
+    maxResults: import.meta.env.VITE_MAX_NUMBER_OF_RESULTS,
+    type: "", // "video" | "playlis" | "channel"
     publishedAfter: "",
     publishedBefore: "",
     location: "",

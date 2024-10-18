@@ -5,14 +5,14 @@ import InputTag from "./InputTag";
 
 const FormYT = ({ query, setQuery, handleSubmit }) => {
   const FilterOptions = [
-    {
-      tag: "select",
-      options: orderByOptions,
-      labelName: "Order By :",
-      query: query,
-      name: "orderBy",
-      isHidden: false,
-    },
+    // {
+    //   tag: "select",
+    //   options: orderByOptions,
+    //   labelName: "Order By :",
+    //   query: query,
+    //   name: "orderBy",
+    //   isHidden: false,
+    // },
     {
       tag: "select",
       options: typeOptions,
@@ -21,21 +21,21 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
       name: "type",
       isHidden: false,
     },
-    {
-      tag: "number",
-      labelName: "Max Result :",
-      query: query,
-      name: "maxResult",
-      isHidden: false,
-    },
-    {
-      tag: "select",
-      options: eventOptions,
-      labelName: "Event Type :",
-      query: query,
-      name: "eventType",
-      isHidden: false,
-    },
+    // {
+    //   tag: "number",
+    //   labelName: "Max Result :",
+    //   query: query,
+    //   name: "maxResult",
+    //   isHidden: false,
+    // },
+    // {
+    //   tag: "select",
+    //   options: eventOptions,
+    //   labelName: "Event Type :",
+    //   query: query,
+    //   name: "eventType",
+    //   isHidden: false,
+    // },
     {
       tag: "text",
       labelName: "Location :",
