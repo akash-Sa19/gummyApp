@@ -1,8 +1,17 @@
 import React from "react";
 import { formatDate } from "../../utils/formatDate";
+import { formatNumber } from "../../utils/formatNumber";
+import { arrowRightUp } from "../../assets";
 
 const YouTubeCard = ({ id, snippet, statistics }) => {
-  const { title, description, channelTitle, thumbnails, publishedAt } = snippet;
+  const {
+    title,
+    description,
+    channelTitle,
+    thumbnails,
+    publishedAt,
+    channelId,
+  } = snippet;
   const { viewCount, likeCount, commentCount } = statistics;
 
   return (
@@ -29,7 +38,23 @@ const YouTubeCard = ({ id, snippet, statistics }) => {
 
         {/* Channel Title */}
         <p className="mb-1 text-sm text-gray-600">
-          Channel: <span className="font-medium">{channelTitle}</span>
+          Channel:{" "}
+          <span className="font-medium">
+            <a
+              href={`https://www.youtube.com/channel/${channelId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {channelTitle}
+              <img
+                src={arrowRightUp}
+                alt="link"
+                width={20}
+                height={20}
+                className="inline ml-1"
+              />
+            </a>
+          </span>
         </p>
 
         {/* Description */}
@@ -38,16 +63,25 @@ const YouTubeCard = ({ id, snippet, statistics }) => {
         {/* Video Stats */}
         <div className="flex space-x-6 text-sm text-gray-600">
           <div>
-            <strong className="text-gray-900">{viewCount}</strong> views
+            <strong className="text-gray-900">
+              {viewCount ? formatNumber(viewCount) : 0}
+            </strong>{" "}
+            views
           </div>
           <div>
-            <strong className="text-gray-900">{likeCount}</strong> likes
+            <strong className="text-gray-900">
+              {likeCount ? formatNumber(likeCount) : 0}
+            </strong>{" "}
+            likes
           </div>
           <div>
-            <strong className="text-gray-900">{commentCount}</strong> comments
+            <strong className="text-gray-900">
+              {commentCount ? formatNumber(commentCount) : 0}
+            </strong>{" "}
+            comments
           </div>
           <div>
-            <p>Published on {formatDate(publishedAt)}</p>
+            <strong>{formatDate(publishedAt)}</strong> Published
           </div>
         </div>
       </div>

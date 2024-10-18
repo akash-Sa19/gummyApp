@@ -7,7 +7,6 @@ const SelectTag = ({ optionsArray, setQuery, labelName, query, name }) => {
         value={query[name] || ""}
         onChange={(e) => setQuery({ ...query, [name]: e.target.value })}
       >
-        <option value="">Select an option</option>
         {optionsArray.map((option) => (
           <option
             key={option.value}

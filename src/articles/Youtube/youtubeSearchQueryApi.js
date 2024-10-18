@@ -1,89 +1,78 @@
-import axios from "axios";
+import axios, { all } from "axios";
 
-const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+const MAX_RESULTS = import.meta.env.VITE_MAX_NUMBER_OF_RESULTS;
+const CHUNK_SIZE = import.meta.env.VITE_MAX_CHUNK_SIZE;
+const BASE_URL = import.meta.env.VITE_GOOGLE_API_BASE_URL;
 
-export const youtubeSearchQueryApi = async (
-  {
-    queryString,
-    type,
-    publishedAfter,
-    publishedBefore,
-    location,
-    locationRadius,
-    maxResults, // Add a maxResults parameter to control how many items you want
-  },
-  setIsFetching
-) => {
-  console.log({
-    "queryString ": queryString,
-    "type ": type,
-    "publishedAfter ": publishedAfter,
-    "publishedBefore ": publishedBefore,
-    "location ": location,
-    "maxResults ": maxResults,
-    "locationRadius ": locationRadius,
-  });
+export const youtubeSearchQueryApi = async ({
+  queryString,
+  type,
+  sortByTime,
+  location,
+  locationRadius,
+}) => {
+  const buildBaseURL = () => {
+    const params = new URLSearchParams({
+      part: "snippet",
+      key: API_KEY,
+      order: "relevance",
+      q: queryString,
+      maxResults: CHUNK_SIZE,
+      type: "video",
+    });
 
-  // Base API URL with maxResults set to 50 per request
-  let BaseURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${apiKey}&order=relevance&q=${queryString}&maxResults=50`;
+    if (location && locationRadius) {
+      params.append("location", location);
+      params.append("locationRadius", locationRadius);
+    }
 
-  if (type !== "") {
-    BaseURL += `&type=${type}`;
-  }
-  if (publishedAfter !== "") {
-    BaseURL += `&publishedAfter=${publishedAfter}`;
-  }
-  if (publishedBefore !== "") {
-    BaseURL += `&publishedBefore=${publishedBefore}`;
-  }
-  if (location !== "") {
-    BaseURL += `&location=${location}`;
-  }
-  if (locationRadius !== "") {
-    BaseURL += `&locationRadius=${locationRadius}`;
-  }
+    if (sortByTime && sortByTime != "all") {
+      const timeFrames = {
+        week: 7,
+        month: 30,
+        year: 365,
+      };
+      const daysToSubtract = timeFrames[sortByTime];
+      if (daysToSubtract) {
+        const time = new Date(
+          Date.now() - daysToSubtract * 24 * 60 * 60 * 1000
+        ).toISOString();
+        params.append("publishedAfter", time);
+      }
+    }
 
+    return `${BASE_URL}/search?${params.toString()}`;
+  };
+
+  const BaseURL = buildBaseURL();
   let allData = [];
-  let nextPageToken = ""; // To store the token for the next page
-  let fetchedResultsCount = 0; // To keep track of how many results we've fetched so far
+  let nextPageToken = "";
+  let fetchedResultsCount = 0;
 
   try {
-    // Loop to get all pages of results until we reach the desired maxResults
     do {
-      let url = BaseURL;
-
-      if (nextPageToken) {
-        url += `&pageToken=${nextPageToken}`; // Add pageToken to fetch the next set of results
-      }
-
-      console.log(`Fetching: ${url}`);
+      const url = nextPageToken
+        ? `${BaseURL}&pageToken=${nextPageToken}`
+        : BaseURL;
 
       const response = await axios.get(url);
-
       const items = response.data.items;
-      nextPageToken = response.data.nextPageToken || null; // Get the nextPageToken
 
-      // Add the new items to the allData array until we reach maxResults
       items.forEach((item) => {
-        if (fetchedResultsCount < maxResults) {
+        if (fetchedResultsCount < MAX_RESULTS) {
           allData.push(item);
           fetchedResultsCount++;
         }
       });
 
-      // If we've fetched the desired number of results, stop
-      if (fetchedResultsCount >= maxResults) {
-        break;
-      }
+      nextPageToken = response.data.nextPageToken || null;
+    } while (nextPageToken && fetchedResultsCount < MAX_RESULTS);
 
-      // Check if there's more data to fetch (nextPageToken will be null if there's no more data)
-    } while (nextPageToken);
-
+    console.log("search results count", allData.length);
     return allData;
   } catch (err) {
-    console.log(err);
-    setIsFetching(false);
+    console.error("Error fetching data from YouTube API:", err);
+    return []; // Return an empty array on error
   }
 };
-
-//   `https://youtube.googleapis.com/youtube/v3/search?part=snippet&eventType=live&maxResults=25&order=date&q=news&type=video&key=${apiKey}`

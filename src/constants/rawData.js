@@ -1474,643 +1474,13 @@ export const aiSearchRawData = [
       publishTime: "2022-12-30T16:37:37Z",
     },
   },
+];
+
+export const aiVideosRawData = [
   {
-    kind: "youtube#searchResult",
-    etag: "EeVsEWsSB_du3BIDSqIVxtXGbcQ",
-    id: {
-      kind: "youtube#video",
-      videoId: "U1QPgNQXH5I",
-    },
-    snippet: {
-      publishedAt: "2024-01-19T13:59:26Z",
-      channelId: "UCwyJ6Xmnv1FtNZlZrkpOZ1A",
-      title: "Brenno &amp; Matheus - Ai Cowboy (BeM Interior) [Clipe Oficial]",
-      description:
-        "Sertanejo #BrennoeMatheus #NewMusicBrasil #BeMInterior OUÇA AGORA EM SEU APP FAVORITO: https://bfan.link/ai-cowboy ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Brenno e Matheus",
-      liveBroadcastContent: "none",
-      publishTime: "2024-01-19T13:59:26Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "i-Gf9LNcrmW6IvledJoa6-_C2xM",
-    id: {
-      kind: "youtube#video",
-      videoId: "LNBJDcHdugM",
-    },
-    snippet: {
-      publishedAt: "2023-04-28T16:58:41Z",
-      channelId: "UCSd6xd7dKy9mb0JhHGpyOIQ",
-      title: "AI versus Uncle Roger (Part 2)",
-      description: "PHEW @mich_mengo #shorts #uncleroger #ai #friedrice.",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/LNBJDcHdugM/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/LNBJDcHdugM/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/LNBJDcHdugM/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Uncle Roger Shorts",
-      liveBroadcastContent: "none",
-      publishTime: "2023-04-28T16:58:41Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "LUoZxyPHdOlwBPa-xp6GrHf9OTQ",
-    id: {
-      kind: "youtube#video",
-      videoId: "5FNCZ8dfH8Q",
-    },
-    snippet: {
-      publishedAt: "2022-01-01T21:00:01Z",
-      channelId: "UCAdpXDXkrrYQXFtAbJixRUg",
-      title:
-        "Ai, Que Coceira, Joãozinho! | Canal do Joãozinho - Little Angel Português",
-      description:
-        "Picadas de insetos causam coceira, mas se a gente coça, só piora! Joãozinho é picado por um mosquito e quer coçar o braço na ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Little Angel - Músicas Infantis em Português",
-      liveBroadcastContent: "none",
-      publishTime: "2022-01-01T21:00:01Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "fOVVf32o0PPVzevw41bZ2GFoMv4",
-    id: {
-      kind: "youtube#video",
-      videoId: "dRPNp7mcAMI",
-    },
-    snippet: {
-      publishedAt: "2023-09-12T17:15:19Z",
-      channelId: "UC02rAIf5RYrww6AWhoI5S0w",
-      title:
-        "ARE THEY ROBOTS OR REAL PEOPLE!!😳🤖 #shorts #ai #robot #scary #artificialintelligence",
-      description:
-        "make sure to SUBSCRIBE and LIKE this video to see more! FOLLOW ME ON... instagram: ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/dRPNp7mcAMI/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/dRPNp7mcAMI/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/dRPNp7mcAMI/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Katie Feeney",
-      liveBroadcastContent: "none",
-      publishTime: "2023-09-12T17:15:19Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "GjCVBf5RvMMxtT-xldZAzF7Ypt8",
-    id: {
-      kind: "youtube#video",
-      videoId: "OASTvqNGspE",
-    },
-    snippet: {
-      publishedAt: "2022-01-07T19:26:55Z",
-      channelId: "UCj7wKsOBhRD9Jy4yahkMRMw",
-      title:
-        "Do androids believe in God? Watch our interview with Ameca, a humanoid #robot at   #CES2022 #Shorts",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/OASTvqNGspE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/OASTvqNGspE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/OASTvqNGspE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "CGTN America",
-      liveBroadcastContent: "none",
-      publishTime: "2022-01-07T19:26:55Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "xariZ2hvtNKtWN_4XVCbriG-yT4",
-    id: {
-      kind: "youtube#video",
-      videoId: "_ocaTEGBo-Y",
-    },
-    snippet: {
-      publishedAt: "2024-06-08T23:42:38Z",
-      channelId: "UCal_2JvDuhNySJ64Wz1TACg",
-      title:
-        "Always lend a helping hand to others #cat #ai #catvideos #catlover #poorcat #aiart",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/_ocaTEGBo-Y/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/_ocaTEGBo-Y/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/_ocaTEGBo-Y/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Mpminds",
-      liveBroadcastContent: "none",
-      publishTime: "2024-06-08T23:42:38Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "yv0VFss67rMQj8KSTA9aUCzAXbg",
-    id: {
-      kind: "youtube#video",
-      videoId: "IRMhT4FWBrc",
-    },
-    snippet: {
-      publishedAt: "2024-02-29T11:28:41Z",
-      channelId: "UCdoDYkupTElV62K7ttA_E4w",
-      title: "Unbelievable AI Robot ! - Talks Like a Human 🤯 #shorts",
-      description:
-        "Free Music For Creators : http://share.epidemicsound.com/sVvGB == Watch Bhagawad Geeta ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/IRMhT4FWBrc/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/IRMhT4FWBrc/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/IRMhT4FWBrc/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "TechBar",
-      liveBroadcastContent: "none",
-      publishTime: "2024-02-29T11:28:41Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "ctIKzi5pCvrobUV9-E8oOPSjGrs",
-    id: {
-      kind: "youtube#video",
-      videoId: "o84uCYRdmlg",
-    },
-    snippet: {
-      publishedAt: "2024-04-12T12:04:55Z",
-      channelId: "UCEwG3ksd6rKYdMblqH76Iow",
-      title:
-        "Lumie&#39;s Revenge: Fight for daddy #ai #cat #cutecat #catlover #story #kitten",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/o84uCYRdmlg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/o84uCYRdmlg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/o84uCYRdmlg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Cat Realm AI",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-12T12:04:55Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "s006IPmITl66Qf5X_4JoVHl28Qo",
-    id: {
-      kind: "youtube#video",
-      videoId: "Cu9ilFoSsqg",
-    },
-    snippet: {
-      publishedAt: "2023-05-20T05:38:25Z",
-      channelId: "UCcYTCcPMaMrHIiTr-5hxcJw",
-      title: "Hoshino Ai ❤️ Oshi no Ko -  Sculpting Anime Clay Art Figure",
-      description:
-        "Hello guys, this is Clay KM. I made Hoshino Ai from Anime Oshi no Ko with air dry clay. I am using air dry clay called 'I CLAY' from ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/Cu9ilFoSsqg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/Cu9ilFoSsqg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/Cu9ilFoSsqg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "클레이 꼼망 Clay KM",
-      liveBroadcastContent: "none",
-      publishTime: "2023-05-20T05:38:25Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "A72UP9T495o0ZwiZSkBcmcD5s4I",
-    id: {
-      kind: "youtube#video",
-      videoId: "hg7BSqRZ5M4",
-    },
-    snippet: {
-      publishedAt: "2017-10-30T14:10:25Z",
-      channelId: "UCwg_21agm3NCVW5lyBVG1xQ",
-      title: "AI QUE VIDA - HD",
-      description:
-        "Em meados dos anos de 1990, a fictícia cidade de Poço Fundo, interior do Nordeste, está vivendo um verdadeiro caos em sua ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "TvM FILMES",
-      liveBroadcastContent: "none",
-      publishTime: "2017-10-30T14:10:25Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "A3cP8k9zN61Mzjdx-55zosHVFNo",
-    id: {
-      kind: "youtube#video",
-      videoId: "e4Iy7Qe_qQI",
-    },
-    snippet: {
-      publishedAt: "2023-06-04T05:21:32Z",
-      channelId: "UCdoDYkupTElV62K7ttA_E4w",
-      title: "Unbelievable AI in Photoshop! #shorts",
-      description:
-        "Free Music For Creators : http://share.epidemicsound.com/sVvGB == Follow TechBar Facebook: ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/e4Iy7Qe_qQI/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/e4Iy7Qe_qQI/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/e4Iy7Qe_qQI/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "TechBar",
-      liveBroadcastContent: "none",
-      publishTime: "2023-06-04T05:21:32Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "EdU0PPvBBge2sNggs8m_75Zn2LU",
-    id: {
-      kind: "youtube#video",
-      videoId: "uKgmu8g-kXE",
-    },
-    snippet: {
-      publishedAt: "2011-12-13T04:39:49Z",
-      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
-      title: "AI - ハピネス",
-      description:
-        "AIの新曲「ハピネス」がCoca-Cola 2011 Christmas Campaign TV-CMソングとしてタイアップ決定。コカ・コーラのCMとして ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "AIVEVO",
-      liveBroadcastContent: "none",
-      publishTime: "2011-12-13T04:39:49Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "ywBsA0K9SJvsnXNp21CJphfy6Mk",
-    id: {
-      kind: "youtube#video",
-      videoId: "N3XbZvD3lRo",
-    },
-    snippet: {
-      publishedAt: "2020-08-26T15:59:21Z",
-      channelId: "UCsyBVa0eTR-lL0sRnKpIe8w",
-      title: "GHOSTEMANE - AI (OFFICIAL VIDEO)",
-      description:
-        "GHOSTEMANE - AI (OFFICIAL VIDEO), a Studio Linguini Production (@studio_linguini) ☿ ☿ ☿ Copyright: Blackmage Publisher: ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "GHOSTEMANE",
-      liveBroadcastContent: "none",
-      publishTime: "2020-08-26T15:59:21Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "ls7WGOHM2XfDuF1o7Cmivv18HOg",
-    id: {
-      kind: "youtube#video",
-      videoId: "wDReqVmzxUg",
-    },
-    snippet: {
-      publishedAt: "2023-06-21T01:06:53Z",
-      channelId: "UC7rsYYvQbqQrJDGhqWmtAgQ",
-      title: "Meet My AI Robot Pet, Loona",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/wDReqVmzxUg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/wDReqVmzxUg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/wDReqVmzxUg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Kyle Krueger",
-      liveBroadcastContent: "none",
-      publishTime: "2023-06-21T01:06:53Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "_2adnhfVq59QbtGvccyXIlKJsso",
-    id: {
-      kind: "youtube#video",
-      videoId: "DhpN3lbcgZo",
-    },
-    snippet: {
-      publishedAt: "2023-06-16T14:08:05Z",
-      channelId: "UCLtNLP4wxWCVUv8bSgIfNvw",
-      title: "I ASKED AI TO MAKE A SONG THAT SOUNDS LIKE #music #ai",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/DhpN3lbcgZo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/DhpN3lbcgZo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/DhpN3lbcgZo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Forrest Frank",
-      liveBroadcastContent: "none",
-      publishTime: "2023-06-16T14:08:05Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "0jfBp09DEhRipv4ZeUKI7GvyHyI",
-    id: {
-      kind: "youtube#video",
-      videoId: "yGNd14Sm7Yg",
-    },
-    snippet: {
-      publishedAt: "2024-07-02T10:01:28Z",
-      channelId: "UC_ZGH2nFrFg-leJpVNhMe9A",
-      title: "Si Ai",
-      description:
-        "Provided to YouTube by Colonize Media, Inc. Si Ai · Tayna Si Ai ℗ 2024 PENDRAGON Released on: 2024-06-11 Composer: ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Tayna - Topic",
-      liveBroadcastContent: "none",
-      publishTime: "2024-07-02T10:01:28Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "2PqITKuK9j0zdMqEOVJAvQYfP5c",
-    id: {
-      kind: "youtube#video",
-      videoId: "1rgRV12ZrZA",
-    },
-    snippet: {
-      publishedAt: "2024-10-10T08:30:01Z",
-      channelId: "UCqnNLRrry0NAHdVicdo8-pQ",
-      title:
-        "Bakso Tumpah! Bebek Sedih Banget 😢🍲 #bebeklucu #duckshorts #bebek #ai #shorts",
-      description:
-        "Bebek kecil ini sedang menikmati semangkuk bakso yang lezat, tapi tiba-tiba baksonya tumpah! Lihat bagaimana ekspresinya ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/1rgRV12ZrZA/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/1rgRV12ZrZA/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/1rgRV12ZrZA/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Joyful Storytime",
-      liveBroadcastContent: "none",
-      publishTime: "2024-10-10T08:30:01Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "-rv0x4L4KoZibYIYrNfw9Uh9070",
-    id: {
-      kind: "youtube#video",
-      videoId: "r-BhWxHjJuo",
-    },
-    snippet: {
-      publishedAt: "2024-08-02T04:00:42Z",
-      channelId: "UCEdvpU2pFRCVqU6yIPyTpMQ",
-      title: "Tayna - Si Ai (Marshmello &amp; UKAY Remix)",
-      description:
-        "Tayna - Si Ai (Marshmello & UKAY Remix) Stream: https://marshmello.ffm.to/taynaremix Official Marshmello Merch ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Marshmello",
-      liveBroadcastContent: "none",
-      publishTime: "2024-08-02T04:00:42Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "YFhkmh8HdgpTdECLvyGBHHe0rKs",
-    id: {
-      kind: "youtube#video",
-      videoId: "YrYoEvbZ6ew",
-    },
+    kind: "youtube#video",
+    etag: "fVZXAlsjhrgEqEiufum4vyXA8iQ",
+    id: "YrYoEvbZ6ew",
     snippet: {
       publishedAt: "2024-06-27T17:48:58Z",
       channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
@@ -2132,983 +1502,104 @@ export const aiSearchRawData = [
           width: 480,
           height: 360,
         },
-      },
-      channelTitle: "ReallyNotAi",
-      liveBroadcastContent: "none",
-      publishTime: "2024-06-27T17:48:58Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "hpt72IAUjpiInRpdp_25lyZXe3o",
-    id: {
-      kind: "youtube#video",
-      videoId: "XA6nhzMGVFo",
-    },
-    snippet: {
-      publishedAt: "2024-01-09T04:54:20Z",
-      channelId: "UCH_eu1lvvxpgoFc2lVruhkQ",
-      title: "The perfect imperfection 🥺  #ai #aiart #chatgpt",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/XA6nhzMGVFo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/XA6nhzMGVFo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/XA6nhzMGVFo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "NoMulify",
-      liveBroadcastContent: "none",
-      publishTime: "2024-01-09T04:54:20Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "m09fgsi7L9u9jeTmnRJs10pOtSs",
-    id: {
-      kind: "youtube#video",
-      videoId: "Je2K5t5s61A",
-    },
-    snippet: {
-      publishedAt: "2023-07-28T16:44:13Z",
-      channelId: "UC9-fmDIX2kdZqUeeFVco4xw",
-      title: "Toma toma dance ai edit #shorts #tiktok #edit",
-      description:
-        "Toma toma dance ai edit #shorts #tiktok #edit #youtubeshorts #trending #ytshorts #dilara Credits to @Di1araa.s.",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/Je2K5t5s61A/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/Je2K5t5s61A/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/Je2K5t5s61A/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "MrSantu",
-      liveBroadcastContent: "none",
-      publishTime: "2023-07-28T16:44:13Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "JJm5fRXHYKISlmMofrhqZuaj-Qw",
-    id: {
-      kind: "youtube#video",
-      videoId: "SuNJ9gZaPpg",
-    },
-    snippet: {
-      publishedAt: "2023-05-05T12:50:14Z",
-      channelId: "UC2OPPQoFSorD_tB_tlCwpEQ",
-      title: "//🪴for real 🌿\\\\#characterai #ai #alightmotion #ibispaintx",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/SuNJ9gZaPpg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/SuNJ9gZaPpg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/SuNJ9gZaPpg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "KhaiiSaja._",
-      liveBroadcastContent: "none",
-      publishTime: "2023-05-05T12:50:14Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "EoPJhi-N7ESsuhcNpQn1R79l2FI",
-    id: {
-      kind: "youtube#video",
-      videoId: "lEZDfyUSZUs",
-    },
-    snippet: {
-      publishedAt: "2024-01-28T19:14:58Z",
-      channelId: "UCZkqQqewWkgcWyl7INs2XNg",
-      title: "Guess The Word w/MrBeast 💀",
-      description:
-        "DISCLAIMER: The following video contains AI generated voices of several real people. The A.I. voices here do not reflect their ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/lEZDfyUSZUs/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/lEZDfyUSZUs/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/lEZDfyUSZUs/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Voice Verse",
-      liveBroadcastContent: "none",
-      publishTime: "2024-01-28T19:14:58Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "WCM9HVnkqMe26xDebIr1z8uc4eQ",
-    id: {
-      kind: "youtube#video",
-      videoId: "rNBq5MJzzTw",
-    },
-    snippet: {
-      publishedAt: "2023-07-28T00:50:56Z",
-      channelId: "UCjWoiheJcpvpSY4ZVIRSifw",
-      title:
-        "Table Tennis Robot vs Human, Who Wins? | NOT Real | Incredible Wonder Studio Ai  #shorts",
-      description:
-        "Table Tennis Robot vs Human, Who Wins? | NOT Real Incredible Wonder Studio Ai | Robot vs Human | This video shows how an ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/rNBq5MJzzTw/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/rNBq5MJzzTw/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/rNBq5MJzzTw/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Solomon Jagwe",
-      liveBroadcastContent: "none",
-      publishTime: "2023-07-28T00:50:56Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "bxc924gw5a7NPl33vCKTWHuEF50",
-    id: {
-      kind: "youtube#video",
-      videoId: "vx0_3BIwUwE",
-    },
-    snippet: {
-      publishedAt: "2023-12-14T20:45:02Z",
-      channelId: "UCJvBXBYPWE1aIlrM0r1Ilhw",
-      title: "TROLLING CHATGPT 4",
-      description:
-        "I decided to troll ChatGPT by pushing its buttons. Show me a picture of nothing, ChatGPT. It's that simple. In this video I use the AI ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/vx0_3BIwUwE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/vx0_3BIwUwE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/vx0_3BIwUwE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Greenskull AI",
-      liveBroadcastContent: "none",
-      publishTime: "2023-12-14T20:45:02Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "xJbeOM5ujKV4Af_nFBA35pI5lO0",
-    id: {
-      kind: "youtube#video",
-      videoId: "YqGg0igv5fo",
-    },
-    snippet: {
-      publishedAt: "2024-05-23T21:15:36Z",
-      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
-      title: "Welcome To China Airline (Ai Edition) #ai #chatgpt #aiart",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/YqGg0igv5fo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/YqGg0igv5fo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/YqGg0igv5fo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "ReallyNotAi",
-      liveBroadcastContent: "none",
-      publishTime: "2024-05-23T21:15:36Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "70JIffy51GSl_K-V2eOQsYanPdU",
-    id: {
-      kind: "youtube#video",
-      videoId: "aYduRkOidEc",
-    },
-    snippet: {
-      publishedAt: "2021-07-05T12:00:14Z",
-      channelId: "UCX4fV50d398w_YSGgKwa51Q",
-      title: "AI - 「THE MOMENT feat ¥ellow Bucks」 (official video)",
-      description:
-        "「THE MOMENT feat. ¥ellow Bucks」 Listen Here：https://lnk.to/AIthemoment MUSIC Lyrics AI, ¥ellow Bucks Music AI, DJ RYOW ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "AI",
-      liveBroadcastContent: "none",
-      publishTime: "2021-07-05T12:00:14Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "FKVx8YfEbJJoay9-DtLdh1bALf8",
-    id: {
-      kind: "youtube#video",
-      videoId: "aVc6u25ZSrc",
-    },
-    snippet: {
-      publishedAt: "2024-05-12T21:42:48Z",
-      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
-      title: "I Ain&#39;t Yo Momma (Ai Edition) 🧓🏿 #ai #chatgpt #aiart",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/aVc6u25ZSrc/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/aVc6u25ZSrc/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/aVc6u25ZSrc/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "ReallyNotAi",
-      liveBroadcastContent: "none",
-      publishTime: "2024-05-12T21:42:48Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "tZJ0gE35u3Te0AkjhwqvuWO3iOE",
-    id: {
-      kind: "youtube#video",
-      videoId: "CO5pP2vsPRs",
-    },
-    snippet: {
-      publishedAt: "2024-04-03T21:09:41Z",
-      channelId: "UCUfUzo5AvQKMdzUpWI1cCZw",
-      title: "Random Kid Loses His Mind🫣 #ai #aiart #chatgpt",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/CO5pP2vsPRs/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/CO5pP2vsPRs/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/CO5pP2vsPRs/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Dude",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-03T21:09:41Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "Ywbp-du7Z4wb8RkiZ2-ZUoyQytY",
-    id: {
-      kind: "youtube#video",
-      videoId: "yytKtP-SjpQ",
-    },
-    snippet: {
-      publishedAt: "2023-08-01T12:00:48Z",
-      channelId: "UC487FZX-RwumY3xDWAL4o7g",
-      title: "Meet Chloe, the World&#39;s First Self-Learning Female AI Robot",
-      description:
-        "Join our newsletter for weekly updates of all things AI Robotics: https://scalingwcontent.ck.page/newsletter Meet Chloe, the ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/yytKtP-SjpQ/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/yytKtP-SjpQ/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/yytKtP-SjpQ/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "AI Insider SHORTZ",
-      liveBroadcastContent: "none",
-      publishTime: "2023-08-01T12:00:48Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "JwO3I6LULlDXng_OsCx5eFSripw",
-    id: {
-      kind: "youtube#video",
-      videoId: "KSyd89kugj0",
-    },
-    snippet: {
-      publishedAt: "2021-12-01T10:00:19Z",
-      channelId: "UCr4fZBNv69P-09f98l7CshA",
-      title:
-        "【まさかの本人】ストリートピアノで&quot;AIさん&quot;鳥肌モノの生歌披露...⁉️ショッピングモールがパニックにww【Story】",
-      description:
-        "ハラミちゃん 47都道府県ピアノツアー ～特急ハラミ号、出発進行だぬ！～』チケット一般発売スタート！！ チケット購入は ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/KSyd89kugj0/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/KSyd89kugj0/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/KSyd89kugj0/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "ハラミちゃん〈harami_piano〉",
-      liveBroadcastContent: "none",
-      publishTime: "2021-12-01T10:00:19Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "RoLpaJ-7-NXfJqgCXu6Z9TVO0qI",
-    id: {
-      kind: "youtube#video",
-      videoId: "0dl78OUYEuA",
-    },
-    snippet: {
-      publishedAt: "2023-05-20T11:55:54Z",
-      channelId: "UCiymGrMPtIZHuVlChqjEW_Q",
-      title: "Humans VS AI | Mirchi ShAI | Pankit",
-      description:
-        "Kaun jeeta? Comment karke batao. Also, please welcome Mirchi ShAI :D #comedy #ai #india Connect Mirchi Murga on Social ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/0dl78OUYEuA/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/0dl78OUYEuA/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/0dl78OUYEuA/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Mirchi Murga",
-      liveBroadcastContent: "none",
-      publishTime: "2023-05-20T11:55:54Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "hHqjMmxqL-efbgVVi8atihlsaNc",
-    id: {
-      kind: "youtube#video",
-      videoId: "DY4tXjhEA5Y",
-    },
-    snippet: {
-      publishedAt: "2024-04-10T23:50:09Z",
-      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
-      title: "How To Deal With a Breakup 🥲 #ai #chatgpt #aiart",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/DY4tXjhEA5Y/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/DY4tXjhEA5Y/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/DY4tXjhEA5Y/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "ReallyNotAi",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-10T23:50:09Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "o5xura2aKQE1VSooAAfxYFeeEuM",
-    id: {
-      kind: "youtube#video",
-      videoId: "PSqGM9ElqGg",
-    },
-    snippet: {
-      publishedAt: "2023-10-20T12:00:31Z",
-      channelId: "UCsEAO4ehnGEl3ET68yfSu5A",
-      title:
-        "AIイラストじゃないこと証明してみた【宝鐘マリン】#shorts #イラスト  #イラストメイキング #宝鐘マリン #アナログイラスト",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/PSqGM9ElqGg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/PSqGM9ElqGg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/PSqGM9ElqGg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "爪あぶら",
-      liveBroadcastContent: "none",
-      publishTime: "2023-10-20T12:00:31Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "tpZpp2rDSqThYCv8HH_cHX88LiM",
-    id: {
-      kind: "youtube#video",
-      videoId: "bKUsY9oMl8Q",
-    },
-    snippet: {
-      publishedAt: "2024-05-24T22:08:11Z",
-      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
-      title: "I&#39;m a Pretty Princess (Ai Edition) 👸🏼#ai #chatgpt #aiart",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/bKUsY9oMl8Q/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/bKUsY9oMl8Q/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/bKUsY9oMl8Q/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "ReallyNotAi",
-      liveBroadcastContent: "none",
-      publishTime: "2024-05-24T22:08:11Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "cZNQvVERNBgJ-x5W--7OZbsuxi0",
-    id: {
-      kind: "youtube#video",
-      videoId: "aO1qDzkU9o0",
-    },
-    snippet: {
-      publishedAt: "2022-12-23T14:04:11Z",
-      channelId: "UChC_apOWk6MSl03byUiVZRQ",
-      title:
-        "Artificial Intelligence can NEVER be Sentient?! #technology #artificialintelligence #ai",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/aO1qDzkU9o0/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/aO1qDzkU9o0/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/aO1qDzkU9o0/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Thomas Mulligan",
-      liveBroadcastContent: "none",
-      publishTime: "2022-12-23T14:04:11Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "Yij_Pcwag3PDemTG0-9f2vfKFfg",
-    id: {
-      kind: "youtube#video",
-      videoId: "XAs10sExSGU",
-    },
-    snippet: {
-      publishedAt: "2024-07-13T02:02:02Z",
-      channelId: "UCMNXQXXzScIlVyBEuJI3bYw",
-      title: "Luma ai cat memes",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/XAs10sExSGU/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/XAs10sExSGU/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/XAs10sExSGU/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Alejandra vallejo♥︎",
-      liveBroadcastContent: "none",
-      publishTime: "2024-07-13T02:02:02Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "B7M0dYMu0LB9w9Iu3_g_EMu7ZXg",
-    id: {
-      kind: "youtube#video",
-      videoId: "OEVd0I7H4Nk",
-    },
-    snippet: {
-      publishedAt: "2022-03-16T08:44:18Z",
-      channelId: "UCRfxI01xPgzql7ZBS6WlebQ",
-      title: "Escape from the Gear - AI Human Survival Race in Unity",
-      description:
-        "Who will win? *The 24th place will not be able to participate in the next race with 24 colors. [Colors] 1.Red 2.Orange 3.Yellow 4.",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/OEVd0I7H4Nk/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "MIKAN",
-      liveBroadcastContent: "none",
-      publishTime: "2022-03-16T08:44:18Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "SaLQFoq3llMZJlb3DlxSozPLZ1o",
-    id: {
-      kind: "youtube#video",
-      videoId: "bJmMOUC4lhE",
-    },
-    snippet: {
-      publishedAt: "2024-04-30T12:55:53Z",
-      channelId: "UCr8kiUsdXm4kzOb2H0GN86w",
-      title:
-        "CaseOh Reacts To HILARIOUS Ai Song #caseoh #funny #caseohfunnymoments",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/bJmMOUC4lhE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/bJmMOUC4lhE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/bJmMOUC4lhE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "YankClips",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-30T12:55:53Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "057ii1hSvwNS2R1OvzS88RV02X8",
-    id: {
-      kind: "youtube#video",
-      videoId: "82ZTNQNEQgE",
-    },
-    snippet: {
-      publishedAt: "2023-08-16T13:00:08Z",
-      channelId: "UC3O-gNkOsgemkuhuAopEGbA",
-      title: "tlinh - “ái” album | THE LISTENING EXPERIENCE",
-      description:
-        "tlinh - “ái” album | THE LISTENING EXPERIENCE #tlinh #aialbum #aislabel #ai #tlinhmusic #album #albumsong 00:00 tình yêu ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/82ZTNQNEQgE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/82ZTNQNEQgE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/82ZTNQNEQgE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "tlinh",
-      liveBroadcastContent: "none",
-      publishTime: "2023-08-16T13:00:08Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "G9Gf1EQLhQ1Bv1OY833v3xgRD_0",
-    id: {
-      kind: "youtube#video",
-      videoId: "Bq8EShLJFec",
-    },
-    snippet: {
-      publishedAt: "2023-08-21T11:43:29Z",
-      channelId: "UCdp6GUwjKscp5ST4M4WgIpw",
-      title: "Must Try 2 Free AI Websites!",
-      description:
-        "We Are Hiring! APPLY HERE: https://techwiser.com/we-are-hiring Please leave a LIKE ❤️ and SUBSCRIBE For More Videos ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/Bq8EShLJFec/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/Bq8EShLJFec/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/Bq8EShLJFec/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "TechWiser",
-      liveBroadcastContent: "none",
-      publishTime: "2023-08-21T11:43:29Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "qe_FgcPqHvici1uN2dP-5uBqtXo",
-    id: {
-      kind: "youtube#video",
-      videoId: "EX17M_7zVGE",
-    },
-    snippet: {
-      publishedAt: "2024-02-25T14:20:27Z",
-      channelId: "UCC-Zhd1UVyJUmjpaunmHvBQ",
-      title: "The Tale Of Barry The Bar of Soap 🧼 #ai #chatgpt #aiart",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/EX17M_7zVGE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/EX17M_7zVGE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/EX17M_7zVGE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "ReallyNotAi",
-      liveBroadcastContent: "none",
-      publishTime: "2024-02-25T14:20:27Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "fsmI30sSB-g0QC8jxRzFW6kjPO8",
-    id: {
-      kind: "youtube#video",
-      videoId: "-JpSMf-c3Vk",
-    },
-    snippet: {
-      publishedAt: "2023-07-10T12:15:49Z",
-      channelId: "UCdp6GUwjKscp5ST4M4WgIpw",
-      title: "3 AI Websites That Will Blow your Mind!",
-      description:
-        "We Are Hiring! APPLY HERE: https://techwiser.com/we-are-hiring Please leave a LIKE ❤️ and SUBSCRIBE For More Videos ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/-JpSMf-c3Vk/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/-JpSMf-c3Vk/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/-JpSMf-c3Vk/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "TechWiser",
-      liveBroadcastContent: "none",
-      publishTime: "2023-07-10T12:15:49Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "PWQxSb0sv3eI2bGhgW_VDdH9zFc",
-    id: {
-      kind: "youtube#video",
-      videoId: "ymi432pgUP4",
-    },
-    snippet: {
-      publishedAt: "2024-09-25T11:01:10Z",
-      channelId: "UCQ3lvanwwQ_tE_MgT1SMg2g",
-      title:
-        "Theng | Cười Xĩu Với &quot;ĐẠI CA ĐI HỌC BIẾN HÌNH&quot; Và &quot;AI LÀM LỚP TRƯỞNG?&quot; | Hài Ngắn Siêu Hay",
-      description:
-        'Theng | Cười Xĩu Với "ĐẠI CA ĐI HỌC BIẾN HÌNH" Và "AI LÀM LỚP TRƯỞNG?" | Hài Ngắn Siêu Hay A DAY WITHOUT ...',
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/ymi432pgUP4/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/ymi432pgUP4/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/ymi432pgUP4/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Theng",
-      liveBroadcastContent: "none",
-      publishTime: "2024-09-25T11:01:10Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "HQbqvl2TsNmq25w37oUGlZQIsuA",
-    id: {
-      kind: "youtube#video",
-      videoId: "_yAYDTEMHms",
-    },
-    snippet: {
-      publishedAt: "2024-04-05T13:00:07Z",
-      channelId: "UCYtoZVD24Dh4OlCIGxZvtlQ",
-      title: "AI - DOEL SUMBANG | 3PEMUDA BERBAHAYA FEAT SALLSA BINTAN COVER",
-      description:
-        "Judul : AI Artist : 3 Pemuda Berbahaya feat. Sallsa Bintan Pencipta : Doel Sumbang Dipopulerkan : Doel Sumbang Publisher ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/_yAYDTEMHms/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/_yAYDTEMHms/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/_yAYDTEMHms/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "3 pemuda berbahaya",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-05T13:00:07Z",
-    },
-  },
-];
-
-export const aiVideosRawData = [
-  {
-    kind: "youtube#video",
-    etag: "UBc1aACD_BelHmQAqrpX780kHN0",
-    id: "Ks-_Mh1QhMc",
-    snippet: {
-      publishedAt: "2012-10-01T15:27:35Z",
-      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
-      title: "Your Body Language May Shape Who You Are | Amy Cuddy | TED",
-      description:
-        "Body language affects how others see us, but it may also change how we see ourselves. Social psychologist Amy Cuddy argues that \"power posing\" -- standing in a posture of confidence, even when we don't feel confident -- can boost feelings of confidence, and might have an impact on our chances for success. (Note: Some of the findings presented in this talk have been referenced in an ongoing debate among social scientists about robustness and reproducibility. Read Amy Cuddy's response here: http://ideas.ted.com/inside-the-debate-about-power-posing-a-q-a-with-amy-cuddy/)\n\nGet TED Talks recommended just for you! Learn more at https://www.ted.com/signup.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
         standard: {
-          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/sddefault.jpg",
+          url: "https://i.ytimg.com/vi/YrYoEvbZ6ew/sddefault.jpg",
           width: 640,
           height: 480,
         },
         maxres: {
-          url: "https://i.ytimg.com/vi/Ks-_Mh1QhMc/maxresdefault.jpg",
+          url: "https://i.ytimg.com/vi/YrYoEvbZ6ew/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "ReallyNotAi",
+      categoryId: "22",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "I Live With Roaches (Ai Edition) 🪳 #ai #chatgpt #aiart",
+        description: "",
+      },
+    },
+    contentDetails: {
+      duration: "PT11S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "19648902",
+      likeCount: "310030",
+      favoriteCount: "0",
+      commentCount: "3167",
+    },
+  },
+  {
+    kind: "youtube#video",
+    etag: "c0DHWYP42QvggAGa3ky1kARBs9Y",
+    id: "eXdVDhOGqoE",
+    snippet: {
+      publishedAt: "2023-11-06T12:00:37Z",
+      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
+      title:
+        "AI Is Dangerous, but Not for the Reasons You Think | Sasha Luccioni | TED",
+      description:
+        "AI won't kill us all — but that doesn't make it trustworthy. Instead of getting distracted by future existential risks, AI ethics researcher Sasha Luccioni thinks we need to focus on the technology's current negative impacts, like emitting carbon, infringing copyrights and spreading biased information. She offers practical solutions to regulate our AI-filled future — so it's inclusive and transparent.\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nTwitter: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/sashaluccioni\n\nhttps://youtu.be/eXdVDhOGqoE\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #AI",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/eXdVDhOGqoE/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/eXdVDhOGqoE/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/eXdVDhOGqoE/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/eXdVDhOGqoE/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/eXdVDhOGqoE/maxresdefault.jpg",
           width: 1280,
           height: 720,
         },
       },
       channelTitle: "TED",
       tags: [
-        "Amy Cuddy",
-        "TED",
         "TEDTalk",
         "TEDTalks",
         "TED Talk",
         "TED Talks",
-        "TEDGlobal",
-        "brain",
-        "business",
-        "psychology",
-        "self",
-        "success",
+        "TED",
+        "environment",
+        "technology",
+        "AI",
+        "future",
+        "data",
       ],
-      categoryId: "22",
+      categoryId: "28",
       liveBroadcastContent: "none",
-      defaultLanguage: "en",
       localized: {
-        title: "Your Body Language May Shape Who You Are | Amy Cuddy | TED",
+        title:
+          "AI Is Dangerous, but Not for the Reasons You Think | Sasha Luccioni | TED",
         description:
-          "Body language affects how others see us, but it may also change how we see ourselves. Social psychologist Amy Cuddy argues that \"power posing\" -- standing in a posture of confidence, even when we don't feel confident -- can boost feelings of confidence, and might have an impact on our chances for success. (Note: Some of the findings presented in this talk have been referenced in an ongoing debate among social scientists about robustness and reproducibility. Read Amy Cuddy's response here: http://ideas.ted.com/inside-the-debate-about-power-posing-a-q-a-with-amy-cuddy/)\n\nGet TED Talks recommended just for you! Learn more at https://www.ted.com/signup.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED",
+          "AI won't kill us all — but that doesn't make it trustworthy. Instead of getting distracted by future existential risks, AI ethics researcher Sasha Luccioni thinks we need to focus on the technology's current negative impacts, like emitting carbon, infringing copyrights and spreading biased information. She offers practical solutions to regulate our AI-filled future — so it's inclusive and transparent.\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nTwitter: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/sashaluccioni\n\nhttps://youtu.be/eXdVDhOGqoE\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #AI",
       },
       defaultAudioLanguage: "en",
     },
     contentDetails: {
-      duration: "PT21M3S",
+      duration: "PT10M19S",
       dimension: "2d",
       definition: "hd",
       caption: "true",
@@ -3117,153 +1608,168 @@ export const aiVideosRawData = [
       projection: "rectangular",
     },
     statistics: {
-      viewCount: "25787089",
-      likeCount: "466531",
+      viewCount: "1127250",
+      likeCount: "22209",
       favoriteCount: "0",
-      commentCount: "10030",
+      commentCount: "1803",
     },
   },
   {
     kind: "youtube#video",
-    etag: "-N7rova9SEOSsmxfWjIpjF1JIx0",
-    id: "c0KYU2j0TM4",
+    etag: "CgtYOiaF5FAJixtEZsg21J8_YR0",
+    id: "ad79nYk2keg",
     snippet: {
-      publishedAt: "2012-03-02T19:03:16Z",
-      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
-      title: "The power of introverts | Susan Cain | TED",
-      description:
-        "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nIn a culture where being social and outgoing are prized above all else, it can be difficult, even shameful, to be an introvert. But, as Susan Cain argues in this passionate talk, introverts bring extraordinary talents and abilities to the world, and should be encouraged and celebrated.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/c0KYU2j0TM4/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "TED",
-      tags: [
-        "Susan Cain",
-        "culture",
-        "psychology",
-        "introvert",
-        "Quiet",
-        "Power of Introverts Book",
-        "extravert",
-        "TED",
-        "TED2012",
-        "TEDTalk",
-        "TEDTalks",
-        "TED Talk",
-        "TED Talks",
-      ],
-      categoryId: "22",
-      liveBroadcastContent: "none",
-      defaultLanguage: "en",
-      localized: {
-        title: "The power of introverts | Susan Cain | TED",
-        description:
-          "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nIn a culture where being social and outgoing are prized above all else, it can be difficult, even shameful, to be an introvert. But, as Susan Cain argues in this passionate talk, introverts bring extraordinary talents and abilities to the world, and should be encouraged and celebrated.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
-      },
-    },
-    contentDetails: {
-      duration: "PT19M5S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "true",
-      licensedContent: true,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "16422369",
-      likeCount: "420955",
-      favoriteCount: "0",
-      commentCount: "18890",
-    },
-  },
-  {
-    kind: "youtube#video",
-    etag: "XOlPYC4ty-HMH-hzK0k-5ImbDfE",
-    id: "eIho2S0ZahI",
-    snippet: {
-      publishedAt: "2014-06-27T15:10:18Z",
-      channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
+      publishedAt: "2019-04-30T14:30:01Z",
+      channelId: "UCsvqVGtbbyHaMoevxPAq9Fg",
       title:
-        "How to Speak So That People Want to Listen | Julian Treasure | TED",
+        "What Is AI? | Artificial Intelligence | What is Artificial Intelligence? | AI In 5 Mins |Simplilearn",
       description:
-        "Have you ever felt like you're talking, but nobody is listening? Here's Julian Treasure to help you fix that. As the sound expert demonstrates some useful vocal exercises and shares tips on how to speak with empathy, he offers his vision for a sonorous world of listening and understanding. (Recorded at TEDGlobal 2013 on June 10, 2013)\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nX: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/juliantreasure\n\nhttps://youtu.be/eIho2S0ZahI\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #speech",
+        "🔥Artificial Intelligence Engineer (IBM) - https://www.simplilearn.com/masters-in-artificial-intelligence?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥Purdue - Post Graduate Program in AI and Machine Learning - https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥IITK - Professional Certificate Course in Generative AI and Machine Learning (India Only) - https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥IITG - Professional Certificate Program in Generative AI and Machine Learning (India Only) - https://www.simplilearn.com/iitg-generative-ai-machine-learning-program?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥Caltech - AI & Machine Learning Bootcamp (US Only) - https://www.simplilearn.com/ai-machine-learning-bootcamp?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n\nThis video on What is Artificial Intelligence will give you a brief overview of artificial intelligence as a technology in just 5 minutes. We will start with a minor introduction to artificial intelligence in which we will know what is artificial intelligence with the help of examples. Moving ahead we will see what are the uses of AI, what is strong AI and what is weak AI. We will warp up this video by making you understand the major difference between AI ML and Deep Learning which will be followed by the future scope of artificial intelligence. \n\n00:00 What is AI?\n00:37 Uses of AI (Artificial Intelligence)\n01:48 What is AI (Artificial Intelligence)\n02:02 Weak AI  (Artificial Intelligence)\n02:18 Strong AI  (Artificial Intelligence)\n03:13 Difference between AI ML and Deep learning\n05:00 Future of Artificial Intelligence\n\nWatch more videos on Artificial Intelligence: https://www.youtube.com/playlist?list=PLEiEAq2VkUULg2pAmFCfrpSXPHmNP6Map.\n\n#whatIsAI #whatisartificialintelligence #AritificialIntelligence #WhatIsArtificialIntelligenceExactly #AritificialIntelligenceTutorial #WhatIsAi #WhatIsArtificialIntelligence #AiIn5Minutes #AITutorial #AITutorialForBeginners #AritificialIntelligenceBasics #AI #Simplilearn\n\nWhat is Artificial Intelligence?\nArtificial Intelligence or AI is the combination of algorithms used for the purpose of creating intelligent machines that have the same skills as a human being. It uses machine learning and deep learning techniques to build complex systems.\n\n✅ About Caltech Post Graduate Program In AI And Machine Learning:\nDesigned to boost your career as an AI and ML professional, this program showcases Caltech CTME's excellence and IBM's industry prowess. The artificial intelligence course covers key concepts like Statistics, Data Science with Python, Machine Learning, Deep Learning, NLP, and Reinforcement Learning through an interactive learning model with live sessions.\n\n✅ Key Features\n- Simplilearn's JobAssist helps you get noticed by top hiring companies\n- PGP AI & ML completion certificate from Caltech CTME\n- Masterclasses delivered by distinguished Caltech faculty and IBM experts\n- Caltech CTME Circle Membership\n- Earn up to 22 CEUs from Caltech CTME\n- Online convocation by Caltech CTME Program Director\n- IBM certificates for IBM courses\n- Access to hackathons and Ask Me Anything sessions from IBM\n- 25+ hands-on projects from the likes of Twitter, Mercedes Benz, Uber, and many more\n- Seamless access to integrated labs\n- Capstone projects in 3 domains\n- 8X higher interaction in live online classes by industry experts\n\n✅ Skills Covered\n- Statistics\n- Python\n- Supervised Learning\n- Unsupervised Learning\n- Recommendation Systems\n- NLP\n- Neural Networks\n- GANs\n- Deep Learning\n- Reinforcement Learning\n- Speech Recognition\n- Ensemble Learning\n- Computer Vision\n\n✅ Tools Covered\n- Python\n- Keras\n- TensorFlow\n- Matplotlib\n- Scikit Learn\n- Django\n- Flask\n- OpenCV\n\n👉 Learn more at: https://www.simplilearn.com/artificial-intelligence-masters-program-training-course?utm_campaign=Artificial-Intelligence-In-5-Minutes-ad79nYk2keg&utm_medium=Description&utm_source=youtube",
       thumbnails: {
         default: {
-          url: "https://i.ytimg.com/vi/eIho2S0ZahI/default.jpg",
+          url: "https://i.ytimg.com/vi/ad79nYk2keg/default.jpg",
           width: 120,
           height: 90,
         },
         medium: {
-          url: "https://i.ytimg.com/vi/eIho2S0ZahI/mqdefault.jpg",
+          url: "https://i.ytimg.com/vi/ad79nYk2keg/mqdefault.jpg",
           width: 320,
           height: 180,
         },
         high: {
-          url: "https://i.ytimg.com/vi/eIho2S0ZahI/hqdefault.jpg",
+          url: "https://i.ytimg.com/vi/ad79nYk2keg/hqdefault.jpg",
           width: 480,
           height: 360,
         },
         standard: {
-          url: "https://i.ytimg.com/vi/eIho2S0ZahI/sddefault.jpg",
+          url: "https://i.ytimg.com/vi/ad79nYk2keg/sddefault.jpg",
           width: 640,
           height: 480,
         },
         maxres: {
-          url: "https://i.ytimg.com/vi/eIho2S0ZahI/maxresdefault.jpg",
+          url: "https://i.ytimg.com/vi/ad79nYk2keg/maxresdefault.jpg",
           width: 1280,
           height: 720,
         },
       },
-      channelTitle: "TED",
+      channelTitle: "Simplilearn",
       tags: [
-        "TEDTalk",
-        "TEDTalks",
-        "TED Talk",
-        "TED Talks",
-        "TED",
-        "Julian Treasure",
-        "culture",
-        "sound",
-        "speech",
-        "TEDGlobal",
+        "what is ai",
+        "artificial intelligence",
+        "what is artificial inteliigence",
+        "ai for beginners",
+        "artificial intelligence applications",
+        "artificial intelligence basics",
+        "artificial intelligence explained",
+        "artificial intelligence for beginners",
+        "artificial intelligence tutorial",
+        "introduction to ai",
+        "introduction to artificial intelligence",
+        "machine learning",
+        "simplilearn",
+        "types of artificial intelligence",
+        "what is ai technology",
+        "what is artificial intelligence",
+        "what is deep learning",
       ],
-      categoryId: "26",
+      categoryId: "27",
       liveBroadcastContent: "none",
-      defaultLanguage: "en",
       localized: {
         title:
-          "How to Speak So That People Want to Listen | Julian Treasure | TED",
+          "What Is AI? | Artificial Intelligence | What is Artificial Intelligence? | AI In 5 Mins |Simplilearn",
         description:
-          "Have you ever felt like you're talking, but nobody is listening? Here's Julian Treasure to help you fix that. As the sound expert demonstrates some useful vocal exercises and shares tips on how to speak with empathy, he offers his vision for a sonorous world of listening and understanding. (Recorded at TEDGlobal 2013 on June 10, 2013)\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nX: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/juliantreasure\n\nhttps://youtu.be/eIho2S0ZahI\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #speech",
+          "🔥Artificial Intelligence Engineer (IBM) - https://www.simplilearn.com/masters-in-artificial-intelligence?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥Purdue - Post Graduate Program in AI and Machine Learning - https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥IITK - Professional Certificate Course in Generative AI and Machine Learning (India Only) - https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥IITG - Professional Certificate Program in Generative AI and Machine Learning (India Only) - https://www.simplilearn.com/iitg-generative-ai-machine-learning-program?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n🔥Caltech - AI & Machine Learning Bootcamp (US Only) - https://www.simplilearn.com/ai-machine-learning-bootcamp?utm_campaign=ad79nYk2keg&utm_medium=DescriptionFirstFold&utm_source=Youtube\n\nThis video on What is Artificial Intelligence will give you a brief overview of artificial intelligence as a technology in just 5 minutes. We will start with a minor introduction to artificial intelligence in which we will know what is artificial intelligence with the help of examples. Moving ahead we will see what are the uses of AI, what is strong AI and what is weak AI. We will warp up this video by making you understand the major difference between AI ML and Deep Learning which will be followed by the future scope of artificial intelligence. \n\n00:00 What is AI?\n00:37 Uses of AI (Artificial Intelligence)\n01:48 What is AI (Artificial Intelligence)\n02:02 Weak AI  (Artificial Intelligence)\n02:18 Strong AI  (Artificial Intelligence)\n03:13 Difference between AI ML and Deep learning\n05:00 Future of Artificial Intelligence\n\nWatch more videos on Artificial Intelligence: https://www.youtube.com/playlist?list=PLEiEAq2VkUULg2pAmFCfrpSXPHmNP6Map.\n\n#whatIsAI #whatisartificialintelligence #AritificialIntelligence #WhatIsArtificialIntelligenceExactly #AritificialIntelligenceTutorial #WhatIsAi #WhatIsArtificialIntelligence #AiIn5Minutes #AITutorial #AITutorialForBeginners #AritificialIntelligenceBasics #AI #Simplilearn\n\nWhat is Artificial Intelligence?\nArtificial Intelligence or AI is the combination of algorithms used for the purpose of creating intelligent machines that have the same skills as a human being. It uses machine learning and deep learning techniques to build complex systems.\n\n✅ About Caltech Post Graduate Program In AI And Machine Learning:\nDesigned to boost your career as an AI and ML professional, this program showcases Caltech CTME's excellence and IBM's industry prowess. The artificial intelligence course covers key concepts like Statistics, Data Science with Python, Machine Learning, Deep Learning, NLP, and Reinforcement Learning through an interactive learning model with live sessions.\n\n✅ Key Features\n- Simplilearn's JobAssist helps you get noticed by top hiring companies\n- PGP AI & ML completion certificate from Caltech CTME\n- Masterclasses delivered by distinguished Caltech faculty and IBM experts\n- Caltech CTME Circle Membership\n- Earn up to 22 CEUs from Caltech CTME\n- Online convocation by Caltech CTME Program Director\n- IBM certificates for IBM courses\n- Access to hackathons and Ask Me Anything sessions from IBM\n- 25+ hands-on projects from the likes of Twitter, Mercedes Benz, Uber, and many more\n- Seamless access to integrated labs\n- Capstone projects in 3 domains\n- 8X higher interaction in live online classes by industry experts\n\n✅ Skills Covered\n- Statistics\n- Python\n- Supervised Learning\n- Unsupervised Learning\n- Recommendation Systems\n- NLP\n- Neural Networks\n- GANs\n- Deep Learning\n- Reinforcement Learning\n- Speech Recognition\n- Ensemble Learning\n- Computer Vision\n\n✅ Tools Covered\n- Python\n- Keras\n- TensorFlow\n- Matplotlib\n- Scikit Learn\n- Django\n- Flask\n- OpenCV\n\n👉 Learn more at: https://www.simplilearn.com/artificial-intelligence-masters-program-training-course?utm_campaign=Artificial-Intelligence-In-5-Minutes-ad79nYk2keg&utm_medium=Description&utm_source=youtube",
       },
+      defaultAudioLanguage: "en",
     },
     contentDetails: {
-      duration: "PT9M59S",
+      duration: "PT5M28S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "2684010",
+      likeCount: "32694",
+      favoriteCount: "0",
+      commentCount: "2916",
+    },
+  },
+  {
+    kind: "youtube#video",
+    etag: "-ZzsSeTayPjb85tFAsrwzsV6PkM",
+    id: "UShsgCOzER4",
+    snippet: {
+      publishedAt: "2024-06-30T18:33:28Z",
+      channelId: "UCTSRIY3GLFYIpkR2QwyeklA",
+      title: "AI is ruining the internet",
+      description:
+        "Thanks to SoFi for sponsoring the video! Enter for a chance to win $10,000: https://sofi.com/drew\n\nOpen a Checking and Savings account to enter. No purchase necessary. See Rules for info & free entry method.\n\n0:00 - intro\n1:06 - google\n3:09 - the dead internet theory\n3:51 - facebook\n6:33 - twitter\n9:56 - instagram\n12:09 - character.ai\n13:15 - sofi\n14:17 - adobe\n16:54 - netflix\n17:52 - spotify/AI music\n24:24 - AI as a side hustle\n26:12 - AI video is terrifying\n29:41 - what is the point of this?\n\nmerch:\nhttps://www.drewgoodenshop.com/\n\nfollow me:\ntwitter - https://www.twitter.com/drewisgooden\ninstagram - https://www.instagram.com/drewisgooden\n\nthumbnail by David Altizer:\nhttps://twitter.com/dvdaltizer",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/UShsgCOzER4/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/UShsgCOzER4/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/UShsgCOzER4/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/UShsgCOzER4/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/UShsgCOzER4/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "Drew Gooden",
+      tags: [
+        "drew gooden",
+        "comedy",
+        "commentary",
+        "reaction",
+        "vine",
+        "drew gooden vine",
+        "road work ahead guy",
+        "parody",
+        "rant",
+        "cringe",
+        "AI",
+        "sora",
+        "luma labs",
+        "ai video",
+        "ai memes",
+        "netflix",
+        "adobe",
+        "google",
+        "google ai",
+        "facebook ai",
+        "instagram ai",
+      ],
+      categoryId: "23",
+      liveBroadcastContent: "none",
+      localized: {
+        title: "AI is ruining the internet",
+        description:
+          "Thanks to SoFi for sponsoring the video! Enter for a chance to win $10,000: https://sofi.com/drew\n\nOpen a Checking and Savings account to enter. No purchase necessary. See Rules for info & free entry method.\n\n0:00 - intro\n1:06 - google\n3:09 - the dead internet theory\n3:51 - facebook\n6:33 - twitter\n9:56 - instagram\n12:09 - character.ai\n13:15 - sofi\n14:17 - adobe\n16:54 - netflix\n17:52 - spotify/AI music\n24:24 - AI as a side hustle\n26:12 - AI video is terrifying\n29:41 - what is the point of this?\n\nmerch:\nhttps://www.drewgoodenshop.com/\n\nfollow me:\ntwitter - https://www.twitter.com/drewisgooden\ninstagram - https://www.instagram.com/drewisgooden\n\nthumbnail by David Altizer:\nhttps://twitter.com/dvdaltizer",
+      },
+      defaultAudioLanguage: "en",
+    },
+    contentDetails: {
+      duration: "PT33M21S",
       dimension: "2d",
       definition: "hd",
       caption: "true",
@@ -3272,959 +1778,77 @@ export const aiVideosRawData = [
       projection: "rectangular",
     },
     statistics: {
-      viewCount: "42416979",
-      likeCount: "905326",
+      viewCount: "6344949",
+      likeCount: "369444",
       favoriteCount: "0",
-      commentCount: "11227",
+      commentCount: "25939",
+    },
+  },
+  {
+    kind: "youtube#video",
+    etag: "9lc8nIJ6KinKXPyuNLyj9b0tg3k",
+    id: "EbzY5tKxkwM",
+    snippet: {
+      publishedAt: "2024-10-17T12:00:18Z",
+      channelId: "UCwHQXlUnZevFVjKa1fYnqEQ",
+      title:
+        "PERT4RUNGAN INGATAN ANTARA TALENT BARU DAN AI TEAM !!! PECAH PERUT GELAK...",
+      description: "Why So Sad ???\n\nHope korang enjoy video kalini...",
+      thumbnails: {
+        default: {
+          url: "https://i.ytimg.com/vi/EbzY5tKxkwM/default.jpg",
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: "https://i.ytimg.com/vi/EbzY5tKxkwM/mqdefault.jpg",
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: "https://i.ytimg.com/vi/EbzY5tKxkwM/hqdefault.jpg",
+          width: 480,
+          height: 360,
+        },
+        standard: {
+          url: "https://i.ytimg.com/vi/EbzY5tKxkwM/sddefault.jpg",
+          width: 640,
+          height: 480,
+        },
+        maxres: {
+          url: "https://i.ytimg.com/vi/EbzY5tKxkwM/maxresdefault.jpg",
+          width: 1280,
+          height: 720,
+        },
+      },
+      channelTitle: "AI Team Division 2",
+      categoryId: "22",
+      liveBroadcastContent: "none",
+      localized: {
+        title:
+          "PERT4RUNGAN INGATAN ANTARA TALENT BARU DAN AI TEAM !!! PECAH PERUT GELAK...",
+        description: "Why So Sad ???\n\nHope korang enjoy video kalini...",
+      },
+    },
+    contentDetails: {
+      duration: "PT19M9S",
+      dimension: "2d",
+      definition: "hd",
+      caption: "false",
+      licensedContent: true,
+      contentRating: {},
+      projection: "rectangular",
+    },
+    statistics: {
+      viewCount: "83217",
+      likeCount: "5455",
+      favoriteCount: "0",
+      commentCount: "142",
     },
   },
 ];
 
 export const filteredDateFromTrendingVideos = [
-  {
-    snippet: {
-      publishedAt: "2023-04-12T15:30:09Z",
-      channelId: "UCvpredjG93ifbCP1Y77JyFA",
-      title: "YOASOBI「アイドル」 Official Music Video",
-      description:
-        'Streaming & Download : https://orcd.co/yoasobi_idol\nMusic : Ayase (https://twitter.com/ayase_0404)\nVocal : ikura (https://twitter.com/ikutalilas)\n\nBackground Chorus English Lyrics：Konnie Aoki\nBackground Chorus：Ebony Bowens, Chloe Kibble, Marista Stubbs, Imani J. Dawson, Kyte, Lyle Carr, Andrew Soda\nBackground Shouts：REAL AKIBA BOYZ (https://www.youtube.com/@realakibaboyz )\n\n原作小説「45510」(赤坂アカ 著)\n4/12(水)24時30分同時公開\nhttps://youngjump.jp/oshinoko/novel_45510/\n\n○TVアニメ『【推しの子】』オープニング主題歌\n2023年4月12日(水)よりTVアニメ放送開始！\nhttps://ichigoproduction.com/\n\n＜INTRODUCTION＞ \n「この芸能界（せかい）において嘘は武器だ」\n地方都市で働く産婦人科医・ゴロー。\nある日"推し"のアイドル「B小町」のアイが彼の前に現れた。\n彼女はある禁断の秘密を抱えており…。\nそんな二人の"最悪"の出会いから、運命が動き出していく―。\n\n©赤坂アカ×横槍メンゴ／集英社・【推しの子】製作委員会\n\n○インスト音源はこちら\nhttps://piapro.jp/t/KQn0\n\n○YOASOBI初のアリーナツアー「YOASOBI ARENA TOUR 電光石火」追加公演決定！\n6月23日(金)・24日(土)＠神奈川県・ぴあアリーナMM\nhttps://www.yoasobi-music.jp/news/551184\n--\n無敵の笑顔で荒らすメディア\n知りたいその秘密ミステリアス\n抜けてるとこさえ彼女のエリア\n完璧で嘘つきな君は\n天才的なアイドル様\n\n今日何食べた？\n好きな本は？\n遊びに行くならどこに行くの？\n何も食べてない\nそれは内緒\n何を聞かれても\nのらりくらり\n\nそう淡々と\nだけど燦々と\n見えそうで見えない秘密は蜜の味\nあれもないないない\nこれもないないない\n好きなタイプは？\n相手は？\nさあ答えて\n\n「誰かを好きになることなんて\n私分からなくてさ」\n嘘か本当か知り得ない\nそんな言葉に\nまた一人堕ちる\nまた好きにさせる\n\n誰もが目を奪われていく\n君は完璧で究極のアイドル\n金輪際現れない\n一番星の生まれ変わり\nその笑顔で\n愛してるで\n誰も彼も虜にしていく\nその瞳が\nその言葉が\n嘘でもそれは\n完全なアイ\n\nはいはいあの子は特別です\n我々は端からおまけです\nお星様の引き立て役Bです\n全てがあの子のお陰な訳ない\nしゃらくさい\n妬み嫉妬なんてない訳がない\nこれはネタじゃない\nからこそ許せない\n完璧じゃない君じゃ許せない\n自分を許せない\n誰よりも強い君以外は認めない\n\n誰もが信じ崇めてる\nまさに最強で無敵のアイドル\n弱点なんて見当たらない\n一番星を宿している\n弱いとこなんて見せちゃ\nダメダメ\n知りたくないとこは見せずに\n唯一無二じゃなくちゃ\nイヤイヤ\nそれこそ本物のアイ\n\n得意の笑顔で沸かすメディア\n隠しきるこの秘密だけは\n愛してるって嘘で積むキャリア\nこれこそ私なりの愛だ\n\n流れる汗も綺麗なアクア\nルビーを隠したこの瞼\n歌い踊り舞う私はマリア\nそう嘘はとびきりの愛だ\n\n誰かに愛されたことも\n誰かのこと愛したこともない\nそんな私の嘘がいつか本当になること\n信じてる\n\nいつかきっと全部手に入れる\n私はそう欲張りなアイドル\n等身大でみんなのこと\nちゃんと愛したいから\n今日も嘘をつくの\nこの言葉が\nいつか本当になる日を願って\nそれでもまだ\n君と君にだけは言えずにいたけど\nやっと言えた\nこれは絶対嘘じゃない\n愛してる\n--\nMVディレクター・絵コンテ・演出：中山直哉\n編集：齊藤雄磨\nビジュアルデベロップメント・モーショングラフィックス：齊藤雄磨、山口駿\nロゴデザイン：lowpolydog\n作画監督：平山寛菜\n作画監督補佐：夘野智子、稲手遥香\n原画：菊地奨之、室賀彩花、山本ゆうすけ、尾辻浩晃、秦ほのか、引口奈緒子、北村由佳、水野公彰、中山薫、福家いおり、米村雅人、松井怜、夘野智子、卓子意、沢田犬二、辻彩夏、TOMATO\n動画工房作画部\n第二原画：動画工房作画部\n全後映、劉官林、中山薫、1110\n動画検査：大原真琴\n動画：大原真琴、小田道子、中山薫、米村雅人、松井怜\n寿門堂\nRadplus\n色彩設計：石黒けい\n色彩設計補佐：芦原明音\n色指定・仕上げ検査：伊藤裕香\n仕上げ：呉政宏、村田栞、真壁源太\n寿門堂\nRadplus\n撮影監督：桒野貴文\n撮影監督補佐：工藤康史\n撮影：福岡由惟、塩野修平\n美術監督：宇佐美哲也(スタジオイースター)\n美術設定：水本浩太(スタジオイースター)\n背景：スタジオイースター\n平田卓也、今井公平、廣川翔一、山口琴実、宇佐美哲也\n3DLO：渡辺悦啓、石橋涼介\nモニターワークス：前田大輔(レイ）\n制作プロデューサー：小林涼\n制作チーフ・制作進行：増田拓朗\n\nアニメーション制作 動画工房\n製作 【推しの子】製作委員会\n--\n#YOASOBI #アイドル #推しの子',
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/ZRtdQ81jPUQ/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "Ayase / YOASOBI",
-      tags: [
-        "YOASOBI",
-        "ヨアソビ",
-        "推しの子",
-        "OSHINOKO",
-        "横槍メンゴ",
-        "赤坂アカ",
-      ],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "YOASOBI「アイドル」 Official Music Video",
-        description:
-          'Streaming & Download : https://orcd.co/yoasobi_idol\nMusic : Ayase (https://twitter.com/ayase_0404)\nVocal : ikura (https://twitter.com/ikutalilas)\n\nBackground Chorus English Lyrics：Konnie Aoki\nBackground Chorus：Ebony Bowens, Chloe Kibble, Marista Stubbs, Imani J. Dawson, Kyte, Lyle Carr, Andrew Soda\nBackground Shouts：REAL AKIBA BOYZ (https://www.youtube.com/@realakibaboyz )\n\n原作小説「45510」(赤坂アカ 著)\n4/12(水)24時30分同時公開\nhttps://youngjump.jp/oshinoko/novel_45510/\n\n○TVアニメ『【推しの子】』オープニング主題歌\n2023年4月12日(水)よりTVアニメ放送開始！\nhttps://ichigoproduction.com/\n\n＜INTRODUCTION＞ \n「この芸能界（せかい）において嘘は武器だ」\n地方都市で働く産婦人科医・ゴロー。\nある日"推し"のアイドル「B小町」のアイが彼の前に現れた。\n彼女はある禁断の秘密を抱えており…。\nそんな二人の"最悪"の出会いから、運命が動き出していく―。\n\n©赤坂アカ×横槍メンゴ／集英社・【推しの子】製作委員会\n\n○インスト音源はこちら\nhttps://piapro.jp/t/KQn0\n\n○YOASOBI初のアリーナツアー「YOASOBI ARENA TOUR 電光石火」追加公演決定！\n6月23日(金)・24日(土)＠神奈川県・ぴあアリーナMM\nhttps://www.yoasobi-music.jp/news/551184\n--\n無敵の笑顔で荒らすメディア\n知りたいその秘密ミステリアス\n抜けてるとこさえ彼女のエリア\n完璧で嘘つきな君は\n天才的なアイドル様\n\n今日何食べた？\n好きな本は？\n遊びに行くならどこに行くの？\n何も食べてない\nそれは内緒\n何を聞かれても\nのらりくらり\n\nそう淡々と\nだけど燦々と\n見えそうで見えない秘密は蜜の味\nあれもないないない\nこれもないないない\n好きなタイプは？\n相手は？\nさあ答えて\n\n「誰かを好きになることなんて\n私分からなくてさ」\n嘘か本当か知り得ない\nそんな言葉に\nまた一人堕ちる\nまた好きにさせる\n\n誰もが目を奪われていく\n君は完璧で究極のアイドル\n金輪際現れない\n一番星の生まれ変わり\nその笑顔で\n愛してるで\n誰も彼も虜にしていく\nその瞳が\nその言葉が\n嘘でもそれは\n完全なアイ\n\nはいはいあの子は特別です\n我々は端からおまけです\nお星様の引き立て役Bです\n全てがあの子のお陰な訳ない\nしゃらくさい\n妬み嫉妬なんてない訳がない\nこれはネタじゃない\nからこそ許せない\n完璧じゃない君じゃ許せない\n自分を許せない\n誰よりも強い君以外は認めない\n\n誰もが信じ崇めてる\nまさに最強で無敵のアイドル\n弱点なんて見当たらない\n一番星を宿している\n弱いとこなんて見せちゃ\nダメダメ\n知りたくないとこは見せずに\n唯一無二じゃなくちゃ\nイヤイヤ\nそれこそ本物のアイ\n\n得意の笑顔で沸かすメディア\n隠しきるこの秘密だけは\n愛してるって嘘で積むキャリア\nこれこそ私なりの愛だ\n\n流れる汗も綺麗なアクア\nルビーを隠したこの瞼\n歌い踊り舞う私はマリア\nそう嘘はとびきりの愛だ\n\n誰かに愛されたことも\n誰かのこと愛したこともない\nそんな私の嘘がいつか本当になること\n信じてる\n\nいつかきっと全部手に入れる\n私はそう欲張りなアイドル\n等身大でみんなのこと\nちゃんと愛したいから\n今日も嘘をつくの\nこの言葉が\nいつか本当になる日を願って\nそれでもまだ\n君と君にだけは言えずにいたけど\nやっと言えた\nこれは絶対嘘じゃない\n愛してる\n--\nMVディレクター・絵コンテ・演出：中山直哉\n編集：齊藤雄磨\nビジュアルデベロップメント・モーショングラフィックス：齊藤雄磨、山口駿\nロゴデザイン：lowpolydog\n作画監督：平山寛菜\n作画監督補佐：夘野智子、稲手遥香\n原画：菊地奨之、室賀彩花、山本ゆうすけ、尾辻浩晃、秦ほのか、引口奈緒子、北村由佳、水野公彰、中山薫、福家いおり、米村雅人、松井怜、夘野智子、卓子意、沢田犬二、辻彩夏、TOMATO\n動画工房作画部\n第二原画：動画工房作画部\n全後映、劉官林、中山薫、1110\n動画検査：大原真琴\n動画：大原真琴、小田道子、中山薫、米村雅人、松井怜\n寿門堂\nRadplus\n色彩設計：石黒けい\n色彩設計補佐：芦原明音\n色指定・仕上げ検査：伊藤裕香\n仕上げ：呉政宏、村田栞、真壁源太\n寿門堂\nRadplus\n撮影監督：桒野貴文\n撮影監督補佐：工藤康史\n撮影：福岡由惟、塩野修平\n美術監督：宇佐美哲也(スタジオイースター)\n美術設定：水本浩太(スタジオイースター)\n背景：スタジオイースター\n平田卓也、今井公平、廣川翔一、山口琴実、宇佐美哲也\n3DLO：渡辺悦啓、石橋涼介\nモニターワークス：前田大輔(レイ）\n制作プロデューサー：小林涼\n制作チーフ・制作進行：増田拓朗\n\nアニメーション制作 動画工房\n製作 【推しの子】製作委員会\n--\n#YOASOBI #アイドル #推しの子',
-      },
-      defaultAudioLanguage: "ja",
-    },
-    contentDetails: {
-      duration: "PT3M46S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: false,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "538279728",
-      likeCount: "4479342",
-      favoriteCount: "0",
-      commentCount: "163376",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2014-12-03T18:26:26Z",
-      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
-      title: "AI - Story",
-      description:
-        "AIオールタイム・ベストアルバム\n「THE BEST –DELUXE EDITION」\nUPCH-20417/8　￥3,056+税\n\n大ヒット御礼のオールタイムベストアルバム「THE BEST」に、ファンからの要望が多かった名曲、コラボ曲などを追加収録。\n2016年の年明けから『au三太郎CM』で話題になった「みんながみんな英雄」も初収録した、豪華2枚組デラックス盤！\n総ダウンロード数1100万を超えるヒット曲満載の全27曲、文字通りの“THE BEST”な、“マチガイナイ”AIの決定盤！\n\n\n米ロサンゼルス生まれの鹿児島育ち。\n「Story」や「ハピネス」「みんながみんな英雄」など大ヒットソングを世に送り出す、\n日本が世界に誇るグローバル・スタンダード・アーティスト。\n2016年は約50公演のベストツアーで全国を駆け巡る。 \n \nOfficial Site: http://AImusic.tv\nFacebook: http://www.facebook.com/AI\nTwitter: @micaholic1981\nInstagram: @officialai \n\n\n-AI BIOGRAPHY-\n\nJapanese R&B star AI moves freely between pop, hip hop and dance, combining American soul with the deep emotion of Japanese ballads. Her international reputation has grown with exciting collaborations with Snoop Dogg, Jim Jones, Trey Songz, Lloyd, Jeremih, Boyz II Men, K’Naan, Judith Hill, Rain, The Jacksons and Chaka Khan. \n\nWith her trademark husky voice, she instills soulful undertones into everything from inspirational ballads to upbeat dance numbers. Especially in Japan, her music is known for its strength and substance. Despite the fame she's achieved, her down-to-earth personality shines during every performance. As AI will tell you, she'll do anything to get a smile from her fans.\n\nWith a strong, soulful sound, Japanese R&B phenomenon AI is poised to take over the world with her inspiring message of love and happiness.",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/B2fPYlGKdXM/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "AIVEVO",
-      tags: ["Story", "Island", "Records", "邦楽ポップス"],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "AI - Story",
-        description:
-          "AIオールタイム・ベストアルバム\n「THE BEST –DELUXE EDITION」\nUPCH-20417/8　￥3,056+税\n\n大ヒット御礼のオールタイムベストアルバム「THE BEST」に、ファンからの要望が多かった名曲、コラボ曲などを追加収録。\n2016年の年明けから『au三太郎CM』で話題になった「みんながみんな英雄」も初収録した、豪華2枚組デラックス盤！\n総ダウンロード数1100万を超えるヒット曲満載の全27曲、文字通りの“THE BEST”な、“マチガイナイ”AIの決定盤！\n\n\n米ロサンゼルス生まれの鹿児島育ち。\n「Story」や「ハピネス」「みんながみんな英雄」など大ヒットソングを世に送り出す、\n日本が世界に誇るグローバル・スタンダード・アーティスト。\n2016年は約50公演のベストツアーで全国を駆け巡る。 \n \nOfficial Site: http://AImusic.tv\nFacebook: http://www.facebook.com/AI\nTwitter: @micaholic1981\nInstagram: @officialai \n\n\n-AI BIOGRAPHY-\n\nJapanese R&B star AI moves freely between pop, hip hop and dance, combining American soul with the deep emotion of Japanese ballads. Her international reputation has grown with exciting collaborations with Snoop Dogg, Jim Jones, Trey Songz, Lloyd, Jeremih, Boyz II Men, K’Naan, Judith Hill, Rain, The Jacksons and Chaka Khan. \n\nWith her trademark husky voice, she instills soulful undertones into everything from inspirational ballads to upbeat dance numbers. Especially in Japan, her music is known for its strength and substance. Despite the fame she's achieved, her down-to-earth personality shines during every performance. As AI will tell you, she'll do anything to get a smile from her fans.\n\nWith a strong, soulful sound, Japanese R&B phenomenon AI is poised to take over the world with her inspiring message of love and happiness.",
-      },
-      defaultAudioLanguage: "en-US",
-    },
-    contentDetails: {
-      duration: "PT4M55S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      regionRestriction: {
-        blocked: ["CA", "PR", "US"],
-      },
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "60357582",
-      likeCount: "202110",
-      favoriteCount: "0",
-      commentCount: "7402",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2024-01-19T13:59:26Z",
-      channelId: "UCwyJ6Xmnv1FtNZlZrkpOZ1A",
-      title: "Brenno & Matheus - Ai Cowboy (BeM Interior) [Clipe Oficial]",
-      description:
-        '#Sertanejo #BrennoeMatheus #NewMusicBrasil #BeMInterior\n\nOUÇA AGORA EM SEU APP FAVORITO: https://bfan.link/ai-cowboy\nInscreva-se no canal: https://bit.ly/brennoematheusyt\nCrie seu Shorts com "Ai Cowboy": https://www.youtube.com/source/SPiQ3uTNapA/shorts\n\nAssista agora ao vídeo oficial da faixa "Ai Cowboy" de #brennoematheus, faixa do novo projeto "BeM Interior"!\n\nSIGA NAS REDES SOCIAIS:\nINSTAGRAM: https://www.instagram.com/brennoematheus\nFACEBOOK :https://www.facebook.com/brennoematheus\n\nLETRA\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no Pós\n\n\nFICHA TÉCNICA\n\nProjeto: DVD BeM Interior\nDireção Geral / Produção Executiva: Tiba Cleber / Nivaldo Cassucce\nProdução: BM Produtora / Angelo Lima\nProdutora de Video: Sete4\nDireção de Video: Jacques Jr\nLocal: San Lorenzzo - Maringá - Pr\nCompositor/Autor: Mateus Felix, Léo Souzza, Tiago Marcelo, Guilherme Ferraz\nArranjador: Guilherme Ferraz \nProdutor Musical: Eduardo Godoy \nBateria: Leonardo Steffler Bertoldo\nBass: Pablo Rosseline Araujo Coelho da Nobrega\nViolão: Mateus Tiago Nunes\nPercussão: Mauricio Bana Rossi\nSanfona: Matheus Felipe Stoll\nMix/Efeitos: André Luiz Mota Feitosa\nEfeito: Eduardo Jardim \n\nISRC: BX-NT6-22-07930',
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/U1QPgNQXH5I/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "Brenno e Matheus",
-      tags: [
-        "Ai Cowboy",
-        "BeM Interior",
-        "Brenno e Matheus",
-        "Country",
-        "New Music",
-        "Sertanejo",
-        "breno e matheus",
-        "funknejo",
-        "brutaiada",
-        "cowboy",
-        "ai cowboy brenno e matheus",
-        "ai cawboy",
-        "brenno e matheus ai cowboy",
-        "ai cowboy eu fico fraca",
-        "breno e mateus",
-        "breno matheus",
-      ],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "Brenno & Matheus - Ai Cowboy (BeM Interior) [Clipe Oficial]",
-        description:
-          '#Sertanejo #BrennoeMatheus #NewMusicBrasil #BeMInterior\n\nOUÇA AGORA EM SEU APP FAVORITO: https://bfan.link/ai-cowboy\nInscreva-se no canal: https://bit.ly/brennoematheusyt\nCrie seu Shorts com "Ai Cowboy": https://www.youtube.com/source/SPiQ3uTNapA/shorts\n\nAssista agora ao vídeo oficial da faixa "Ai Cowboy" de #brennoematheus, faixa do novo projeto "BeM Interior"!\n\nSIGA NAS REDES SOCIAIS:\nINSTAGRAM: https://www.instagram.com/brennoematheus\nFACEBOOK :https://www.facebook.com/brennoematheus\n\nLETRA\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nOnde tem cachaça, tem som alto, tem muvuca e tem paiero\nEu tô no meio\nElas brilha o olho porque sabe que na conta tem dinheiro\nSou fazendeiro\n\nQuando eu boto a bota, ela pede bota, bota gostosin\nMeto o chapéu na cabeça ela perde a cabeça e me fala assim\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no pós\n\nAi cowboy\nEla sabe que o peão tem a pegada que destrói\nAi cowboy\nTá beijando a minha boca já tá pensando no Pós\n\n\nFICHA TÉCNICA\n\nProjeto: DVD BeM Interior\nDireção Geral / Produção Executiva: Tiba Cleber / Nivaldo Cassucce\nProdução: BM Produtora / Angelo Lima\nProdutora de Video: Sete4\nDireção de Video: Jacques Jr\nLocal: San Lorenzzo - Maringá - Pr\nCompositor/Autor: Mateus Felix, Léo Souzza, Tiago Marcelo, Guilherme Ferraz\nArranjador: Guilherme Ferraz \nProdutor Musical: Eduardo Godoy \nBateria: Leonardo Steffler Bertoldo\nBass: Pablo Rosseline Araujo Coelho da Nobrega\nViolão: Mateus Tiago Nunes\nPercussão: Mauricio Bana Rossi\nSanfona: Matheus Felipe Stoll\nMix/Efeitos: André Luiz Mota Feitosa\nEfeito: Eduardo Jardim \n\nISRC: BX-NT6-22-07930',
-      },
-      defaultAudioLanguage: "en-US",
-    },
-    contentDetails: {
-      duration: "PT2M29S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      regionRestriction: {
-        blocked: ["AQ"],
-      },
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "49888153",
-      likeCount: "207440",
-      favoriteCount: "0",
-      commentCount: "2553",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2022-01-01T21:00:01Z",
-      channelId: "UCAdpXDXkrrYQXFtAbJixRUg",
-      title:
-        "Ai, Que Coceira, Joãozinho! | Canal do Joãozinho - Little Angel Português",
-      description:
-        "Picadas de insetos causam coceira, mas se a gente coça, só piora! Joãozinho é picado por um mosquito e quer coçar o braço na hora! Mas a mamãe e o papai mostram ao bebê que é melhor passar uma pomadinha em vez de coçar! #littleangelportuguês #infantil\n\n(🔔) Inscreva-se para ver vídeos novos toda semana► http://bit.ly/la_Inscreva-sejá\n*****\nLetra:   \nAi que coceira, coceirinha\nO meu braço está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nNão se coce\nPode machucar\nCoçar só vai piorar\n\nSe não coçar\nVai melhorar\nEssa pomada vai ajudar\n\nAi que coceira, coceirinha\nMinha perna está coçando\nCoça, coça, coça e não para\nOh, papai me ajude aqui\nNão consigo parar de coçar\n\nIsso está muito irritado\nVamos lavar \npara melhorar\n \nAgora é só \nnão encostar\nNem coçar\nE logo vai passar\n\nAi que coceira, coceirinha\nMeu bracinho está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nQuando temos alergia\nNossa pele\nFica vermelha e inchada\n\nSem coçar\nPra não machucar\nCom a pomada vai melhorar\n\nAi que coceira, coceirinha\nEstá tudo coçando\nCoça, coça, coça e não para\nAi, alguém me ajuda aqui\nNão consigo parar de coçar\n\nPapai também \nnão pode coçar\nPara não se machucar\n\nQuando coçar\nÉ só chamar\nE a pomadinha vai ajudar\n*****\n\nAcompanhe a playlist Coleção do Bebê Joãozinho► http://bit.ly/coleçãoJoãozinho\n\nEstes vídeos, desenvolvidos especialmente para bebês e crianças pequenas, ajudam a ensinar habilidades básicas e melhoram a capacidade de compreender e seguir instruções. Cirandas, canções de ninar e músicas infantis aceleram a consciência fonética, melhorando as habilidades de compreensão, leitura e escrita das crianças.\n\nCurta, deixe um 👍 e conte para gente qual é o seu personagem preferido!\n\nAcompanhe as nossas redes sociais:\n★ Facebook: https://www.facebook.com/LittleAngelPortugues\n★ Instagram: https://www.instagram.com/littleangelportugues/?hl=en\n\nMúsica infantil, canções de ninar, português para crianças, canções de ninar em português, canções infantis em português, portuguese songs for kids, musica infantil, desenhos animados crianças, Músicas em português para crianças, desenho animado, desenhos.",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/5FNCZ8dfH8Q/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "Little Angel - Músicas Infantis em Português",
-      tags: [
-        "ai que coceira joãozinho",
-        "canal do joãozinho",
-        "coça coça",
-        "coça-coça",
-        "desenho animado",
-        "desenhos",
-        "historinhas",
-        "joaozinho",
-        "joãozinho",
-        "little angel",
-        "little angel portugues",
-        "little angel português",
-        "mamãe e bebê",
-        "mosquitos",
-        "música infantil",
-        "picada de insetos",
-        "saúde do bebê",
-        "vídeo educativo",
-      ],
-      categoryId: "27",
-      liveBroadcastContent: "none",
-      defaultLanguage: "pt",
-      localized: {
-        title:
-          "Ai, Que Coceira, Joãozinho! | Canal do Joãozinho - Little Angel Português",
-        description:
-          "Picadas de insetos causam coceira, mas se a gente coça, só piora! Joãozinho é picado por um mosquito e quer coçar o braço na hora! Mas a mamãe e o papai mostram ao bebê que é melhor passar uma pomadinha em vez de coçar! #littleangelportuguês #infantil\n\n(🔔) Inscreva-se para ver vídeos novos toda semana► http://bit.ly/la_Inscreva-sejá\n*****\nLetra:   \nAi que coceira, coceirinha\nO meu braço está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nNão se coce\nPode machucar\nCoçar só vai piorar\n\nSe não coçar\nVai melhorar\nEssa pomada vai ajudar\n\nAi que coceira, coceirinha\nMinha perna está coçando\nCoça, coça, coça e não para\nOh, papai me ajude aqui\nNão consigo parar de coçar\n\nIsso está muito irritado\nVamos lavar \npara melhorar\n \nAgora é só \nnão encostar\nNem coçar\nE logo vai passar\n\nAi que coceira, coceirinha\nMeu bracinho está coçando\nCoça, coça, coça e não para\nOh, mamãe me ajude aqui\nNão consigo parar de coçar\n\nQuando temos alergia\nNossa pele\nFica vermelha e inchada\n\nSem coçar\nPra não machucar\nCom a pomada vai melhorar\n\nAi que coceira, coceirinha\nEstá tudo coçando\nCoça, coça, coça e não para\nAi, alguém me ajuda aqui\nNão consigo parar de coçar\n\nPapai também \nnão pode coçar\nPara não se machucar\n\nQuando coçar\nÉ só chamar\nE a pomadinha vai ajudar\n*****\n\nAcompanhe a playlist Coleção do Bebê Joãozinho► http://bit.ly/coleçãoJoãozinho\n\nEstes vídeos, desenvolvidos especialmente para bebês e crianças pequenas, ajudam a ensinar habilidades básicas e melhoram a capacidade de compreender e seguir instruções. Cirandas, canções de ninar e músicas infantis aceleram a consciência fonética, melhorando as habilidades de compreensão, leitura e escrita das crianças.\n\nCurta, deixe um 👍 e conte para gente qual é o seu personagem preferido!\n\nAcompanhe as nossas redes sociais:\n★ Facebook: https://www.facebook.com/LittleAngelPortugues\n★ Instagram: https://www.instagram.com/littleangelportugues/?hl=en\n\nMúsica infantil, canções de ninar, português para crianças, canções de ninar em português, canções infantis em português, portuguese songs for kids, musica infantil, desenhos animados crianças, Músicas em português para crianças, desenho animado, desenhos.",
-      },
-      defaultAudioLanguage: "pt",
-    },
-    contentDetails: {
-      duration: "PT3M33S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "46431086",
-      likeCount: "55108",
-      favoriteCount: "0",
-      commentCount: "0",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2017-10-30T14:10:25Z",
-      channelId: "UCwg_21agm3NCVW5lyBVG1xQ",
-      title: "AI QUE VIDA - HD",
-      description:
-        "Em meados dos anos de 1990, a fictícia cidade de Poço Fundo, interior do Nordeste, está vivendo um verdadeiro caos em sua administração pública. O Prefeito Zé Leitão (Feliciano Popô) é um administrador corrupto e há quatro anos no poder pouco fez pela cidade.\nRevoltada com a situação da cidade, a microempresária Cleonice da Cruz Piedade (Toinha Catingueiro) decide concorre ao cargo de prefeita e lutar por melhorias na cidade. Idealista e de bom coração, Cleonice vai iniciar uma divertida batalha pela atenção do eleitor.\nNos bastidores, um triângulo amoroso toma forma: o individualista Jerod (Welligton Alencar), o boêmio Valdir (Rômulo Augusto) e a romântica Charleni (Irisceli Queiroz). Charleni, dançarina de banda de forró, é uma moça de bom coração, que ajuda, nas horas vagas, em uma instituição filantrópica. Noiva de Jerod, Charlene fica em dúvidas quanto ao futuro do relacionamento, porque desconfia do namorado. Durante esse conflito psicológico, surge um outro homem em sua vida: Valdir (Rômulo Augusto), um jovem de uma beleza diferente e um passado nada animador. A relação inicialmente conturbada dá origem a uma outra, cada vez mais intensa.\n“Ai que vida” tem um enredo recheado de divertidas histórias que farão o espectador rir, chorar, se emocionar e também refletir sobre os valores morais das personagens.\nMuitos outros temas são abordados nessa proposta inovadora de fazer arte no Maranhão e Piauí. A filantropia, o caráter e a ética do ser humano, o amor, o respeito ao próximo e os valores familiares são aspectos trabalhados no filme, porém, a mais importante vertente é a “politicagem” no interior do Brasil, contribuindo, de maneira crítica, embora não panfletária e partidária, para a valorização da cidadania.\n\nFICHA TÉCNICA\nTítulo: AI QUE VIDA\nDireção: Cícero Filho\nAtores: Rômulo Augusto, Feliciano Popo, Virgílio Queiroz, Eli Sibita, Danilo Costa, Toinha Catingueiro e Irisceli Queiroz.\nRoteiro: Cícero Filho \nAno: 2007\nDuração: 100min\nGênero: Comédia \nClassificação: LIVRE\nDireção de Trilha Sonora: Myel Araújo \nEdição e finalização: David Marinho\nDireção de Produção: Kelly Rocha\n\nCOMPRE O DVD ORIGINAL \nSOLICITE O SEU PELO E-MAIL: tvmfilmes@hotmail.com",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/hg7BSqRZ5M4/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "TvM FILMES",
-      tags: [
-        "ai que vida",
-        "cinema piauiense",
-        "Piauí",
-        "cinema",
-        "comédia",
-        "sucesso nacional",
-        "flor de abril",
-        "entre o amor e a razão",
-        "o cão chupando manga",
-        "o milagre do amor",
-        "Brasil",
-        "vídeos engraçados",
-        "Maranhão",
-        "Poção de Pedras",
-        "Esperantinópolis",
-        "Timon",
-        "São Francisco do Maranhão",
-        "Amarante",
-        "cavalo piancó",
-        "filme AI QUE VIDA completo",
-        "ai que vida cinema filme completo",
-      ],
-      categoryId: "1",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "AI QUE VIDA - HD",
-        description:
-          "Em meados dos anos de 1990, a fictícia cidade de Poço Fundo, interior do Nordeste, está vivendo um verdadeiro caos em sua administração pública. O Prefeito Zé Leitão (Feliciano Popô) é um administrador corrupto e há quatro anos no poder pouco fez pela cidade.\nRevoltada com a situação da cidade, a microempresária Cleonice da Cruz Piedade (Toinha Catingueiro) decide concorre ao cargo de prefeita e lutar por melhorias na cidade. Idealista e de bom coração, Cleonice vai iniciar uma divertida batalha pela atenção do eleitor.\nNos bastidores, um triângulo amoroso toma forma: o individualista Jerod (Welligton Alencar), o boêmio Valdir (Rômulo Augusto) e a romântica Charleni (Irisceli Queiroz). Charleni, dançarina de banda de forró, é uma moça de bom coração, que ajuda, nas horas vagas, em uma instituição filantrópica. Noiva de Jerod, Charlene fica em dúvidas quanto ao futuro do relacionamento, porque desconfia do namorado. Durante esse conflito psicológico, surge um outro homem em sua vida: Valdir (Rômulo Augusto), um jovem de uma beleza diferente e um passado nada animador. A relação inicialmente conturbada dá origem a uma outra, cada vez mais intensa.\n“Ai que vida” tem um enredo recheado de divertidas histórias que farão o espectador rir, chorar, se emocionar e também refletir sobre os valores morais das personagens.\nMuitos outros temas são abordados nessa proposta inovadora de fazer arte no Maranhão e Piauí. A filantropia, o caráter e a ética do ser humano, o amor, o respeito ao próximo e os valores familiares são aspectos trabalhados no filme, porém, a mais importante vertente é a “politicagem” no interior do Brasil, contribuindo, de maneira crítica, embora não panfletária e partidária, para a valorização da cidadania.\n\nFICHA TÉCNICA\nTítulo: AI QUE VIDA\nDireção: Cícero Filho\nAtores: Rômulo Augusto, Feliciano Popo, Virgílio Queiroz, Eli Sibita, Danilo Costa, Toinha Catingueiro e Irisceli Queiroz.\nRoteiro: Cícero Filho \nAno: 2007\nDuração: 100min\nGênero: Comédia \nClassificação: LIVRE\nDireção de Trilha Sonora: Myel Araújo \nEdição e finalização: David Marinho\nDireção de Produção: Kelly Rocha\n\nCOMPRE O DVD ORIGINAL \nSOLICITE O SEU PELO E-MAIL: tvmfilmes@hotmail.com",
-      },
-    },
-    contentDetails: {
-      duration: "PT1H40M42S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: false,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "34467924",
-      likeCount: "359544",
-      favoriteCount: "0",
-      commentCount: "16571",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2011-12-13T04:39:49Z",
-      channelId: "UCBsoPS9SrdAg9YHKG08XRKQ",
-      title: "AI - ハピネス",
-      description:
-        "AIの新曲「ハピネス」がCoca-Cola 2011 Christmas Campaign　TV-CMソングとしてタイアップ決定。コカ・コーラのCMとして日本オリジナル楽曲が起用されるのは約10年ぶり。プロモーションビデオでもCMの世界観そのままに掃除婦や校長先生、コカ・コーラの営業マンに扮したAIが生徒のみんなと楽しく歌唱。まさにハピネスなビデオになってます。\nシングル「ハピネス/Letter In The Sky feat.The Jacksons」12/14発売。",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/uKgmu8g-kXE/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "AIVEVO",
-      tags: [
-        "ハピネス",
-        "emi",
-        "music",
-        "japan",
-        "video",
-        "Coca-Cola",
-        "2011",
-        "Christmas",
-        "Campaign",
-        "コカコーラ",
-        "クリスマス",
-        "キャンペーン",
-        "happiness",
-      ],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "AI - ハピネス",
-        description:
-          "AIの新曲「ハピネス」がCoca-Cola 2011 Christmas Campaign　TV-CMソングとしてタイアップ決定。コカ・コーラのCMとして日本オリジナル楽曲が起用されるのは約10年ぶり。プロモーションビデオでもCMの世界観そのままに掃除婦や校長先生、コカ・コーラの営業マンに扮したAIが生徒のみんなと楽しく歌唱。まさにハピネスなビデオになってます。\nシングル「ハピネス/Letter In The Sky feat.The Jacksons」12/14発売。",
-      },
-      defaultAudioLanguage: "en-US",
-    },
-    contentDetails: {
-      duration: "PT4M36S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "33448741",
-      likeCount: "98737",
-      favoriteCount: "0",
-      commentCount: "3795",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2020-08-26T15:59:21Z",
-      channelId: "UCsyBVa0eTR-lL0sRnKpIe8w",
-      title: "GHOSTEMANE - AI (OFFICIAL VIDEO)",
-      description:
-        "GHOSTEMANE - AI (OFFICIAL VIDEO), a Studio Linguini Production (@studio_linguini)\n\n☿ ☿ ☿\n\nCopyright: Blackmage\nPublisher: Blackmage\n\nCreated/Produced by Studio Linguini: @studio_linguini \nNick Cinelli (Director/Animator)\nJenny Shaughnessy (Producer)\nVenturia Animation Studios (2D Animation): @venturia.animation \nMiryam Jacomini (Production Design) : @miryamjdesign \nHarry Richardson (Puppets) : @harry_f_richardson\nAlice Simonato (Props) : @alicesimonato\nYsabel King (Lead Compositor) : @toowo\n\nConcept by Jon Tanners (@jontanners) and Nick Cinelli (@galactic.nicolas)\n\nANTI-ICON ALBUM OUT EVERYWHERE OCTOBER 21ST\n\nSTREAM AI - https://ghostemane.ffm.to/a__i\n\nLYRICS - https://genius.com/Ghostemane-ai-lyrics",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/N3XbZvD3lRo/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-      },
-      channelTitle: "GHOSTEMANE",
-      categoryId: "24",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "GHOSTEMANE - AI (OFFICIAL VIDEO)",
-        description:
-          "GHOSTEMANE - AI (OFFICIAL VIDEO), a Studio Linguini Production (@studio_linguini)\n\n☿ ☿ ☿\n\nCopyright: Blackmage\nPublisher: Blackmage\n\nCreated/Produced by Studio Linguini: @studio_linguini \nNick Cinelli (Director/Animator)\nJenny Shaughnessy (Producer)\nVenturia Animation Studios (2D Animation): @venturia.animation \nMiryam Jacomini (Production Design) : @miryamjdesign \nHarry Richardson (Puppets) : @harry_f_richardson\nAlice Simonato (Props) : @alicesimonato\nYsabel King (Lead Compositor) : @toowo\n\nConcept by Jon Tanners (@jontanners) and Nick Cinelli (@galactic.nicolas)\n\nANTI-ICON ALBUM OUT EVERYWHERE OCTOBER 21ST\n\nSTREAM AI - https://ghostemane.ffm.to/a__i\n\nLYRICS - https://genius.com/Ghostemane-ai-lyrics",
-      },
-    },
-    contentDetails: {
-      duration: "PT2M57S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "29006918",
-      likeCount: "628318",
-      favoriteCount: "0",
-      commentCount: "16439",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2024-07-02T10:01:28Z",
-      channelId: "UC_ZGH2nFrFg-leJpVNhMe9A",
-      title: "Si Ai",
-      description:
-        "Provided to YouTube by Colonize Media, Inc.\n\nSi Ai · Tayna\n\nSi Ai\n\n℗ 2024 PENDRAGON\n\nReleased on: 2024-06-11\n\nComposer: Benny Bee\nComposer: Marco Tolo\nComposer: Morey Parisi\nComposer: Medin Uka\nComposer: Adam Piastowski\nComposer: Black Eagle Beats\nAuthor: Doruntina Shala\n\nAuto-generated by YouTube.",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/yGNd14Sm7Yg/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "Tayna - Topic",
-      tags: ["Tayna", "Si Ai"],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "Si Ai",
-        description:
-          "Provided to YouTube by Colonize Media, Inc.\n\nSi Ai · Tayna\n\nSi Ai\n\n℗ 2024 PENDRAGON\n\nReleased on: 2024-06-11\n\nComposer: Benny Bee\nComposer: Marco Tolo\nComposer: Morey Parisi\nComposer: Medin Uka\nComposer: Adam Piastowski\nComposer: Black Eagle Beats\nAuthor: Doruntina Shala\n\nAuto-generated by YouTube.",
-      },
-    },
-    contentDetails: {
-      duration: "PT2M46S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      regionRestriction: {
-        allowed: [
-          "AE",
-          "AR",
-          "AS",
-          "AT",
-          "AU",
-          "AW",
-          "AZ",
-          "BA",
-          "BD",
-          "BE",
-          "BG",
-          "BH",
-          "BM",
-          "BO",
-          "BR",
-          "BY",
-          "CA",
-          "CH",
-          "CL",
-          "CO",
-          "CR",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "DO",
-          "DZ",
-          "EC",
-          "EE",
-          "EG",
-          "ES",
-          "FI",
-          "FR",
-          "GB",
-          "GE",
-          "GF",
-          "GH",
-          "GP",
-          "GR",
-          "GT",
-          "GU",
-          "HK",
-          "HN",
-          "HR",
-          "HU",
-          "ID",
-          "IE",
-          "IL",
-          "IN",
-          "IQ",
-          "IS",
-          "IT",
-          "JM",
-          "JO",
-          "JP",
-          "KE",
-          "KH",
-          "KR",
-          "KW",
-          "KY",
-          "KZ",
-          "LA",
-          "LB",
-          "LI",
-          "LK",
-          "LT",
-          "LU",
-          "LV",
-          "LY",
-          "MA",
-          "MK",
-          "MP",
-          "MQ",
-          "MT",
-          "MX",
-          "MY",
-          "NC",
-          "NG",
-          "NI",
-          "NL",
-          "NO",
-          "NP",
-          "NZ",
-          "OM",
-          "PA",
-          "PE",
-          "PF",
-          "PG",
-          "PH",
-          "PK",
-          "PL",
-          "PR",
-          "PT",
-          "PY",
-          "QA",
-          "RE",
-          "RO",
-          "RS",
-          "RU",
-          "SA",
-          "SE",
-          "SG",
-          "SI",
-          "SK",
-          "SN",
-          "SV",
-          "TC",
-          "TH",
-          "TN",
-          "TR",
-          "TW",
-          "TZ",
-          "UA",
-          "UG",
-          "US",
-          "UY",
-          "VE",
-          "VI",
-          "VN",
-          "YE",
-          "YT",
-          "ZA",
-          "ZW",
-        ],
-      },
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "24554392",
-      likeCount: "226716",
-      favoriteCount: "0",
-      commentCount: "0",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2024-08-02T04:00:42Z",
-      channelId: "UCEdvpU2pFRCVqU6yIPyTpMQ",
-      title: "Tayna - Si Ai (Marshmello & UKAY Remix)",
-      description:
-        "Tayna - Si Ai (Marshmello & UKAY Remix)\nStream: https://marshmello.ffm.to/taynaremix\n\nOfficial Marshmello Merch ▶ https://marshmellomusic.com\n\nSUBSCRIBE HERE ▶ http://youtube.com/marshmellomusic?sub_confirmation=1\n\n---MORE Marshmello Music\nListen to SHOCKWAVE ▶ https://marshmello.ffm.to/shockwave\nListen to Joytime III ▶ https://ffm.to/joytimeiii\nListen to Joytime II ▶ http://smarturl.it/JOYTIMEII\n\nWATCH LBYLM MUSIC VIDEO ▶ https://youtu.be/hmUyEDG7Jy0\nWATCH COME & GO MUSIC VIDEO ▶ https://youtu.be/Dxm3cHrKcbA\nWATCH HAPPIER MUSIC VIDEO ▶ https://youtu.be/m7Bc3pLyij0\nWATCH FRIENDS MUSIC VIDEO ▶ https://youtu.be/jzD_yyEcp0M\nWATCH SILENCE MUSIC VIDEO ▶ https://youtu.be/Tx1sqYc3qas\nWATCH WOLVES MUSIC VIDEO ▶ https://youtu.be/cH4E_t3m3xM\nWATCH ALONE MUSIC VIDEO ▶ https://youtu.be/ALZHF5UqnU4\n\nMARSHMELLO:\nMerch | https://mellogang.com/collections/new-arrivals/\nSpotify | http://spoti.fi/Marshmello\nApple Music | http://apple.co/2n8Evz6\nSoundCloud | http://soundcloud.com/marshmellomusic\nInstagram | http://instagram.com/marshmello\nFacebook | http://facebook.com/marshmello\nTwitter | http://twitter.com/marshmello\nTwitch | http://twitch.tv/marshmellomusic\nTikTok | https://tiktok.com/@marshmello\n\nTAYNA:\nhttp://instagram.com/tayna\n@itstayna \n\nUKAY:\nhttp://instagram.com/deejayukay\n\n#Marshmello #tayna #SiAi",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/r-BhWxHjJuo/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "Marshmello",
-      tags: [
-        "marshmello",
-        "marshmallow",
-        "dance",
-        "music",
-        "si ai",
-        "tayna si ai",
-        "tayna si ai remix",
-        "marshmello remix",
-        "tayna marshmello",
-        "marshmello tayna",
-        "si ai marshmello",
-        "ukay",
-        "si ai speed",
-        "si ai sped up",
-        "si ai nightcore",
-        "tiktok trends",
-        "tiktok songs 2024",
-        "si ai tiktok",
-        "albania",
-        "albanian music",
-        "keinemusik",
-        "keinemusik move",
-        "move",
-        "zerb mwaki",
-        "afro house",
-        "deep house",
-        "deep house mix",
-        "chill house music",
-        "si ai ai",
-        "si ai ai ai",
-        "si ai tayna",
-        "si ai lyrics",
-        "si ai remix",
-        "marshmello si ai",
-        "shqip",
-      ],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      defaultLanguage: "en",
-      localized: {
-        title: "Tayna - Si Ai (Marshmello & UKAY Remix)",
-        description:
-          "Tayna - Si Ai (Marshmello & UKAY Remix)\nStream: https://marshmello.ffm.to/taynaremix\n\nOfficial Marshmello Merch ▶ https://marshmellomusic.com\n\nSUBSCRIBE HERE ▶ http://youtube.com/marshmellomusic?sub_confirmation=1\n\n---MORE Marshmello Music\nListen to SHOCKWAVE ▶ https://marshmello.ffm.to/shockwave\nListen to Joytime III ▶ https://ffm.to/joytimeiii\nListen to Joytime II ▶ http://smarturl.it/JOYTIMEII\n\nWATCH LBYLM MUSIC VIDEO ▶ https://youtu.be/hmUyEDG7Jy0\nWATCH COME & GO MUSIC VIDEO ▶ https://youtu.be/Dxm3cHrKcbA\nWATCH HAPPIER MUSIC VIDEO ▶ https://youtu.be/m7Bc3pLyij0\nWATCH FRIENDS MUSIC VIDEO ▶ https://youtu.be/jzD_yyEcp0M\nWATCH SILENCE MUSIC VIDEO ▶ https://youtu.be/Tx1sqYc3qas\nWATCH WOLVES MUSIC VIDEO ▶ https://youtu.be/cH4E_t3m3xM\nWATCH ALONE MUSIC VIDEO ▶ https://youtu.be/ALZHF5UqnU4\n\nMARSHMELLO:\nMerch | https://mellogang.com/collections/new-arrivals/\nSpotify | http://spoti.fi/Marshmello\nApple Music | http://apple.co/2n8Evz6\nSoundCloud | http://soundcloud.com/marshmellomusic\nInstagram | http://instagram.com/marshmello\nFacebook | http://facebook.com/marshmello\nTwitter | http://twitter.com/marshmello\nTwitch | http://twitch.tv/marshmellomusic\nTikTok | https://tiktok.com/@marshmello\n\nTAYNA:\nhttp://instagram.com/tayna\n@itstayna \n\nUKAY:\nhttp://instagram.com/deejayukay\n\n#Marshmello #tayna #SiAi",
-      },
-      defaultAudioLanguage: "en",
-    },
-    contentDetails: {
-      duration: "PT3M5S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "false",
-      licensedContent: true,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "21534467",
-      likeCount: "137429",
-      favoriteCount: "0",
-      commentCount: "5192",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2021-07-05T12:00:14Z",
-      channelId: "UCX4fV50d398w_YSGgKwa51Q",
-      title: "AI - 「THE MOMENT feat ¥ellow Bucks」 (official video)",
-      description:
-        "「THE MOMENT feat. ¥ellow Bucks」\nListen Here：https://lnk.to/AIthemoment\n\nMUSIC\nLyrics AI, ¥ellow Bucks  Music AI, DJ RYOW & SPACE DUST CLUB\nProduced by AI, DJ RYOW & SPACE DUST CLUB\nMixed by D.O.I.\n\nMUSIC VIDEO\nDIRECTOR：YUE\nPRODUCER：Kohki Takei\n\n＜AI Information＞\n https://bio.to/AI_Link\n\n＜¥ellow Bucks Information＞\nhttps://www.tothetopgang.com/\nhttps://twitter.com/yellowbucks\nhttps://www.instagram.com/yellowbucks_tttg/\nhttps://www.youtube.com/channel/UC-yOrQ25-k6SeUivR6NF8ug\n\n＜DJ RYOW Information＞\nhttp://www.djryow.jp/\nhttps://twitter.com/djryow\nhttps://www.instagram.com/djryow/\nhttps://www.facebook.com/djryow.official\nhttps://www.youtube.com/channel/UCyhiR-5J7J22LILKbHqn86Q\n\n#AI #THEMOMENT #YellowBucks #DJRYOW #SPACEDUSTCLUB #TTTG\n#ThelmaAoyama #RIEHATA #LUNA #SID #TEE",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/aYduRkOidEc/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "AI",
-      tags: ["AI", "THE MOMENT", "YellowBucks", "MV"],
-      categoryId: "10",
-      liveBroadcastContent: "none",
-      localized: {
-        title: "AI - 「THE MOMENT feat ¥ellow Bucks」 (official video)",
-        description:
-          "「THE MOMENT feat. ¥ellow Bucks」\nListen Here：https://lnk.to/AIthemoment\n\nMUSIC\nLyrics AI, ¥ellow Bucks  Music AI, DJ RYOW & SPACE DUST CLUB\nProduced by AI, DJ RYOW & SPACE DUST CLUB\nMixed by D.O.I.\n\nMUSIC VIDEO\nDIRECTOR：YUE\nPRODUCER：Kohki Takei\n\n＜AI Information＞\n https://bio.to/AI_Link\n\n＜¥ellow Bucks Information＞\nhttps://www.tothetopgang.com/\nhttps://twitter.com/yellowbucks\nhttps://www.instagram.com/yellowbucks_tttg/\nhttps://www.youtube.com/channel/UC-yOrQ25-k6SeUivR6NF8ug\n\n＜DJ RYOW Information＞\nhttp://www.djryow.jp/\nhttps://twitter.com/djryow\nhttps://www.instagram.com/djryow/\nhttps://www.facebook.com/djryow.official\nhttps://www.youtube.com/channel/UCyhiR-5J7J22LILKbHqn86Q\n\n#AI #THEMOMENT #YellowBucks #DJRYOW #SPACEDUSTCLUB #TTTG\n#ThelmaAoyama #RIEHATA #LUNA #SID #TEE",
-      },
-      defaultAudioLanguage: "en",
-    },
-    contentDetails: {
-      duration: "PT3M24S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "true",
-      licensedContent: false,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "13214346",
-      likeCount: "58659",
-      favoriteCount: "0",
-      commentCount: "1010",
-    },
-  },
-  {
-    snippet: {
-      publishedAt: "2023-07-16T15:05:29Z",
-      channelId: "UC-CSyyi47VX1lD9zyeABW3w",
-      title:
-        "The Truth about Artificial Intelligence and ChatGPT | Dhruv Rathee",
-      description:
-        "🤖 Join my AI Course: https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \nUse coupon code: TAKE41 for 41% discount! \nHurry up! Offer only valid for the first 1000 people \n\nLink to course: https://academy.dhruvrathee.com/chatgpt\n\nOver the past year, artificial intelligence has emerged as a prominent and widely discussed subject. It is no longer merely a buzzword, but rather a practical tool that we can actively employ. Revolutionary platforms such as ChatGPT and Midjourney are transforming the functioning of our world. However, the advancement of AI also raises significant and profound inquiries. Will AI supersede human capabilities? Does it pose a threat to humanity's existence? What about the potential job displacement caused by AI? If you share these concerns, watch this video by Dhruv Rathee, where he delves into the realities of artificial intelligence, offering insights and answers to these pressing questions.\n\nLink to the videos mentioned - \nHow Online Betting & Fantasy Apps Fool You! | Business Model | Dhruv Rathee - https://youtu.be/tzi43LUfzFc\n---------------------------------------------------- \nJOIN MY COURSE: \n✏️ Time Management and Productivity Course:  https://academy.dhruvrathee.com\nLearn how to manage time and maximize productivity in my specialised online course. \n🤖 Master ChatGPT - Full Course : https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \n\nLISTEN TO MY PODCAST: \n🎧 My Spotify exclusive podcast. Learn about how India works, only on Maha Bharat with Dhruv Rathee: https://spoti.fi/3IhBW51\n\nFOLLOW ME ON:\n▶️ Main Channel: http://www.youtube.com/dhruvrathee\n🎦 Vlog Channel: http://www.youtube.com/dhruvratheevlogs\n🩳 Shorts Channel: https://www.youtube.com/channel/UCw4IHIMsDO5wpIiprOSXiEA\n📸 Instagram: http://www.instagram.com/dhruvrathee\n🐦  Twitter: http://www.twitter.com/dhruv_rathee\n\nMY VIDEO TOPICS:\n🗺 Geopolitics: https://youtube.com/playlist?list=PL8828Z-IEhFGkz7F_paNquqsFyd357oYA\n📘 History: https://youtube.com/playlist?list=PL8828Z-IEhFGSI3R-AkaB95EJBO7nBjGS\n🔬 Science: https://youtube.com/playlist?list=PL8828Z-IEhFGrt2Tf1b0qg40g3AFw4YKp\n☠️ Mystery: https://youtube.com/playlist?list=PL8828Z-IEhFGF2LJQrRHRtoEfS7BZHZIK\n💰Finance: https://youtube.com/playlist?list=PL8828Z-IEhFEG47-MiL0G7Mh6J-T8eBoq\n🇮🇳 Indian Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFErzy-eKRAiTta0GLrzn6fM\n🌍 International Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFFs3hT95-ZnEHDyLduo40FU\n\nDOWNLOAD MY APP: \n📱Android app: https://play.google.com/store/apps/details?id=com.arStudios.dhruvRatheeApp&hl=en&gl=US\n📱iOS App: https://apps.apple.com/ie/app/dhruv-rathee/id1553920898\n----------------------------------------------------",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/vJefOB8kec8/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/vJefOB8kec8/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/vJefOB8kec8/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-        standard: {
-          url: "https://i.ytimg.com/vi/vJefOB8kec8/sddefault.jpg",
-          width: 640,
-          height: 480,
-        },
-        maxres: {
-          url: "https://i.ytimg.com/vi/vJefOB8kec8/maxresdefault.jpg",
-          width: 1280,
-          height: 720,
-        },
-      },
-      channelTitle: "Dhruv Rathee",
-      tags: [
-        "Dhruv Rathee",
-        "Dhruv",
-        "Rathee",
-        "indian youtuber",
-        "khan sir",
-        "khan sir patna",
-        "will ai replace programmers",
-        "will ai take over the world",
-        "is ai dangerous",
-        "chat gpt kya hai",
-        "chatgpt",
-        "midjourney",
-        "ai",
-        "artificial intelligence",
-        "is chatgpt safe",
-        "how to use chatgpt",
-        "chatgpt tutorial",
-        "is ai conscious",
-        "is ai a good career",
-        "is ai going to replace programmers",
-        "how ai is dangerous",
-        "ai and human",
-        "what is chatgpt",
-        "what is chatgpt in hindi",
-        "Dhruv Rathee Course",
-        "Dhruv Rathee Course free download",
-      ],
-      categoryId: "27",
-      liveBroadcastContent: "none",
-      defaultLanguage: "en",
-      localized: {
-        title:
-          "The Truth about Artificial Intelligence and ChatGPT | Dhruv Rathee",
-        description:
-          "🤖 Join my AI Course: https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \nUse coupon code: TAKE41 for 41% discount! \nHurry up! Offer only valid for the first 1000 people \n\nLink to course: https://academy.dhruvrathee.com/chatgpt\n\nOver the past year, artificial intelligence has emerged as a prominent and widely discussed subject. It is no longer merely a buzzword, but rather a practical tool that we can actively employ. Revolutionary platforms such as ChatGPT and Midjourney are transforming the functioning of our world. However, the advancement of AI also raises significant and profound inquiries. Will AI supersede human capabilities? Does it pose a threat to humanity's existence? What about the potential job displacement caused by AI? If you share these concerns, watch this video by Dhruv Rathee, where he delves into the realities of artificial intelligence, offering insights and answers to these pressing questions.\n\nLink to the videos mentioned - \nHow Online Betting & Fantasy Apps Fool You! | Business Model | Dhruv Rathee - https://youtu.be/tzi43LUfzFc\n---------------------------------------------------- \nJOIN MY COURSE: \n✏️ Time Management and Productivity Course:  https://academy.dhruvrathee.com\nLearn how to manage time and maximize productivity in my specialised online course. \n🤖 Master ChatGPT - Full Course : https://academy.dhruvrathee.com/chatgpt\nLearn to harness the power of ChatGPT effectively and transform your life! \n\nLISTEN TO MY PODCAST: \n🎧 My Spotify exclusive podcast. Learn about how India works, only on Maha Bharat with Dhruv Rathee: https://spoti.fi/3IhBW51\n\nFOLLOW ME ON:\n▶️ Main Channel: http://www.youtube.com/dhruvrathee\n🎦 Vlog Channel: http://www.youtube.com/dhruvratheevlogs\n🩳 Shorts Channel: https://www.youtube.com/channel/UCw4IHIMsDO5wpIiprOSXiEA\n📸 Instagram: http://www.instagram.com/dhruvrathee\n🐦  Twitter: http://www.twitter.com/dhruv_rathee\n\nMY VIDEO TOPICS:\n🗺 Geopolitics: https://youtube.com/playlist?list=PL8828Z-IEhFGkz7F_paNquqsFyd357oYA\n📘 History: https://youtube.com/playlist?list=PL8828Z-IEhFGSI3R-AkaB95EJBO7nBjGS\n🔬 Science: https://youtube.com/playlist?list=PL8828Z-IEhFGrt2Tf1b0qg40g3AFw4YKp\n☠️ Mystery: https://youtube.com/playlist?list=PL8828Z-IEhFGF2LJQrRHRtoEfS7BZHZIK\n💰Finance: https://youtube.com/playlist?list=PL8828Z-IEhFEG47-MiL0G7Mh6J-T8eBoq\n🇮🇳 Indian Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFErzy-eKRAiTta0GLrzn6fM\n🌍 International Current Affairs: https://youtube.com/playlist?list=PL8828Z-IEhFFs3hT95-ZnEHDyLduo40FU\n\nDOWNLOAD MY APP: \n📱Android app: https://play.google.com/store/apps/details?id=com.arStudios.dhruvRatheeApp&hl=en&gl=US\n📱iOS App: https://apps.apple.com/ie/app/dhruv-rathee/id1553920898\n----------------------------------------------------",
-      },
-      defaultAudioLanguage: "hi",
-    },
-    contentDetails: {
-      duration: "PT22M37S",
-      dimension: "2d",
-      definition: "hd",
-      caption: "true",
-      licensedContent: true,
-      contentRating: {},
-      projection: "rectangular",
-    },
-    statistics: {
-      viewCount: "11146596",
-      likeCount: "485866",
-      favoriteCount: "0",
-      commentCount: "30159",
-    },
-  },
   {
     snippet: {
       publishedAt: "2021-12-01T10:00:19Z",
@@ -4347,6 +1971,739 @@ export const filteredDateFromTrendingVideos = [
       likeCount: "26706",
       favoriteCount: "0",
       commentCount: "646",
+    },
+  },
+];
+
+export const channelData = [
+  {
+    kind: "youtube#channel",
+    etag: "VAwYs_wRawAm1V-cQUAJb917ke8",
+    id: "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+    snippet: {
+      title: "Google for Developers",
+      description:
+        "Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.\n\nExplore more at developers.google.com\n\n",
+      customUrl: "@googledevelopers",
+      publishedAt: "2007-08-23T00:34:43Z",
+      thumbnails: {
+        default: {
+          url: "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s88-c-k-c0x00ffffff-no-rj",
+          width: 88,
+          height: 88,
+        },
+        medium: {
+          url: "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s240-c-k-c0x00ffffff-no-rj",
+          width: 240,
+          height: 240,
+        },
+        high: {
+          url: "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s800-c-k-c0x00ffffff-no-rj",
+          width: 800,
+          height: 800,
+        },
+      },
+      localized: {
+        title: "Google for Developers",
+        description:
+          "Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.\n\nExplore more at developers.google.com\n\n",
+      },
+      country: "US",
+    },
+    contentDetails: {
+      relatedPlaylists: {
+        likes: "",
+        uploads: "UU_x5XG1OV2P6uZZ5FSM9Ttw",
+      },
+    },
+    statistics: {
+      viewCount: "309585651",
+      subscriberCount: "2390000",
+      hiddenSubscriberCount: false,
+      videoCount: "6317",
+    },
+  },
+  {
+    kind: "youtube#channel",
+    etag: "1bvFiHEgZWYFK46TcQrosierRys",
+    id: "UC487FZX-RwumY3xDWAL4o7g",
+    snippet: {
+      title: "AI Insider SHORTZ",
+      description: "SUBSCRIBE TO MY NEW CHANNEL: ",
+      customUrl: "@ai-insider-shortz",
+      publishedAt: "2023-07-15T21:52:11.68894Z",
+      thumbnails: {
+        default: {
+          url: "https://yt3.ggpht.com/pib7fW89QZYGurF5ChMMZjct11wB9Hl2MH2G6wwQFVy4NHISOEPXZXuw-gTnKVOuN76IwrixOw=s88-c-k-c0x00ffffff-no-rj",
+          width: 88,
+          height: 88,
+        },
+        medium: {
+          url: "https://yt3.ggpht.com/pib7fW89QZYGurF5ChMMZjct11wB9Hl2MH2G6wwQFVy4NHISOEPXZXuw-gTnKVOuN76IwrixOw=s240-c-k-c0x00ffffff-no-rj",
+          width: 240,
+          height: 240,
+        },
+        high: {
+          url: "https://yt3.ggpht.com/pib7fW89QZYGurF5ChMMZjct11wB9Hl2MH2G6wwQFVy4NHISOEPXZXuw-gTnKVOuN76IwrixOw=s800-c-k-c0x00ffffff-no-rj",
+          width: 800,
+          height: 800,
+        },
+      },
+      localized: {
+        title: "AI Insider SHORTZ",
+        description: "SUBSCRIBE TO MY NEW CHANNEL: ",
+      },
+      country: "US",
+    },
+    contentDetails: {
+      relatedPlaylists: {
+        likes: "",
+        uploads: "UU487FZX-RwumY3xDWAL4o7g",
+      },
+    },
+    statistics: {
+      viewCount: "19760429",
+      subscriberCount: "97600",
+      hiddenSubscriberCount: false,
+      videoCount: "159",
+    },
+  },
+  {
+    kind: "youtube#channel",
+    etag: "8KZmEWtDJ8VD60TL5qEvNbcEOlE",
+    id: "UCvpredjG93ifbCP1Y77JyFA",
+    snippet: {
+      title: "Ayase / YOASOBI",
+      description:
+        "シンガーソングライター、ボカロPのAyase、そしてAyaseがコンポーザーを務めるユニット・YOASOBIのYouTubeチャンネルです。",
+      customUrl: "@ayase_yoasobi",
+      publishedAt: "2018-11-16T23:11:18Z",
+      thumbnails: {
+        default: {
+          url: "https://yt3.ggpht.com/ytc/AIdro_nMWGqyr97pm_Gwii1PfkXIYJd4QYOiMP779zRdYQh49II=s88-c-k-c0x00ffffff-no-rj",
+          width: 88,
+          height: 88,
+        },
+        medium: {
+          url: "https://yt3.ggpht.com/ytc/AIdro_nMWGqyr97pm_Gwii1PfkXIYJd4QYOiMP779zRdYQh49II=s240-c-k-c0x00ffffff-no-rj",
+          width: 240,
+          height: 240,
+        },
+        high: {
+          url: "https://yt3.ggpht.com/ytc/AIdro_nMWGqyr97pm_Gwii1PfkXIYJd4QYOiMP779zRdYQh49II=s800-c-k-c0x00ffffff-no-rj",
+          width: 800,
+          height: 800,
+        },
+      },
+      localized: {
+        title: "Ayase / YOASOBI",
+        description:
+          "シンガーソングライター、ボカロPのAyase、そしてAyaseがコンポーザーを務めるユニット・YOASOBIのYouTubeチャンネルです。",
+      },
+      country: "JP",
+    },
+    contentDetails: {
+      relatedPlaylists: {
+        likes: "",
+        uploads: "UUvpredjG93ifbCP1Y77JyFA",
+      },
+    },
+    statistics: {
+      viewCount: "4923991024",
+      subscriberCount: "6820000",
+      hiddenSubscriberCount: false,
+      videoCount: "225",
+    },
+  },
+  {
+    kind: "youtube#channel",
+    etag: "VwStTHAXYf7nqhR7P7B5gC3pTh0",
+    id: "UCjWoiheJcpvpSY4ZVIRSifw",
+    snippet: {
+      title: "Solomon Jagwe",
+      description:
+        "Thank you for joining me as I share my creative journey with you on this channel! My goal is to inspire and assist others in realizing their own visions and bringing their unique stories to life. While I never considered myself a traditional YouTuber, the opportunity to help fellow dreamers and storytellers drew me to this path. It's incredibly rewarding to see others grow, learn, and pursue their passions. Join me on this journey and let's explore the limitless possibilities of storytelling together. http://www.sowl.com | Creator of Nkoza & Nankya: http://www.nkozaandnankya.com\n\nFriends, if you wish to support me so I can continue creating insights and tutorials to help you, my fellow dreamers and storytellers, kindly check out my Patreon Account: https://www.patreon.com/SolomonWJagwe\n",
+      customUrl: "@solomonjagwe",
+      publishedAt: "2009-08-02T06:16:07Z",
+      thumbnails: {
+        default: {
+          url: "https://yt3.ggpht.com/5vwkrRxnMjXGa2I1u7IPA-2UUORhOaPJp_OTGQ5zpcBQ8WM7jlFfw8PVlTpTRq-6eEsY1JQG=s88-c-k-c0x00ffffff-no-rj",
+          width: 88,
+          height: 88,
+        },
+        medium: {
+          url: "https://yt3.ggpht.com/5vwkrRxnMjXGa2I1u7IPA-2UUORhOaPJp_OTGQ5zpcBQ8WM7jlFfw8PVlTpTRq-6eEsY1JQG=s240-c-k-c0x00ffffff-no-rj",
+          width: 240,
+          height: 240,
+        },
+        high: {
+          url: "https://yt3.ggpht.com/5vwkrRxnMjXGa2I1u7IPA-2UUORhOaPJp_OTGQ5zpcBQ8WM7jlFfw8PVlTpTRq-6eEsY1JQG=s800-c-k-c0x00ffffff-no-rj",
+          width: 800,
+          height: 800,
+        },
+      },
+      localized: {
+        title: "Solomon Jagwe",
+        description:
+          "Thank you for joining me as I share my creative journey with you on this channel! My goal is to inspire and assist others in realizing their own visions and bringing their unique stories to life. While I never considered myself a traditional YouTuber, the opportunity to help fellow dreamers and storytellers drew me to this path. It's incredibly rewarding to see others grow, learn, and pursue their passions. Join me on this journey and let's explore the limitless possibilities of storytelling together. http://www.sowl.com | Creator of Nkoza & Nankya: http://www.nkozaandnankya.com\n\nFriends, if you wish to support me so I can continue creating insights and tutorials to help you, my fellow dreamers and storytellers, kindly check out my Patreon Account: https://www.patreon.com/SolomonWJagwe\n",
+      },
+      country: "US",
+    },
+    contentDetails: {
+      relatedPlaylists: {
+        likes: "",
+        uploads: "UUjWoiheJcpvpSY4ZVIRSifw",
+      },
+    },
+    statistics: {
+      viewCount: "151813951",
+      subscriberCount: "345000",
+      hiddenSubscriberCount: false,
+      videoCount: "965",
+    },
+  },
+];
+
+export const finalFilteredData = [
+  {
+    video: {
+      id: "fUEwoiC5AO0",
+      snippet: {
+        publishedAt: "2023-06-01T19:38:34Z",
+        channelId: "UC7fWeaHhqgM4Ry-RMpM2YYw",
+        title: "Humanoid robot warns of AI dangers",
+        description:
+          "A humanoid robot named Ameca was asked what a nightmare AI scenario would look like at a London robotics conference on June 1.\n\nDeveloped by the British company Engineered Arts, Ameca is not only capable of having conversations, but also mimicking facial expressions and body language.\n\nSubscribe: http://trt.world/subscribe\nLivestream: http://trt.world/ytlive\nFacebook: http://trt.world/facebook\nTwitter: http://trt.world/twitter\nInstagram: http://trt.world/instagram\nVisit our website: http://trt.world",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/fUEwoiC5AO0/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/fUEwoiC5AO0/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/fUEwoiC5AO0/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/fUEwoiC5AO0/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/fUEwoiC5AO0/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "TRT World",
+      },
+      contentDetails: {
+        duration: "PT53S",
+      },
+      statistics: {
+        viewCount: "2180010",
+        likeCount: "113381",
+        commentCount: "5501",
+      },
+    },
+    channel: {
+      id: "UC7fWeaHhqgM4Ry-RMpM2YYw",
+      statistics: {
+        subscriberCount: "8370000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "KKNCiRWd_j0",
+      snippet: {
+        publishedAt: "2024-04-22T17:24:11Z",
+        channelId: "UCAuUUnT6oDeKwE6v1NGQxug",
+        title: "What Is an AI Anyway? | Mustafa Suleyman | TED",
+        description:
+          "When it comes to artificial intelligence, what are we actually creating? Even those closest to its development are struggling to describe exactly where things are headed, says Microsoft AI CEO Mustafa Suleyman, one of the primary architects of the AI models many of us use today. He offers an honest and compelling new vision for the future of AI, proposing an unignorable metaphor — a new digital species — to focus attention on this extraordinary moment. (Followed by a Q&A with head of TED Chris Anderson)\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: https://ted.com/membership\n\nFollow TED! \nX: https://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: https://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit https://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/mustafasuleyman\n\nhttps://youtu.be/KKNCiRWd_j0\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #ai",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/KKNCiRWd_j0/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/KKNCiRWd_j0/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/KKNCiRWd_j0/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/KKNCiRWd_j0/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/KKNCiRWd_j0/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "TED",
+      },
+      contentDetails: {
+        duration: "PT22M2S",
+      },
+      statistics: {
+        viewCount: "1685456",
+        likeCount: "30988",
+        commentCount: "3296",
+      },
+    },
+    channel: {
+      id: "UCAuUUnT6oDeKwE6v1NGQxug",
+      statistics: {
+        subscriberCount: "25200000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "Yq0QkCxoTHM",
+      snippet: {
+        publishedAt: "2023-11-14T13:00:33Z",
+        channelId: "UCwAnu01qlnVg1Ai2AbtTMaA",
+        title: "Google’s AI Course for Beginners (in 10 minutes)!",
+        description:
+          "Grab my free Workspace Toolkit: https://academy.jeffsu.org/workspace-toolkit?utm_source=youtube&utm_medium=video&utm_campaign=146\n\nTry Gemini yourself: g.co/g1referral/9V6A6K8N\n\n🔍 In this video, we unravel the layers of AI, Machine Learning, Deep Learning, and their applications in tools like #ChatGPT and Google #Bard\n\nWe first go through how AI is a broad field of study that encompasses #MachineLearning as a sub-field.\n\nWe then break down Machine Learning into supervised and unsupervised models, using real-world examples to illustrate their functions and differences.\n\nWe move deeper into Deep Learning: Learn about artificial neural networks and the power of semi-supervised learning in applications like fraud detection in banking.\n\nThen we delve into Generative AI, differentiating it from discriminative models and demonstrating its capabilities in creating new, innovative outputs.\n\nFinally we walk through Large Language Models (LLMs) and uncover the significance of LLMs in AI, their pre-training processes, and their customization for specific industry applications\n\n*TIMESTAMPS*\n00:00 Google’s AI Course in 10 Minutes\n00:38 What is Artificial Intelligence?\n01:27 What is Machine Learning?\n03:28 What is Deep Learning?\n05:15 What is Generative AI?\n07:05 What are Large Language Models?\n\n*RESOURCES I MENTION IN THE VIDEO*\nGoogle’s full course: https://www.cloudskillsboost.google/course_templates/536\nGrab my free Workspace Toolkit: https://academy.jeffsu.org/workspace-toolkit?utm_source=youtube&utm_medium=video&utm_campaign=146\n\n*MY FAVORITE GEAR*\n🎬 My YouTube Gear - https://www.jeffsu.org/yt-gear/\n🎒 Everyday Carry - https://www.jeffsu.org/my-edc/\n\n*MY TOP 3 FAVORITE SOFTWARE*\n❎ CleanShot X - https://geni.us/cleanshotx\n✍️ Skillshare - https://geni.us/skillshare-jeff\n📖 Readwise - https://readwise.io/jeffsu/\n\n*BE MY FRIEND:*\n📧 Subscribe to my Productivity newsletter - https://www.jeffsu.org/productivity-ping/\n📸 Instagram - https://instagram.com/j.sushie\n🤝 LinkedIn - https://www.linkedin.com/in/jsu05/\n\n*👨🏻‍💻 WHO AM I:*\nI'm Jeff, a tech professional trying to figure life out. What I do end up figuring out, I share!\n\n_PS: Some of the links in this description are affiliate links I get a kickback from and my opinions are my own and may not reflect that of my employer_ 😇",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/Yq0QkCxoTHM/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/Yq0QkCxoTHM/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/Yq0QkCxoTHM/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/Yq0QkCxoTHM/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/Yq0QkCxoTHM/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Jeff Su",
+      },
+      contentDetails: {
+        duration: "PT9M18S",
+      },
+      statistics: {
+        viewCount: "958429",
+        likeCount: "17132",
+        commentCount: "714",
+      },
+    },
+    channel: {
+      id: "UCwAnu01qlnVg1Ai2AbtTMaA",
+      statistics: {
+        subscriberCount: "877000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "qpCRIs3o_mc",
+      snippet: {
+        publishedAt: "2024-10-15T12:55:48Z",
+        channelId: "UCKCK2lumiYpKfD1aEj4W5vg",
+        title: "MAHARAJA LAWAK AI TEAM !!! TERHIBUR GIL444….",
+        description:
+          "Why So Serious ???\n\n\nTak sangka Maharaja Lawak AI Team dimenangi oleh perempuan",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/qpCRIs3o_mc/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/qpCRIs3o_mc/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/qpCRIs3o_mc/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/qpCRIs3o_mc/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/qpCRIs3o_mc/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Alieff Irfan",
+      },
+      contentDetails: {
+        duration: "PT40M35S",
+      },
+      statistics: {
+        viewCount: "807051",
+        likeCount: "40238",
+        commentCount: "1667",
+      },
+    },
+    channel: {
+      id: "UCKCK2lumiYpKfD1aEj4W5vg",
+      statistics: {
+        subscriberCount: "5730000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "DD4F5it7a5M",
+      snippet: {
+        publishedAt: "2024-09-26T07:35:00Z",
+        channelId: "UCMtFAi84ehTSYSE9XoHefig",
+        title: 'Bill Gates: AI Is "The First Technology That Has No Limit"',
+        description:
+          'Billionaire philanthropist Bill Gates says he is somewhat worried about the dangers posed by artificial intelligence, but he is excited about the benefits AI may bring to fields like education and health care. Learn about his work battling childhood disease and malnutrition on the Goalkeepers website: https://www.gatesfoundation.org/goalkeepers.\n#Colbert #BillGates #Goalkeepers #ArtificialIntelligence #Billionaires #AI #BernieSanders #StephenColbert #Comedy\n\nSubscribe To "The Late Show" Channel: http://bit.ly/ColbertYouTube\n\nWatch full episodes of "The Late Show": http://bit.ly/1Puei40\nListen to "The Late Show Pod Show" podcast: https://link.chtbl.com/Awagtx95?sid=yt\nLike "The Late Show" on Facebook: http://on.fb.me/1df139Y\nFollow "The Late Show" on X: http://bit.ly/1dMzZzG\nFollow "The Late Show" on Instagram: http://bit.ly/29wfREj\n\nWatch The Late Show with Stephen Colbert weeknights at 11:35 PM ET/10:35 PM CT. Only on CBS.\n\n---\nStephen Colbert brings his signature satire and comedy to THE LATE SHOW with STEPHEN COLBERT, the #1 show in late night, where he talks with an eclectic mix of guests about what is new and relevant in the worlds of politics, entertainment, business, music, technology and more. Featuring bandleader Louis Cato and “THE LATE SHOW band,” the Peabody Award-winning and Emmy Award-nominated show is broadcast from the historic Ed Sullivan Theater. Stephen Colbert took over as host, executive producer and writer of THE LATE SHOW on Sept. 8, 2015.',
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/DD4F5it7a5M/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/DD4F5it7a5M/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/DD4F5it7a5M/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/DD4F5it7a5M/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/DD4F5it7a5M/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "The Late Show with Stephen Colbert",
+      },
+      contentDetails: {
+        duration: "PT6M9S",
+      },
+      statistics: {
+        viewCount: "710857",
+        likeCount: "11382",
+        commentCount: "2186",
+      },
+    },
+    channel: {
+      id: "UCMtFAi84ehTSYSE9XoHefig",
+      statistics: {
+        subscriberCount: "9550000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "axhhI2Xq3ss",
+      snippet: {
+        publishedAt: "2024-10-17T12:32:12Z",
+        channelId: "UCKCK2lumiYpKfD1aEj4W5vg",
+        title: "SUKAN TERAKHIR UNTUK AI TEAM !!! SEDIH…",
+        description:
+          "Why So Serious ???\n\nApa yang terakhir tu ? rupanya terakhit utk diorang",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/axhhI2Xq3ss/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/axhhI2Xq3ss/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/axhhI2Xq3ss/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/axhhI2Xq3ss/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/axhhI2Xq3ss/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Alieff Irfan",
+      },
+      contentDetails: {
+        duration: "PT24M1S",
+      },
+      statistics: {
+        viewCount: "492002",
+        likeCount: "28889",
+        commentCount: "763",
+      },
+    },
+    channel: {
+      id: "UCKCK2lumiYpKfD1aEj4W5vg",
+      statistics: {
+        subscriberCount: "5730000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "mwweUES1z-c",
+      snippet: {
+        publishedAt: "2024-10-18T12:54:40Z",
+        channelId: "UCKCK2lumiYpKfD1aEj4W5vg",
+        title: "SELAMAT TINGGAL DARI AI TEAM !!! PERPISAHAN TALENT 5…",
+        description:
+          "Why So Serious ???\n\n\nHmm sedihnya kejap je diorang dgn kita kan",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/mwweUES1z-c/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/mwweUES1z-c/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/mwweUES1z-c/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/mwweUES1z-c/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/mwweUES1z-c/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Alieff Irfan",
+      },
+      contentDetails: {
+        duration: "PT32M13S",
+      },
+      statistics: {
+        viewCount: "215623",
+        likeCount: "21083",
+        commentCount: "1293",
+      },
+    },
+    channel: {
+      id: "UCKCK2lumiYpKfD1aEj4W5vg",
+      statistics: {
+        subscriberCount: "5730000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "SMLQZXq7uIM",
+      snippet: {
+        publishedAt: "2024-10-17T13:00:36Z",
+        channelId: "UCTh65huNPkdmECpkPLGWVzg",
+        title:
+          "SYAHMIE TUMB0K MUKA TALENT BARU SAMPAI BERD4R4H??? SEMUA AI TEAM TERKEJUT TENGOK SYAHMIE MENGAMUK!!!",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/SMLQZXq7uIM/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/SMLQZXq7uIM/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/SMLQZXq7uIM/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/SMLQZXq7uIM/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/SMLQZXq7uIM/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "AI Syahmie",
+      },
+      contentDetails: {
+        duration: "PT19M38S",
+      },
+      statistics: {
+        viewCount: "160468",
+        likeCount: "11945",
+        commentCount: "601",
+      },
+    },
+    channel: {
+      id: "UCTh65huNPkdmECpkPLGWVzg",
+      statistics: {
+        subscriberCount: "446000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "HnpDxjxrIc0",
+      snippet: {
+        publishedAt: "2024-10-18T02:33:23Z",
+        channelId: "UCbY9xX3_jW5c2fjlZVBI4cg",
+        title:
+          "Sam Altmans New AI Device Unleashes AI Agents (New Worldcoin Orb)",
+        description:
+          "Prepare for AGI with me - https://www.skool.com/postagiprepardness \n🐤 Follow Me on Twitter https://twitter.com/TheAiGrid\n🌐 Checkout My website - https://theaigrid.com/\n\n00:00:00 - World Coin\n00:00:50 - Digital ID\n00:01:54 - Initial vision\n00:03:18 - Four-step plan\n00:04:54 - Scale importance\n00:06:23 - Orb device\n00:07:12 - New design\n00:08:41 - Orb scaling\n00:10:00 - Verification locations\n00:10:53 - On-demand Orb\n00:11:43 - Community Operators\n00:12:40 - Data privacy\n00:15:23 - ID Credentials\n00:18:42 - Network growth\n00:19:31 - Deepfake issue\n00:22:36 - Deep Face\n00:23:50 - Concluding thoughts\n\nLinks From Todays Video:\nhttps://x.com/worldcoin/status/1846962270233940001\n\nWelcome to my channel where i bring you the latest breakthroughs in AI. From deep learning to robotics, i cover it all. My videos offer valuable insights and perspectives that will expand your knowledge and understanding of this rapidly evolving field. Be sure to subscribe and stay updated on my latest videos.\n\nWas there anything i missed?\n\n(For Business Enquiries)  contact@theaigrid.com\n\n#LLM #Largelanguagemodel #chatgpt\n#AI\n#ArtificialIntelligence\n#MachineLearning\n#DeepLearning\n#NeuralNetworks\n#Robotics\n#DataScience",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/HnpDxjxrIc0/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/HnpDxjxrIc0/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/HnpDxjxrIc0/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/HnpDxjxrIc0/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/HnpDxjxrIc0/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "TheAIGRID",
+      },
+      contentDetails: {
+        duration: "PT24M12S",
+      },
+      statistics: {
+        viewCount: "36664",
+        likeCount: "779",
+        commentCount: "607",
+      },
+    },
+    channel: {
+      id: "UCbY9xX3_jW5c2fjlZVBI4cg",
+      statistics: {
+        subscriberCount: "253000",
+      },
+    },
+  },
+  {
+    video: {
+      id: "KoKupurWghc",
+      snippet: {
+        publishedAt: "2024-10-17T22:37:10Z",
+        channelId: "UC5l7RouTQ60oUjLjt1Nh-UQ",
+        title: "New AI Model Crushes GPT-4o With Shocking Results",
+        description:
+          "Nvidia’s new AI model, Llama-3.1-Nemotron-70B-Instruct, is outperforming GPT-4o with impressive benchmark results. It quietly launched on Hugging Face, surpassing OpenAI’s and Anthropic’s models in multiple key performance tests. The model’s strong scores and focus on user alignment make it a game-changer in the AI landscape.\n\n🔍 *Key Topics Covered:*  \n- Nvidia’s Llama-3.1-Nemotron-70B-Instruct outperforms GPT-4o, surpassing industry benchmarks  \n- The model’s revolutionary alignment capabilities and how it addresses user needs more effectively  \n- Nvidia’s strategic move into AI software, challenging traditional leaders in the AI field  \n\n🎥 *What You’ll Learn:*  \n- Why Nvidia’s new AI model is beating GPT-4o and reshaping the competitive landscape  \n- How Nvidia is leveraging its hardware expertise to build powerful and efficient AI models  \n- The key technological breakthroughs behind Nvidia’s Llama-3.1-Nemotron-70B-Instruct and what makes it a game-changer in the AI industry  \n\n📊 *Why This Matters:*  \nThis video explores Nvidia’s latest AI model, which is making waves in the AI industry by surpassing OpenAI’s GPT-4o in performance. Nvidia’s entry into the AI software space signals a major shift in the field, pushing competitors to innovate faster. As this model drives new advancements, it brings up important discussions about AI development, its impact on businesses, and the future of AI technology.  \n\n*DISCLAIMER:*  \nThis video analyzes the impressive benchmarks of Nvidia’s Llama-3.1-Nemotron-70B-Instruct and its potential to disrupt the AI industry. It highlights key technical advancements and explores the implications for both developers and the future of AI innovation.  \n\n#ai   \n#nvidia",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/KoKupurWghc/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/KoKupurWghc/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/KoKupurWghc/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/KoKupurWghc/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/KoKupurWghc/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "AI Revolution",
+      },
+      contentDetails: {
+        duration: "PT8M23S",
+      },
+      statistics: {
+        viewCount: "26694",
+        likeCount: "758",
+        commentCount: "85",
+      },
+    },
+    channel: {
+      id: "UC5l7RouTQ60oUjLjt1Nh-UQ",
+      statistics: {
+        subscriberCount: "202000",
+      },
     },
   },
 ];

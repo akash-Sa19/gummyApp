@@ -1,13 +1,5 @@
 export const timeOptions = [
   {
-    value: "all",
-    name: "All",
-  },
-  {
-    value: "day",
-    name: "Today",
-  },
-  {
     value: "week",
     name: "This Week",
   },
@@ -20,8 +12,8 @@ export const timeOptions = [
     name: "This Year",
   },
   {
-    value: "hour",
-    name: "Last Hour",
+    value: "all",
+    name: "All",
   },
 ];
 export const serchTypeOptions = [
@@ -56,49 +48,24 @@ export const sortSearchOptions = [
     name: "New",
   },
 ];
-export const orderByOptions = [
-  {
-    value: "relevance",
-    name: "Relevance",
-  },
-  {
-    value: "date",
-    name: "Date",
-  },
-  {
-    value: "viewCount",
-    name: "View Count",
-  },
-  {
-    value: "rating",
-    name: "Rating",
-  },
-];
 export const typeOptions = [
   {
     value: "video",
     name: "Video",
   },
   {
-    value: "playlist",
-    name: "Playlist",
-  },
-  {
     value: "channel",
     name: "Channel",
   },
 ];
-export const eventOptions = [
+
+export const whatsNewOptions = [
   {
-    value: "completed",
-    name: "Completed",
+    value: "trending",
+    name: "Trending",
   },
   {
-    value: "live",
-    name: "Live",
-  },
-  {
-    value: "upcoming",
-    name: "Upcoming",
+    value: "hot",
+    name: "Hot",
   },
 ];

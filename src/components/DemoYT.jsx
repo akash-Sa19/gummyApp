@@ -12,12 +12,11 @@ const DemoYT = ({ platform }) => {
   const [isFetching, setIsFetching] = useState(false);
   const [query, setQuery] = useState({
     queryString: "",
-    maxResults: import.meta.env.VITE_MAX_NUMBER_OF_RESULTS,
-    type: "", // "video" | "playlis" | "channel"
-    publishedAfter: "",
-    publishedBefore: "",
+    type: "video", // | "channel"
+    sortByTime: "week", // | "day" | "week" | "month" | "year"
     location: "",
     locationRadius: "",
+    whatsNew: "trending", // | hot
   });
   const [data, setData] = useState([]);
 
@@ -25,10 +24,17 @@ const DemoYT = ({ platform }) => {
     event.preventDefault();
     setIsFetching(true);
     try {
-      const response = await youtubeSearchQueryApi(query, setIsFetching);
+      const response = await youtubeSearchQueryApi(query);
       console.log("response from youtubeSearchQueryApi", response);
-      const videoContentArray = await analyzeTrendingVideos(response);
-      console.log("data from analyzeTrendingVideos", videoContentArray);
+
+      let videoContentArray = [];
+      if (query.whatsNew === "hot") {
+        videoContentArray = await analyzeHotVideos(response);
+      } else if (query.whatsNew === "trending") {
+        videoContentArray = await analyzeTrendingVideos(response);
+      }
+
+      console.log("videoContentArray", videoContentArray);
       setData(videoContentArray);
       setIsFetching(false);
     } catch (error) {

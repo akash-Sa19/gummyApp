@@ -1,6 +1,7 @@
 import { loader } from "../assets";
 import {
   filteredDateFromTrendingVideos,
+  finalFilteredData,
   rawData,
   redditData,
 } from "../constants/rawData.js";
@@ -38,24 +39,13 @@ const Display = ({ isFetching, error, data, platform }) => {
           }`}
         >
           {platform === "YT"
-            ? // data.map(({ id, snippet }, index) => {
-              //     //   console.log("id :", id, "snippet :", snippet);
-              //     return (
-              //       <Card
-              //         key={id.videoId}
-              //         videoId={id.videoId}
-              //         snippet={snippet}
-              //       />
-              //     );
-              //   })
-              // filteredDateFromTrendingVideos.map((item, index) => {
-              data.map((item, index) => {
+            ? data.map(({ video, _ }, index) => {
                 return (
                   <YouTubeCard
                     key={index}
-                    snippet={item.snippet}
-                    statistics={item.statistics}
-                    id={item.id}
+                    snippet={video?.snippet}
+                    statistics={video?.statistics}
+                    id={video.id}
                   />
                 );
               })

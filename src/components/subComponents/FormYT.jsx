@@ -1,18 +1,10 @@
 import { linkIcon } from "../../assets";
 import SelectTag from "./SelectTag";
-import { eventOptions, orderByOptions, typeOptions } from "../../constants";
+import { timeOptions, typeOptions, whatsNewOptions } from "../../constants";
 import InputTag from "./InputTag";
 
 const FormYT = ({ query, setQuery, handleSubmit }) => {
   const FilterOptions = [
-    // {
-    //   tag: "select",
-    //   options: orderByOptions,
-    //   labelName: "Order By :",
-    //   query: query,
-    //   name: "orderBy",
-    //   isHidden: false,
-    // },
     {
       tag: "select",
       options: typeOptions,
@@ -21,28 +13,29 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
       name: "type",
       isHidden: false,
     },
-    // {
-    //   tag: "number",
-    //   labelName: "Max Result :",
-    //   query: query,
-    //   name: "maxResult",
-    //   isHidden: false,
-    // },
-    // {
-    //   tag: "select",
-    //   options: eventOptions,
-    //   labelName: "Event Type :",
-    //   query: query,
-    //   name: "eventType",
-    //   isHidden: false,
-    // },
+    {
+      tag: "select",
+      labelName: "Uploaded :",
+      options: timeOptions,
+      query: query,
+      name: "sortByTime",
+      isHidden: false,
+    },
+    {
+      tag: "select",
+      labelName: "What's New :",
+      options: whatsNewOptions,
+      query: query,
+      name: "whatsNew",
+      isHidden: false,
+    },
     {
       tag: "text",
       labelName: "Location :",
       placeholder: "latitude, longitude",
       query: query,
       name: "location",
-      isHidden: false,
+      isHidden: true,
     },
     {
       tag: "text",
@@ -50,23 +43,7 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
       placeholder: "100km, 100mi...",
       query: query,
       name: "locationRadius",
-      isHidden: false,
-    },
-    {
-      tag: "date",
-      labelName: "published After :",
-      placeholder: "YYYY-MM-DD",
-      query: query,
-      name: "publishedAfter",
-      isHidden: false,
-    },
-    {
-      tag: "date",
-      labelName: "published Before :",
-      placeholder: "YYYY-MM-DD",
-      query: query,
-      name: "publishedBefore",
-      isHidden: false,
+      isHidden: true,
     },
   ];
   return (
@@ -102,7 +79,7 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
         <div className="flex flex-wrap items-center justify-between w-full gap-10 mt-4">
           {FilterOptions.map(
             (
-              { tag, options, labelName, value, isHidden, placeholder, name },
+              { tag, options, labelName, isHidden, placeholder, name },
               index
             ) => {
               if (tag === "select" && !isHidden) {
@@ -122,9 +99,8 @@ const FormYT = ({ query, setQuery, handleSubmit }) => {
                 );
               }
               if (
-                tag === "text" ||
-                tag === "number" ||
-                (tag === "date" && !isHidden)
+                (tag === "text" || tag === "number" || tag === "date") &&
+                !isHidden
               ) {
                 return (
                   <div
