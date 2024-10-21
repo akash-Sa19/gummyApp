@@ -1,11 +1,20 @@
 import { isAShortVideo } from "./isShortVideo";
 import { filterRawDataForVideoIdsAndChannelIds } from "./extractData";
 import { youtubeChannelAndVideoQueryApi } from "../articles/Youtube/youtubeChannelAndVideoqueryApi";
+import { youtubeSubscriberThenVideoQueryApi } from "../articles/Youtube/youtubeSubscriberThenVideoQuery";
+
+// constant variables
+const VIEW_COUNT_THRESHOLD = import.meta.env.VITE_VIEW_COUNT_THRESHOLD;
+const LIKE_COUNT_THRESHOLD = import.meta.env.VITE_LIKE_COUNT_THRESHOLD;
+const COMMENT_COUNT_THRESHOLD = import.meta.env.VITE_COMMENT_COUNT_THRESHOLD;
+const SUBSCRIBER_COUNT_THRESHOLD = import.meta.env
+  .VITE_SUBSCRIBER_COUNT_THRESHOLD;
 
 const handleRawData = async (rawDataArray) => {
   const videoIdAndchannelIdArray =
     filterRawDataForVideoIdsAndChannelIds(rawDataArray);
-  return await youtubeChannelAndVideoQueryApi(videoIdAndchannelIdArray);
+  // return await youtubeChannelAndVideoQueryApi(videoIdAndchannelIdArray);
+  return await youtubeSubscriberThenVideoQueryApi(videoIdAndchannelIdArray);
 };
 
 const filterVideos = (videoContentArray, criteria) => {
@@ -26,16 +35,16 @@ const filterVideos = (videoContentArray, criteria) => {
     // Apply different criteria depending on the type of video
     if (criteria === "trending") {
       return (
-        viewCount > 10000 &&
-        likeCount > 5000 &&
-        subscriberCount > 1500 &&
+        viewCount > VIEW_COUNT_THRESHOLD &&
+        likeCount > LIKE_COUNT_THRESHOLD &&
+        subscriberCount > SUBSCRIBER_COUNT_THRESHOLD &&
         !isAReel
       );
     } else if (criteria === "hot") {
       return (
-        viewCount > 10000 &&
-        commentCount > 500 &&
-        subscriberCount > 1500 &&
+        viewCount > VIEW_COUNT_THRESHOLD &&
+        commentCount > COMMENT_COUNT_THRESHOLD &&
+        subscriberCount > SUBSCRIBER_COUNT_THRESHOLD &&
         !isAReel
       );
     }

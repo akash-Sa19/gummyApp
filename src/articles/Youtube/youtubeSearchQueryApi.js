@@ -19,9 +19,11 @@ export const youtubeSearchQueryApi = async ({
       order: "relevance",
       q: queryString,
       maxResults: CHUNK_SIZE,
-      type: "video",
     });
 
+    if (type) {
+      params.append("type", type);
+    }
     if (location && locationRadius) {
       params.append("location", location);
       params.append("locationRadius", locationRadius);
@@ -57,6 +59,11 @@ export const youtubeSearchQueryApi = async ({
         : BaseURL;
 
       const response = await axios.get(url);
+      if (response.data.kind !== "youtube#searchListResponse") {
+        throw new Error(
+          "Error fetching data from YouTube API: Invalid response kind"
+        );
+      }
       const items = response.data.items;
 
       items.forEach((item) => {

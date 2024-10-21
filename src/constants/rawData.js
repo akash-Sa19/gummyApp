@@ -1975,194 +1975,728 @@ export const filteredDateFromTrendingVideos = [
   },
 ];
 
-export const channelData = [
-  {
-    kind: "youtube#channel",
-    etag: "VAwYs_wRawAm1V-cQUAJb917ke8",
-    id: "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-    snippet: {
-      title: "Google for Developers",
-      description:
-        "Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.\n\nExplore more at developers.google.com\n\n",
-      customUrl: "@googledevelopers",
-      publishedAt: "2007-08-23T00:34:43Z",
-      thumbnails: {
-        default: {
-          url: "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s88-c-k-c0x00ffffff-no-rj",
-          width: 88,
-          height: 88,
-        },
-        medium: {
-          url: "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s240-c-k-c0x00ffffff-no-rj",
-          width: 240,
-          height: 240,
-        },
-        high: {
-          url: "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s800-c-k-c0x00ffffff-no-rj",
-          width: 800,
-          height: 800,
-        },
+export const channelData = {
+  kind: "youtube#searchListResponse",
+  etag: "HxSxC6rmqLJnosD-jqZLJ6TXAUU",
+  nextPageToken: "CBkQAA",
+  regionCode: "ZZ",
+  pageInfo: {
+    totalResults: 24347,
+    resultsPerPage: 25,
+  },
+  items: [
+    {
+      kind: "youtube#searchResult",
+      etag: "HbUqJOwR9hZ6T36zJ-PLLTuAdYA",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCj4kfURfTrUQfRNHsPzO9Cw",
       },
-      localized: {
-        title: "Google for Developers",
+      snippet: {
+        publishedAt: "2019-01-07T08:13:53Z",
+        channelId: "UCj4kfURfTrUQfRNHsPzO9Cw",
+        title: "Surfing TV",
         description:
-          "Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.\n\nExplore more at developers.google.com\n\n",
-      },
-      country: "US",
-    },
-    contentDetails: {
-      relatedPlaylists: {
-        likes: "",
-        uploads: "UU_x5XG1OV2P6uZZ5FSM9Ttw",
-      },
-    },
-    statistics: {
-      viewCount: "309585651",
-      subscriberCount: "2390000",
-      hiddenSubscriberCount: false,
-      videoCount: "6317",
-    },
-  },
-  {
-    kind: "youtube#channel",
-    etag: "1bvFiHEgZWYFK46TcQrosierRys",
-    id: "UC487FZX-RwumY3xDWAL4o7g",
-    snippet: {
-      title: "AI Insider SHORTZ",
-      description: "SUBSCRIBE TO MY NEW CHANNEL: ",
-      customUrl: "@ai-insider-shortz",
-      publishedAt: "2023-07-15T21:52:11.68894Z",
-      thumbnails: {
-        default: {
-          url: "https://yt3.ggpht.com/pib7fW89QZYGurF5ChMMZjct11wB9Hl2MH2G6wwQFVy4NHISOEPXZXuw-gTnKVOuN76IwrixOw=s88-c-k-c0x00ffffff-no-rj",
-          width: 88,
-          height: 88,
+          "ハウツー・ノウハウだけでなく、ライフスタイルやファッションなども 発信していきます！ ▽川畑友吾 ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_kBE1pMM72QbNb0eSYVSex4Mvayfvo2Tu4-Btq_Ns6Z=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_kBE1pMM72QbNb0eSYVSex4Mvayfvo2Tu4-Btq_Ns6Z=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_kBE1pMM72QbNb0eSYVSex4Mvayfvo2Tu4-Btq_Ns6Z=s800-c-k-c0xffffffff-no-rj-mo",
+          },
         },
-        medium: {
-          url: "https://yt3.ggpht.com/pib7fW89QZYGurF5ChMMZjct11wB9Hl2MH2G6wwQFVy4NHISOEPXZXuw-gTnKVOuN76IwrixOw=s240-c-k-c0x00ffffff-no-rj",
-          width: 240,
-          height: 240,
-        },
-        high: {
-          url: "https://yt3.ggpht.com/pib7fW89QZYGurF5ChMMZjct11wB9Hl2MH2G6wwQFVy4NHISOEPXZXuw-gTnKVOuN76IwrixOw=s800-c-k-c0x00ffffff-no-rj",
-          width: 800,
-          height: 800,
-        },
-      },
-      localized: {
-        title: "AI Insider SHORTZ",
-        description: "SUBSCRIBE TO MY NEW CHANNEL: ",
-      },
-      country: "US",
-    },
-    contentDetails: {
-      relatedPlaylists: {
-        likes: "",
-        uploads: "UU487FZX-RwumY3xDWAL4o7g",
+        channelTitle: "Surfing TV",
+        liveBroadcastContent: "none",
+        publishTime: "2019-01-07T08:13:53Z",
       },
     },
-    statistics: {
-      viewCount: "19760429",
-      subscriberCount: "97600",
-      hiddenSubscriberCount: false,
-      videoCount: "159",
-    },
-  },
-  {
-    kind: "youtube#channel",
-    etag: "8KZmEWtDJ8VD60TL5qEvNbcEOlE",
-    id: "UCvpredjG93ifbCP1Y77JyFA",
-    snippet: {
-      title: "Ayase / YOASOBI",
-      description:
-        "シンガーソングライター、ボカロPのAyase、そしてAyaseがコンポーザーを務めるユニット・YOASOBIのYouTubeチャンネルです。",
-      customUrl: "@ayase_yoasobi",
-      publishedAt: "2018-11-16T23:11:18Z",
-      thumbnails: {
-        default: {
-          url: "https://yt3.ggpht.com/ytc/AIdro_nMWGqyr97pm_Gwii1PfkXIYJd4QYOiMP779zRdYQh49II=s88-c-k-c0x00ffffff-no-rj",
-          width: 88,
-          height: 88,
-        },
-        medium: {
-          url: "https://yt3.ggpht.com/ytc/AIdro_nMWGqyr97pm_Gwii1PfkXIYJd4QYOiMP779zRdYQh49II=s240-c-k-c0x00ffffff-no-rj",
-          width: 240,
-          height: 240,
-        },
-        high: {
-          url: "https://yt3.ggpht.com/ytc/AIdro_nMWGqyr97pm_Gwii1PfkXIYJd4QYOiMP779zRdYQh49II=s800-c-k-c0x00ffffff-no-rj",
-          width: 800,
-          height: 800,
-        },
+    {
+      kind: "youtube#searchResult",
+      etag: "CXR2368umQHfyLG3z7BaLjI2PHY",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCoicMEw3njXscfwHlaAJVcQ",
       },
-      localized: {
-        title: "Ayase / YOASOBI",
+      snippet: {
+        publishedAt: "2012-01-02T06:38:17Z",
+        channelId: "UCoicMEw3njXscfwHlaAJVcQ",
+        title: "Surfing With Noz",
         description:
-          "シンガーソングライター、ボカロPのAyase、そしてAyaseがコンポーザーを務めるユニット・YOASOBIのYouTubeチャンネルです。",
-      },
-      country: "JP",
-    },
-    contentDetails: {
-      relatedPlaylists: {
-        likes: "",
-        uploads: "UUvpredjG93ifbCP1Y77JyFA",
-      },
-    },
-    statistics: {
-      viewCount: "4923991024",
-      subscriberCount: "6820000",
-      hiddenSubscriberCount: false,
-      videoCount: "225",
-    },
-  },
-  {
-    kind: "youtube#channel",
-    etag: "VwStTHAXYf7nqhR7P7B5gC3pTh0",
-    id: "UCjWoiheJcpvpSY4ZVIRSifw",
-    snippet: {
-      title: "Solomon Jagwe",
-      description:
-        "Thank you for joining me as I share my creative journey with you on this channel! My goal is to inspire and assist others in realizing their own visions and bringing their unique stories to life. While I never considered myself a traditional YouTuber, the opportunity to help fellow dreamers and storytellers drew me to this path. It's incredibly rewarding to see others grow, learn, and pursue their passions. Join me on this journey and let's explore the limitless possibilities of storytelling together. http://www.sowl.com | Creator of Nkoza & Nankya: http://www.nkozaandnankya.com\n\nFriends, if you wish to support me so I can continue creating insights and tutorials to help you, my fellow dreamers and storytellers, kindly check out my Patreon Account: https://www.patreon.com/SolomonWJagwe\n",
-      customUrl: "@solomonjagwe",
-      publishedAt: "2009-08-02T06:16:07Z",
-      thumbnails: {
-        default: {
-          url: "https://yt3.ggpht.com/5vwkrRxnMjXGa2I1u7IPA-2UUORhOaPJp_OTGQ5zpcBQ8WM7jlFfw8PVlTpTRq-6eEsY1JQG=s88-c-k-c0x00ffffff-no-rj",
-          width: 88,
-          height: 88,
+          "Welcome to my SURFING ADVENTURES! I'm Noz – a Content Creator & Surf Coach from Sydney, Australia. Subscribe for weekly ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/nacLxei-yzr2NBShbHaKqIAKAWHT-fdkpNHBYbhmn2Z9tJv4I64HY8guoh0_CuXx2dd8Cflqjk4=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/nacLxei-yzr2NBShbHaKqIAKAWHT-fdkpNHBYbhmn2Z9tJv4I64HY8guoh0_CuXx2dd8Cflqjk4=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/nacLxei-yzr2NBShbHaKqIAKAWHT-fdkpNHBYbhmn2Z9tJv4I64HY8guoh0_CuXx2dd8Cflqjk4=s800-c-k-c0xffffffff-no-rj-mo",
+          },
         },
-        medium: {
-          url: "https://yt3.ggpht.com/5vwkrRxnMjXGa2I1u7IPA-2UUORhOaPJp_OTGQ5zpcBQ8WM7jlFfw8PVlTpTRq-6eEsY1JQG=s240-c-k-c0x00ffffff-no-rj",
-          width: 240,
-          height: 240,
-        },
-        high: {
-          url: "https://yt3.ggpht.com/5vwkrRxnMjXGa2I1u7IPA-2UUORhOaPJp_OTGQ5zpcBQ8WM7jlFfw8PVlTpTRq-6eEsY1JQG=s800-c-k-c0x00ffffff-no-rj",
-          width: 800,
-          height: 800,
-        },
+        channelTitle: "Surfing With Noz",
+        liveBroadcastContent: "none",
+        publishTime: "2012-01-02T06:38:17Z",
       },
-      localized: {
-        title: "Solomon Jagwe",
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "hrWor5cDxUlohi0N09MtHrEsHFY",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UC--3c8RqSfAqYBdDjIG3UNA",
+      },
+      snippet: {
+        publishedAt: "2019-02-18T17:03:24Z",
+        channelId: "UC--3c8RqSfAqYBdDjIG3UNA",
+        title: "Red Bull Surfing",
         description:
-          "Thank you for joining me as I share my creative journey with you on this channel! My goal is to inspire and assist others in realizing their own visions and bringing their unique stories to life. While I never considered myself a traditional YouTuber, the opportunity to help fellow dreamers and storytellers drew me to this path. It's incredibly rewarding to see others grow, learn, and pursue their passions. Join me on this journey and let's explore the limitless possibilities of storytelling together. http://www.sowl.com | Creator of Nkoza & Nankya: http://www.nkozaandnankya.com\n\nFriends, if you wish to support me so I can continue creating insights and tutorials to help you, my fellow dreamers and storytellers, kindly check out my Patreon Account: https://www.patreon.com/SolomonWJagwe\n",
+          "Welcome to the official Red Bull Surfing YouTube Channel! Watch weekly surf videos from across the world, with the likes of ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/rqrf1ZaKYgTNQAJOg9DF8DlWps_rXlG_ByVkT41GcFjBe_aWg42IKNzRUHHK74U5Bejn850d8eE=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/rqrf1ZaKYgTNQAJOg9DF8DlWps_rXlG_ByVkT41GcFjBe_aWg42IKNzRUHHK74U5Bejn850d8eE=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/rqrf1ZaKYgTNQAJOg9DF8DlWps_rXlG_ByVkT41GcFjBe_aWg42IKNzRUHHK74U5Bejn850d8eE=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Red Bull Surfing",
+        liveBroadcastContent: "none",
+        publishTime: "2019-02-18T17:03:24Z",
       },
-      country: "US",
     },
-    contentDetails: {
-      relatedPlaylists: {
-        likes: "",
-        uploads: "UUjWoiheJcpvpSY4ZVIRSifw",
+    {
+      kind: "youtube#searchResult",
+      etag: "QtnBMHdAf7omCOFcJFohFAcr3n0",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCOtHosOqPe9d6vLy-8LfHzQ",
+      },
+      snippet: {
+        publishedAt: "2015-02-17T03:47:32Z",
+        channelId: "UCOtHosOqPe9d6vLy-8LfHzQ",
+        title: "NobodySurf : Surfing Videos",
+        description:
+          "Surf videos everyday, worldwide. Surf videos make us happy, no matter who we are, or where we are. We love them. The creators ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_kT5PLogs2flNcHwy8vPyut9cy_uOOJ9GBt5qGcZ-qI7Nk=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_kT5PLogs2flNcHwy8vPyut9cy_uOOJ9GBt5qGcZ-qI7Nk=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_kT5PLogs2flNcHwy8vPyut9cy_uOOJ9GBt5qGcZ-qI7Nk=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "NobodySurf : Surfing Videos",
+        liveBroadcastContent: "none",
+        publishTime: "2015-02-17T03:47:32Z",
       },
     },
-    statistics: {
-      viewCount: "151813951",
-      subscriberCount: "345000",
-      hiddenSubscriberCount: false,
-      videoCount: "965",
+    {
+      kind: "youtube#searchResult",
+      etag: "fxOoSXWPJvp47uXyfb_Or6oVbkQ",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UChuLeaTGRcfzo0UjL-2qSbQ",
+      },
+      snippet: {
+        publishedAt: "2007-03-07T15:08:16Z",
+        channelId: "UChuLeaTGRcfzo0UjL-2qSbQ",
+        title: "World Surf League",
+        description:
+          "At the start of the Quarterfinals, coverage in the United States can be found exclusively on worldsurfleague.com, the WSL app, and ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/vvEsvbve4XQz8aNgMX4qNVvKxecCM7oWoJkFwzbfM6x8Zkx_xinMjDRVG5Epu90ENYb4FvE-=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/vvEsvbve4XQz8aNgMX4qNVvKxecCM7oWoJkFwzbfM6x8Zkx_xinMjDRVG5Epu90ENYb4FvE-=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/vvEsvbve4XQz8aNgMX4qNVvKxecCM7oWoJkFwzbfM6x8Zkx_xinMjDRVG5Epu90ENYb4FvE-=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "World Surf League",
+        liveBroadcastContent: "none",
+        publishTime: "2007-03-07T15:08:16Z",
+      },
     },
-  },
-];
+    {
+      kind: "youtube#searchResult",
+      etag: "S4pn2Xq06d8dxYntW-W-dnwBUzw",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCZITlWHl1OA3zO83K9jliLw",
+      },
+      snippet: {
+        publishedAt: "2024-10-21T07:14:46Z",
+        channelId: "UCZITlWHl1OA3zO83K9jliLw",
+        title: "Subway surf",
+        description:
+          "Welcome to Surbay Surfer! Join us on an epic 60-day challenge as we aim to conquer a jaw-dropping 1 crore high score. Follow ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/PbgzrGl-m7SU5G8Q30818YoxzsqDRUENUPlZr8RdFq_HPRJyuebmkacOBnv9bla-ss_-4nrg=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/PbgzrGl-m7SU5G8Q30818YoxzsqDRUENUPlZr8RdFq_HPRJyuebmkacOBnv9bla-ss_-4nrg=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/PbgzrGl-m7SU5G8Q30818YoxzsqDRUENUPlZr8RdFq_HPRJyuebmkacOBnv9bla-ss_-4nrg=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Subway surf",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-21T07:14:46Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "81Xp82v-NiC1fNbvmDMYRC_m94Q",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UC3adHuvcFZ4-V8oflCLDaZA",
+      },
+      snippet: {
+        publishedAt: "2013-12-20T20:15:33Z",
+        channelId: "UC3adHuvcFZ4-V8oflCLDaZA",
+        title: "Subway Surfers - Topic",
+        description:
+          "DASH as fast as you can! DODGE the oncoming trains! Help Jake, Tricky & Fresh escape from the grumpy Inspector and his dog.",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/AP2gIJ5tfaCquyv5GGcYdnAr5fGAqnX1N_JZxwy_pEIm0iewDZ7ySORCQwIVKb_09uCz9PqL=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/AP2gIJ5tfaCquyv5GGcYdnAr5fGAqnX1N_JZxwy_pEIm0iewDZ7ySORCQwIVKb_09uCz9PqL=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/AP2gIJ5tfaCquyv5GGcYdnAr5fGAqnX1N_JZxwy_pEIm0iewDZ7ySORCQwIVKb_09uCz9PqL=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Subway Surfers - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2013-12-20T20:15:33Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "7EaelL7gXmV7Ifum2i1ildTO__A",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UC3DIR1s_jw1wr4p4wWg7JGQ",
+      },
+      snippet: {
+        publishedAt: "2021-09-26T00:36:17Z",
+        channelId: "UC3DIR1s_jw1wr4p4wWg7JGQ",
+        title: "Raw Surfing",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/CB7KEy_n9i65XUxaN9-DDGl5fhMvEfgH7E_ZVpsLvQ30R9YYrSGdfQXZm_l_JzYsIPtn18LRJg=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/CB7KEy_n9i65XUxaN9-DDGl5fhMvEfgH7E_ZVpsLvQ30R9YYrSGdfQXZm_l_JzYsIPtn18LRJg=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/CB7KEy_n9i65XUxaN9-DDGl5fhMvEfgH7E_ZVpsLvQ30R9YYrSGdfQXZm_l_JzYsIPtn18LRJg=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Raw Surfing",
+        liveBroadcastContent: "none",
+        publishTime: "2021-09-26T00:36:17Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "Bo3JYVOPjUF9dK_0sY9vS_VxNRM",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCKo-NbWOxnxBnU41b-AoKeA",
+      },
+      snippet: {
+        publishedAt: "2005-11-02T06:29:47Z",
+        channelId: "UCKo-NbWOxnxBnU41b-AoKeA",
+        title: "SURFER",
+        description:
+          "We founded SURFER Magazine with a mission: to bring our readers a slice of the entire surfing world with each issue. And for ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_nAtau7NyR9e_BjHN9MRVL0PMPltwoP6J88zaWzEGDXcm8_=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_nAtau7NyR9e_BjHN9MRVL0PMPltwoP6J88zaWzEGDXcm8_=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_nAtau7NyR9e_BjHN9MRVL0PMPltwoP6J88zaWzEGDXcm8_=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "SURFER",
+        liveBroadcastContent: "none",
+        publishTime: "2005-11-02T06:29:47Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "ja-RhZ6ZZPySSuozetLaL6RiorA",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCp1ttrXI4_E8a1ghP1Z4FGA",
+      },
+      snippet: {
+        publishedAt: "2023-05-23T09:22:18Z",
+        channelId: "UCp1ttrXI4_E8a1ghP1Z4FGA",
+        title: "Surfing For Daisy - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/oBKf7ArMlKjfCmV5FjMvxyVChUdgPHw5rrsQdNhDPdy4G7Q3aejsMtwjc_dTYy8L2nWdzV1GgvI=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/oBKf7ArMlKjfCmV5FjMvxyVChUdgPHw5rrsQdNhDPdy4G7Q3aejsMtwjc_dTYy8L2nWdzV1GgvI=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/oBKf7ArMlKjfCmV5FjMvxyVChUdgPHw5rrsQdNhDPdy4G7Q3aejsMtwjc_dTYy8L2nWdzV1GgvI=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Surfing For Daisy - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2023-05-23T09:22:18Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "on1Cel2pQyGOm7HDlY9j4SGIRG4",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCVpOMxI1eznt_EiW-qVECXQ",
+      },
+      snippet: {
+        publishedAt: "2015-09-18T05:39:49Z",
+        channelId: "UCVpOMxI1eznt_EiW-qVECXQ",
+        title: "Surfing en Tacuarembo - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/-Lzy4QdIzrbUwS43mMMUVrHss9Uopux6ZTRbUXP92PqeiUDpukRXbRUKFmts_9TxEs6WD0P9bhA=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/-Lzy4QdIzrbUwS43mMMUVrHss9Uopux6ZTRbUXP92PqeiUDpukRXbRUKFmts_9TxEs6WD0P9bhA=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/-Lzy4QdIzrbUwS43mMMUVrHss9Uopux6ZTRbUXP92PqeiUDpukRXbRUKFmts_9TxEs6WD0P9bhA=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Surfing en Tacuarembo - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2015-09-18T05:39:49Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "Gj5flFHjPsdgcUvdk90Xi0DLjLE",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCiJf8ONpNrdQEOcxGZE45Jg",
+      },
+      snippet: {
+        publishedAt: "2024-10-18T14:45:46Z",
+        channelId: "UCiJf8ONpNrdQEOcxGZE45Jg",
+        title: "Sway Surfers",
+        description:
+          "SWAY.SURFERS 🏝️ La community di surfisti dedicata alla salute e al benessere mentale. #swaysurfersitaly ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/KtF3LnTLTypp1u4axJhMK9XbDHDnjlAHoATCt2kJDOKXyRgth6Xs7_ehHgT6CkwMEBsFhbH9uQ=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/KtF3LnTLTypp1u4axJhMK9XbDHDnjlAHoATCt2kJDOKXyRgth6Xs7_ehHgT6CkwMEBsFhbH9uQ=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/KtF3LnTLTypp1u4axJhMK9XbDHDnjlAHoATCt2kJDOKXyRgth6Xs7_ehHgT6CkwMEBsFhbH9uQ=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Sway Surfers",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-18T14:45:46Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "PmPC4jNBtSKRQC_XWPZ79TYEMZk",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCklXP84X9sVN3YDAHRjUfTg",
+      },
+      snippet: {
+        publishedAt: "2014-01-16T15:55:42Z",
+        channelId: "UCklXP84X9sVN3YDAHRjUfTg",
+        title: "S U R F I N G - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/z1fRdur3qxEnM6vZ_hBZU4MEFHZNZM_Nwk3yP8aKW6Mw5dD4DU7PEgC-yzM6sbh6_Lc8_eJ8QGo=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/z1fRdur3qxEnM6vZ_hBZU4MEFHZNZM_Nwk3yP8aKW6Mw5dD4DU7PEgC-yzM6sbh6_Lc8_eJ8QGo=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/z1fRdur3qxEnM6vZ_hBZU4MEFHZNZM_Nwk3yP8aKW6Mw5dD4DU7PEgC-yzM6sbh6_Lc8_eJ8QGo=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "S U R F I N G - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2014-01-16T15:55:42Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "SntCNd8HGpj2I1PeAQ2zwOjubbw",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCC1jGgV3UdKaPOl4GjWD7DQ",
+      },
+      snippet: {
+        publishedAt: "2024-10-20T16:08:52Z",
+        channelId: "UCC1jGgV3UdKaPOl4GjWD7DQ",
+        title: "JUST SURF",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/r3bXPBX68vf5-WRSaWGoVScty-6250Yyb4FFOYG-5tuM5ryWpZofswF0vrLoVkqppEHXBrOSpA=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/r3bXPBX68vf5-WRSaWGoVScty-6250Yyb4FFOYG-5tuM5ryWpZofswF0vrLoVkqppEHXBrOSpA=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/r3bXPBX68vf5-WRSaWGoVScty-6250Yyb4FFOYG-5tuM5ryWpZofswF0vrLoVkqppEHXBrOSpA=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "JUST SURF",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-20T16:08:52Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "YdZFt136r7aDow9XP-ZyAAdrVEM",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCZmHuK-Bvmg57ILPzNJsfIg",
+      },
+      snippet: {
+        publishedAt: "2024-10-19T08:37:53Z",
+        channelId: "UCZmHuK-Bvmg57ILPzNJsfIg",
+        title: "Code Surfing",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/JQr5QQYahJa84ptJqpQlr8ACje-QxFstr8Zfz5-WZY2q_tFmKJgX2SdJwi2OysVQ3-GPa09f1Q=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/JQr5QQYahJa84ptJqpQlr8ACje-QxFstr8Zfz5-WZY2q_tFmKJgX2SdJwi2OysVQ3-GPa09f1Q=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/JQr5QQYahJa84ptJqpQlr8ACje-QxFstr8Zfz5-WZY2q_tFmKJgX2SdJwi2OysVQ3-GPa09f1Q=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Code Surfing",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-19T08:37:53Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "uBdoFSe7nSeTA6kvGDh74H7Z8-8",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCCvTeISJPm1m9D6HCqYOA7w",
+      },
+      snippet: {
+        publishedAt: "2024-10-19T18:01:54Z",
+        channelId: "UCCvTeISJPm1m9D6HCqYOA7w",
+        title: "LODZ SURFING CLUB",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/tt_VbZzTIde7J9y5JLKP3YygMFANDQpI2PGt5I7Fx0f4tKq_I5HJzA-MVh4BE2dI6WgAnhHVMw=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/tt_VbZzTIde7J9y5JLKP3YygMFANDQpI2PGt5I7Fx0f4tKq_I5HJzA-MVh4BE2dI6WgAnhHVMw=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/tt_VbZzTIde7J9y5JLKP3YygMFANDQpI2PGt5I7Fx0f4tKq_I5HJzA-MVh4BE2dI6WgAnhHVMw=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "LODZ SURFING CLUB",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-19T18:01:54Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "K28Pv_AaS0UrBubGDFQXKWKnjRg",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCtjEbxYQwSZjyFkRH_iwr0g",
+      },
+      snippet: {
+        publishedAt: "2021-06-08T14:00:10Z",
+        channelId: "UCtjEbxYQwSZjyFkRH_iwr0g",
+        title: "Subway Surfers   - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/0asmvhrAun-Bq3Or0z9xM1jhoRMYfqxr0vjzXSvMmzdljn-LCr1ItnglXWrnI5yjtRcPJkXRYA=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/0asmvhrAun-Bq3Or0z9xM1jhoRMYfqxr0vjzXSvMmzdljn-LCr1ItnglXWrnI5yjtRcPJkXRYA=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/0asmvhrAun-Bq3Or0z9xM1jhoRMYfqxr0vjzXSvMmzdljn-LCr1ItnglXWrnI5yjtRcPJkXRYA=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Subway Surfers   - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2021-06-08T14:00:10Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "yjJtiA-Kw1nQMT14ZqR3zNH-ZLI",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCaHCSUZvrYxEkaqWF8D4gMw",
+      },
+      snippet: {
+        publishedAt: "2024-07-31T04:56:57Z",
+        channelId: "UCaHCSUZvrYxEkaqWF8D4gMw",
+        title: "Nara Surf Official",
+        description:
+          "Welcome to Nara Surf Photography Life! Dive into the exhilarating world of surf photography with me. Whether you're ...",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/74o06aCYmQS08gyk_JK-h3hd1bBEgIxXbvtEr0d1j020tKCmLjNeg4lH7eKO5ikjMsgSEx6jXA=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/74o06aCYmQS08gyk_JK-h3hd1bBEgIxXbvtEr0d1j020tKCmLjNeg4lH7eKO5ikjMsgSEx6jXA=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/74o06aCYmQS08gyk_JK-h3hd1bBEgIxXbvtEr0d1j020tKCmLjNeg4lH7eKO5ikjMsgSEx6jXA=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Nara Surf Official",
+        liveBroadcastContent: "none",
+        publishTime: "2024-07-31T04:56:57Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "rRb2Qsw7spjkLgFAUppmIBeg5Q8",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCszSzSLFpICRnDsNHIaH2SA",
+      },
+      snippet: {
+        publishedAt: "2024-10-07T03:09:10Z",
+        channelId: "UCszSzSLFpICRnDsNHIaH2SA",
+        title: "Foil Board - Surfing Game",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_mBIcRF7KJgZtH1sF9zpZLyP7dSzGRgl9uQCveLZwMNt8fOfoKZxIn1FLNP303YunpsIQ=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_mBIcRF7KJgZtH1sF9zpZLyP7dSzGRgl9uQCveLZwMNt8fOfoKZxIn1FLNP303YunpsIQ=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_mBIcRF7KJgZtH1sF9zpZLyP7dSzGRgl9uQCveLZwMNt8fOfoKZxIn1FLNP303YunpsIQ=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Foil Board - Surfing Game",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-07T03:09:10Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "6wEWOCZTVX4-j2w3UGwfXBgNCLY",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UC6ut8cm65elJM_Aci9nfspA",
+      },
+      snippet: {
+        publishedAt: "2024-10-20T11:42:04Z",
+        channelId: "UC6ut8cm65elJM_Aci9nfspA",
+        title: "Jumi surf",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_lOLm-ghLUyNeR63dHQLSJT7oFA7-F0BvqAJOjYEsiDZh4OjaFpfbdHReaGhCF6aq9AXw=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_lOLm-ghLUyNeR63dHQLSJT7oFA7-F0BvqAJOjYEsiDZh4OjaFpfbdHReaGhCF6aq9AXw=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_lOLm-ghLUyNeR63dHQLSJT7oFA7-F0BvqAJOjYEsiDZh4OjaFpfbdHReaGhCF6aq9AXw=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Jumi surf",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-20T11:42:04Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "-znavUEqytEVzKJLXo8GA0fjyIw",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCPheMvQcrp7tq-SDWvAoDDw",
+      },
+      snippet: {
+        publishedAt: "2017-05-20T08:39:02Z",
+        channelId: "UCPheMvQcrp7tq-SDWvAoDDw",
+        title: "Surfing Maradonas - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/nTMoEe23LHjmLM2BF3VNsm08FhFtlZATCgbHfDIQFroK4HEN711yq9oErHnNaGGmYzHuNfmDhw=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/nTMoEe23LHjmLM2BF3VNsm08FhFtlZATCgbHfDIQFroK4HEN711yq9oErHnNaGGmYzHuNfmDhw=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/nTMoEe23LHjmLM2BF3VNsm08FhFtlZATCgbHfDIQFroK4HEN711yq9oErHnNaGGmYzHuNfmDhw=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Surfing Maradonas - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2017-05-20T08:39:02Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "5jtVi3wtMVPe1ZkyyekBrtyYPpY",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCwV4BH9EoZugkWwGDiGBNlA",
+      },
+      snippet: {
+        publishedAt: "2013-12-20T18:16:53Z",
+        channelId: "UCwV4BH9EoZugkWwGDiGBNlA",
+        title: "The Surf Coasters - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/7El2W0_bRP5I3g0KfRlLmmSLmy4vIrf7QDh7iN4DtAWV3C7k78GvlJB_18p8L6ekNz6MbRBN3g=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/7El2W0_bRP5I3g0KfRlLmmSLmy4vIrf7QDh7iN4DtAWV3C7k78GvlJB_18p8L6ekNz6MbRBN3g=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/7El2W0_bRP5I3g0KfRlLmmSLmy4vIrf7QDh7iN4DtAWV3C7k78GvlJB_18p8L6ekNz6MbRBN3g=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "The Surf Coasters - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2013-12-20T18:16:53Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "l2yyWne0ZxoB4Qpr4sRSo8m4bvw",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UC7YOMqFT9MS1_5hoCh0mDNw",
+      },
+      snippet: {
+        publishedAt: "2017-06-10T09:30:40Z",
+        channelId: "UC7YOMqFT9MS1_5hoCh0mDNw",
+        title: "Surfing in Hell - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/G0qF-yPWK8Dhu-rAV0Q-6NC0lziMUrxX1LF6Uf9N8gUFmQ8YD9_hGS0Gs5rQJKTS6WoFhogO=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/G0qF-yPWK8Dhu-rAV0Q-6NC0lziMUrxX1LF6Uf9N8gUFmQ8YD9_hGS0Gs5rQJKTS6WoFhogO=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/G0qF-yPWK8Dhu-rAV0Q-6NC0lziMUrxX1LF6Uf9N8gUFmQ8YD9_hGS0Gs5rQJKTS6WoFhogO=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Surfing in Hell - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2017-06-10T09:30:40Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "hLiNmqDmKN-6afXhNc-KQ-xMtq8",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UCIa9REIRbx1FUtZrCgS3czQ",
+      },
+      snippet: {
+        publishedAt: "2024-10-19T00:03:07Z",
+        channelId: "UCIa9REIRbx1FUtZrCgS3czQ",
+        title: "Subway Surf",
+        description: "GAMEPLAYS SURFWAY SURF NO COPYRIGHT.",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/I8XHhlrPld1_j_xJ71CMvxmVDo1kGMOIBOid7odi9Xtsa4W8dmk9lTzlj1Azm8CZagp6tINty-M=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/I8XHhlrPld1_j_xJ71CMvxmVDo1kGMOIBOid7odi9Xtsa4W8dmk9lTzlj1Azm8CZagp6tINty-M=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/I8XHhlrPld1_j_xJ71CMvxmVDo1kGMOIBOid7odi9Xtsa4W8dmk9lTzlj1Azm8CZagp6tINty-M=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Subway Surf",
+        liveBroadcastContent: "none",
+        publishTime: "2024-10-19T00:03:07Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      etag: "Vfl25HD9cXQRDzx2CbmY0Kjmn_M",
+      id: {
+        kind: "youtube#channel",
+        channelId: "UC-934JSOEtkmAi1g7NGjRyg",
+      },
+      snippet: {
+        publishedAt: "2024-06-12T14:43:26Z",
+        channelId: "UC-934JSOEtkmAi1g7NGjRyg",
+        title: "Artico Surf - Topic",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/k3ZrSlOR1VyJ_XT5dchLhhxvjD9xlaOS4ZRXM-avJMKUcGX0-FNrFHUUsg18S5iKO1mhpmXuQg=s88-c-k-c0xffffffff-no-rj-mo",
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/k3ZrSlOR1VyJ_XT5dchLhhxvjD9xlaOS4ZRXM-avJMKUcGX0-FNrFHUUsg18S5iKO1mhpmXuQg=s240-c-k-c0xffffffff-no-rj-mo",
+          },
+          high: {
+            url: "https://yt3.ggpht.com/k3ZrSlOR1VyJ_XT5dchLhhxvjD9xlaOS4ZRXM-avJMKUcGX0-FNrFHUUsg18S5iKO1mhpmXuQg=s800-c-k-c0xffffffff-no-rj-mo",
+          },
+        },
+        channelTitle: "Artico Surf - Topic",
+        liveBroadcastContent: "none",
+        publishTime: "2024-06-12T14:43:26Z",
+      },
+    },
+  ],
+};
 
 export const finalFilteredData = [
   {
@@ -2705,5 +3239,152 @@ export const finalFilteredData = [
         subscriberCount: "202000",
       },
     },
+  },
+];
+
+const channelDataArray = [
+  {
+    video: {},
+    channel: {
+      kind: "youtube#channel",
+      id: "UCX4fV50d398w_YSGgKwa51Q",
+      snippet: {
+        title: "AI",
+        description: "AI Official YouTube Channel",
+        publishedAt: "2005-10-01T05:46:23Z",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/cmts_dHAOizV591gEW6okFNTpGKISjsv3OhuGY3ANdQeWHHDyCudiiKG35VYPtUH0W724zsZ3X8=s88-c-k-c0x00ffffff-no-rj",
+            width: 88,
+            height: 88,
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/cmts_dHAOizV591gEW6okFNTpGKISjsv3OhuGY3ANdQeWHHDyCudiiKG35VYPtUH0W724zsZ3X8=s240-c-k-c0x00ffffff-no-rj",
+            width: 240,
+            height: 240,
+          },
+          high: {
+            url: "https://yt3.ggpht.com/cmts_dHAOizV591gEW6okFNTpGKISjsv3OhuGY3ANdQeWHHDyCudiiKG35VYPtUH0W724zsZ3X8=s800-c-k-c0x00ffffff-no-rj",
+            width: 800,
+            height: 800,
+          },
+        },
+      },
+      statistics: {
+        viewCount: "263085825",
+        subscriberCount: "269000",
+        videoCount: "333",
+      },
+    },
+    kind: "youtube#channel",
+  },
+  {
+    video: {},
+    channel: {
+      kind: "youtube#channel",
+      id: "UCiHQ27FMsGlGmkQBCihiw8w",
+      snippet: {
+        title: "AI",
+        description: "",
+        publishedAt: "2018-10-31T23:14:50Z",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_m0TBRqGKua1oiDWRaAzecM4BrpkNTFbv4FG9V4mXiKEQ=s88-c-k-c0x00ffffff-no-rj",
+            width: 88,
+            height: 88,
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_m0TBRqGKua1oiDWRaAzecM4BrpkNTFbv4FG9V4mXiKEQ=s240-c-k-c0x00ffffff-no-rj",
+            width: 240,
+            height: 240,
+          },
+          high: {
+            url: "https://yt3.ggpht.com/ytc/AIdro_m0TBRqGKua1oiDWRaAzecM4BrpkNTFbv4FG9V4mXiKEQ=s800-c-k-c0x00ffffff-no-rj",
+            width: 800,
+            height: 800,
+          },
+        },
+      },
+      statistics: {
+        viewCount: "191392496",
+        subscriberCount: "314000",
+        videoCount: "1253",
+      },
+    },
+    kind: "youtube#channel",
+  },
+  {
+    video: {},
+    channel: {
+      kind: "youtube#channel",
+      id: "UCYDxMiKU0m7THLtscfu_1lQ",
+      snippet: {
+        title: "AI video",
+        description:
+          "Stable Diffusion을 사용하여 제작한 가상의 AI사진 룩북 채널입니다.\n등장하는 인물의 의상및 컨셉등을 직접 설정하여 만든 가상의 AI 창작물입니다.\n재밌게 감상하시고 구독과 좋아요 부탁드려요❤️\n\nThis is a virtual AI photo lookbook channel created using Stable Diffusion.\nIt is a virtual AI creation created by directly setting the costumes and concepts of the characters that appear.\nEnjoy it and please subscribe and like❤️\n",
+        publishedAt: "2023-08-14T15:55:07.28012Z",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/AK4J-6OEnj2nkpiv1dx7EqMtd0XN93Sj2rFRobzLmcRBLMatWGV3tMq6ZRcNcMP0NePhMnefGQ=s88-c-k-c0x00ffffff-no-rj",
+            width: 88,
+            height: 88,
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/AK4J-6OEnj2nkpiv1dx7EqMtd0XN93Sj2rFRobzLmcRBLMatWGV3tMq6ZRcNcMP0NePhMnefGQ=s240-c-k-c0x00ffffff-no-rj",
+            width: 240,
+            height: 240,
+          },
+          high: {
+            url: "https://yt3.ggpht.com/AK4J-6OEnj2nkpiv1dx7EqMtd0XN93Sj2rFRobzLmcRBLMatWGV3tMq6ZRcNcMP0NePhMnefGQ=s800-c-k-c0x00ffffff-no-rj",
+            width: 800,
+            height: 800,
+          },
+        },
+        defaultLanguage: "ko",
+        country: "KR",
+      },
+      statistics: {
+        viewCount: "5564690",
+        subscriberCount: "24200",
+        videoCount: "658",
+      },
+    },
+    kind: "youtube#channel",
+  },
+  {
+    video: {},
+    channel: {
+      kind: "youtube#channel",
+      id: "UCHjyhzW_TfRAhWMgdfwzrKg",
+      snippet: {
+        title: "Ai Life",
+        description:
+          "Stable Diffusion 으로 만든 가상의 Ai가 사는 세상 입니다. \n여기에서는 원하는 어디로든 여행을 떠날 수 있어요. 저와 함께 세계 곳곳 여행을 떠나 볼래요?\n\nThe world where AI lives with Stable Diffusion.\nFrom here, you can travel wherever you want. Would you like to travel around the world with me?\n\n",
+        publishedAt: "2023-09-18T02:40:23.246057Z",
+        thumbnails: {
+          default: {
+            url: "https://yt3.ggpht.com/l7WT49zn3VAj_b4njponnsyvSDBJifJ8R4iY9nQnWs_QNR3cYjSlijOuTm7qwHdV1z_UCw1a=s88-c-k-c0x00ffffff-no-rj",
+            width: 88,
+            height: 88,
+          },
+          medium: {
+            url: "https://yt3.ggpht.com/l7WT49zn3VAj_b4njponnsyvSDBJifJ8R4iY9nQnWs_QNR3cYjSlijOuTm7qwHdV1z_UCw1a=s240-c-k-c0x00ffffff-no-rj",
+            width: 240,
+            height: 240,
+          },
+          high: {
+            url: "https://yt3.ggpht.com/l7WT49zn3VAj_b4njponnsyvSDBJifJ8R4iY9nQnWs_QNR3cYjSlijOuTm7qwHdV1z_UCw1a=s800-c-k-c0x00ffffff-no-rj",
+            width: 800,
+            height: 800,
+          },
+        },
+      },
+      statistics: {
+        viewCount: "7243059",
+        subscriberCount: "75100",
+        videoCount: "175",
+      },
+    },
+    kind: "youtube#channel",
   },
 ];

@@ -2,14 +2,16 @@ import axios from "axios";
 const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 const CHUNK_SIZE = import.meta.env.VITE_MAX_CHUNK_SIZE;
 const API_BASE_URL = import.meta.env.VITE_GOOGLE_API_BASE_URL;
+const SUBSCRIBER_COUNT_THRESHOLD = import.meta.env
+  .VITE_SUBSCRIBER_COUNT_THRESHOLD;
 
 // Utility functions for extracting videoIds and channelIds from input array
-function getVideoIds(videoIdAndchannelIdArray) {
-  return videoIdAndchannelIdArray.map((item) => item.videoId);
+function getVideoIds(videoIdAndChannelIdArray) {
+  return videoIdAndChannelIdArray.map((item) => item.videoId);
 }
 
-function getChannelIds(videoIdAndchannelIdArray) {
-  return videoIdAndchannelIdArray.map((item) => item.channelId);
+function getChannelIds(videoIdAndChannelIdArray) {
+  return videoIdAndChannelIdArray.map((item) => item.channelId);
 }
 
 // Function to fetch video and channel data simultaneously
@@ -22,22 +24,22 @@ const fetchVideoData = async (videoUrl) => {
 };
 
 // Main API function to query data
-export const youtubeChannelAndVideoQueryApi = async (
-  videoIdAndchannelIdArray
+export const youtubeSubscriberThenVideoQueryApi = async (
+  videoIdAndChannelIdArray
 ) => {
   if (
-    !Array.isArray(videoIdAndchannelIdArray) ||
-    videoIdAndchannelIdArray.length === 0
+    !Array.isArray(videoIdAndChannelIdArray) ||
+    videoIdAndChannelIdArray.length === 0
   ) {
     throw new Error(
-      "Invalid input: videoIdAndchannelIdArray must be a non-empty array"
+      "Invalid input: videoIdAndChannelIdArray must be a non-empty array"
     );
   }
 
   // Split the input data into manageable chunks
   const chunks = [];
-  for (let i = 0; i < videoIdAndchannelIdArray.length; i += CHUNK_SIZE) {
-    const chunk = videoIdAndchannelIdArray.slice(i, i + CHUNK_SIZE);
+  for (let i = 0; i < videoIdAndChannelIdArray.length; i += CHUNK_SIZE) {
+    const chunk = videoIdAndChannelIdArray.slice(i, i + CHUNK_SIZE);
     chunks.push(chunk);
   }
 
@@ -46,10 +48,11 @@ export const youtubeChannelAndVideoQueryApi = async (
     let channelIdString = getChannelIds(chunk).join(",");
 
     // Fetch channel data first
-    const channelUrl = `${API_BASE_URL}/channels?part=statistics&fields=items(id,statistics(subscriberCount))&id=${channelIdString}&key=${API_KEY}`;
+    const channelUrl = `${API_BASE_URL}/channels?part=statistics&fields=items(id,kind,statistics(subscriberCount))&id=${channelIdString}&key=${API_KEY}`;
 
     try {
       const channelApiResponse = await fetchChannelData(channelUrl);
+      // console.log("channelApiResponse.data.items",channelApiResponse.data.items);
 
       const filteredChannelMap = new Map();
       channelApiResponse.data.items.forEach((channel) => {
@@ -57,8 +60,8 @@ export const youtubeChannelAndVideoQueryApi = async (
           channel.statistics.subscriberCount,
           10
         );
-        // Only keep channels with subscribers greater than 2000
-        if (subscriberCount > 2000) {
+        // Only keep channels with subscribers greater than SUBSCRIBER_COUNT_THRESHOLD
+        if (subscriberCount > SUBSCRIBER_COUNT_THRESHOLD) {
           filteredChannelMap.set(channel.id, channel);
         }
       });
@@ -70,16 +73,17 @@ export const youtubeChannelAndVideoQueryApi = async (
 
       if (videoIdsForFilteredChannels.length > 0) {
         let videoIdString = videoIdsForFilteredChannels.join(",");
-        const videoUrl = `${API_BASE_URL}/videos?part=snippet,statistics,contentDetails&fields=items(id,snippet(title,description,channelTitle,thumbnails,publishedAt,channelId),statistics(viewCount,likeCount,commentCount),contentDetails(duration))&id=${videoIdString}&key=${API_KEY}`;
+        const videoUrl = `${API_BASE_URL}/videos?part=snippet,statistics,contentDetails&fields=items(id,kind,snippet(title,description,channelTitle,thumbnails,publishedAt,channelId),statistics(viewCount,likeCount,commentCount),contentDetails(duration))&id=${videoIdString}&key=${API_KEY}`;
 
         const videoApiResponse = await fetchVideoData(videoUrl);
+        // console.log("videoApiResponse.data.items", videoApiResponse.data.items);
 
         return videoApiResponse.data.items
           .map((video) => {
             const channelId = video.snippet.channelId;
             const channelData = filteredChannelMap.get(channelId);
             if (channelData) {
-              return { video: video, channel: channelData };
+              return { video: video, channel: channelData, kind: video.kind };
             }
           })
           .filter((item) => item); // Filter out any undefined results

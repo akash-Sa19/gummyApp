@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const APIKEY = import.meta.env.VITE_GOOGLE_API_KEY;
+const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 const CHUNK_SIZE = import.meta.env.VITE_MAX_CHUNK_SIZE;
+const API_BASE_URL = import.meta.env.VITE_GOOGLE_API_BASE_URL;
 
 export const youtubeChannelQueryApi = async (channelIdArray) => {
   if (!Array.isArray(channelIdArray) || channelIdArray.length === 0) {
@@ -10,31 +11,41 @@ export const youtubeChannelQueryApi = async (channelIdArray) => {
 
   let channelData = [];
 
-  const chunkSize = CHUNK_SIZE;
-  // split channelIdAraay into chunks of chunkSize
+  // split channelIdArray into chunks of chunkSize
   const chunks = [];
-  for (let i = 0; i < channelIdArray; i += chunkSize) {
-    const chunk = channelIdArray.slice(i, i + chunkSize);
+  for (let i = 0; i < channelIdArray.length; i += CHUNK_SIZE) {
+    const chunk = channelIdArray.slice(i, i + CHUNK_SIZE);
     chunks.push(chunk);
   }
 
   for (const chunk of chunks) {
     const channelIdString = chunk.join(",");
-    const baseUrl = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${channelIdString}&key=${APIKEY}`;
+    const channelUrl = `${API_BASE_URL}/channels?part=statistics,snippet&fields=items(id,kind,snippet(title,description,publishedAt,thumbnails,defaultLanguage,country),statistics(subscriberCount,viewCount,videoCount))&id=${channelIdString}&key=${API_KEY}`;
 
     try {
-      const response = await axios.get(baseUrl);
-      console.log("fetched channel data", response);
+      const response = await axios.get(channelUrl);
+      // console.log("fetched channel data", response);
 
-      if (response.data.kind !== "youtube#channelListResponse") {
-        throw new Error("Error fetching channel data: Invalid response kind");
-      }
+      // Map through each item and collect relevant data
+      const chunkOfChannelData = response.data.items.map((item) => {
+        if (item.kind !== "youtube#channel") {
+          throw new Error("Error fetching channel data: Invalid response kind");
+        }
 
-      channelData = [...channelData, ...response.data.items];
+        return {
+          video: {},
+          channel: item,
+          kind: item.kind,
+        };
+      });
+
+      // Merge the new chunk data with the overall channelData
+      channelData = [...channelData, ...chunkOfChannelData];
     } catch (error) {
       console.error("Error fetching channel data:", error);
       throw error;
     }
   }
+
   return channelData;
 };

@@ -13,6 +13,7 @@ import {
   RedditCommentCard,
 } from "./subComponents";
 import YouTubeCard from "./subComponents/YouTubeCard.jsx";
+import YoutubeChannelCard from "./subComponents/YouTubeChannelCard..jsx";
 
 const Display = ({ isFetching, error, data, platform }) => {
   const dummyData = redditData;
@@ -39,15 +40,26 @@ const Display = ({ isFetching, error, data, platform }) => {
           }`}
         >
           {platform === "YT"
-            ? data.map(({ video, _ }, index) => {
-                return (
-                  <YouTubeCard
-                    key={index}
-                    snippet={video?.snippet}
-                    statistics={video?.statistics}
-                    id={video.id}
-                  />
-                );
+            ? data.map(({ video, kind, channel }, index) => {
+                if (kind === "youtube#video") {
+                  return (
+                    <YouTubeCard
+                      key={index}
+                      snippet={video?.snippet}
+                      statistics={video?.statistics}
+                      id={video.id}
+                    />
+                  );
+                } else if (kind === "youtube#channel") {
+                  return (
+                    <YoutubeChannelCard
+                      key={index}
+                      id={channel.id}
+                      snippet={channel.snippet}
+                      statistics={channel.statistics}
+                    />
+                  );
+                }
               })
             : data.map((item, index) => {
                 if (item.dataType == "post") {
