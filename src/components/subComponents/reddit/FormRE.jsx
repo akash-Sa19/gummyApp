@@ -1,11 +1,11 @@
-import { linkIcon } from "../../assets";
-import SelectTag from "./SelectTag";
+import { linkIcon } from "../../../assets";
+import SelectTag from "../tags/SelectTag";
 import {
   timeOptions,
   serchTypeOptions,
   sortSearchOptions,
-} from "../../constants";
-import InputTag from "./InputTag";
+} from "../../../constants";
+import InputTag from "../tags/InputTag";
 
 const FormRE = ({ query, setQuery, handleSubmit }) => {
   const FilterOptions = [

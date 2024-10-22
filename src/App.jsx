@@ -1,10 +1,12 @@
 import { useState } from "react";
 import "./index.css";
-import { Options } from "./components/subComponents";
+import { LoginForm, Options, RegisterForm } from "./components/subComponents";
 import { DemoYT, DemoRE, Hero } from "./components";
 
 function App() {
   const [platform, setPlatform] = useState("YT");
+  const [formType, setFormType] = useState("register");
+
   // console.log(process.env);
 
   return (
@@ -14,7 +16,6 @@ function App() {
       </div>
       <div className="relative z-10 flex flex-col items-center justify-center px-6 mx-auto max-w-7xl sm:px-16">
         <Hero />
-        {/* options */}
         <Options
           platform={platform}
           setPlatform={setPlatform}
@@ -24,7 +25,15 @@ function App() {
         ) : (
           <DemoRE platform={platform} />
         )}
-        {/* <Demo2 /> */}
+        <div className="absolute z-20 w-full h-full">
+          {formType === "login" ? (
+            <LoginForm setFormType={setFormType} />
+          ) : formType === "register" ? (
+            <RegisterForm setFormType={setFormType} />
+          ) : (
+            <></>
+          )}
+        </div>
       </div>
     </main>
   );

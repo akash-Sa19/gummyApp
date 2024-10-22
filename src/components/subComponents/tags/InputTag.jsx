@@ -1,6 +1,6 @@
 import { Input } from "postcss";
 import React from "react";
-import { logo } from "../../assets";
+import { logo } from "../../../assets";
 
 const InputTag = ({ setQuery, labelName, placeholder, tag, query, name }) => {
   return (

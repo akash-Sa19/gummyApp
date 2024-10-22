@@ -1,4 +1,4 @@
-const YoutubeChannelCard = ({ id, snippet, statistics }) => {
+const YouTubeChannelCard = ({ id, snippet, statistics }) => {
   const {
     title,
     description,
@@ -61,4 +61,4 @@ const YoutubeChannelCard = ({ id, snippet, statistics }) => {
   );
 };
 
-export default YoutubeChannelCard;
+export default YouTubeChannelCard;

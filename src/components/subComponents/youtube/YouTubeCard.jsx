@@ -1,7 +1,7 @@
 import React from "react";
-import { formatDate } from "../../utils/formatDate";
-import { formatNumber } from "../../utils/formatNumber";
-import { arrowRightUp } from "../../assets";
+import { formatDate } from "../../../utils/formatDate";
+import { formatNumber } from "../../../utils/formatNumber";
+import { arrowRightUp } from "../../../assets";
 
 const YouTubeCard = ({ id, snippet, statistics }) => {
   const {

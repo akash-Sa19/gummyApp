@@ -6,16 +6,15 @@ import {
   redditData,
 } from "../constants/rawData.js";
 import {
-  Card,
   RedditCard,
   RedditCommunityCard,
   RedditUserCard,
   RedditCommentCard,
-} from "./subComponents";
-import YouTubeCard from "./subComponents/YouTubeCard.jsx";
-import YoutubeChannelCard from "./subComponents/YouTubeChannelCard..jsx";
+  YouTubeCard,
+  YouTubeChannelCard,
+} from "./subComponents/index.js";
 
-const Display = ({ isFetching, error, data, platform }) => {
+const Display = ({ isFetching, error, data, platform, summary }) => {
   const dummyData = redditData;
   return (
     <div className="flex items-center justify-center w-full my-10">
@@ -39,6 +38,14 @@ const Display = ({ isFetching, error, data, platform }) => {
             platform === "YT" ? "gap-8" : "gap-2"
           }`}
         >
+          {summary !== "" && (
+            <div class="w-full p-6 bg-white rounded-lg shadow-md flex justify-start flex-col">
+              <h1 className="text-xl font-bold text-transparent bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text">
+                Summary
+              </h1>
+              <p className="mt-4">{summary}</p>
+            </div>
+          )}
           {platform === "YT"
             ? data.map(({ video, kind, channel }, index) => {
                 if (kind === "youtube#video") {
@@ -52,7 +59,7 @@ const Display = ({ isFetching, error, data, platform }) => {
                   );
                 } else if (kind === "youtube#channel") {
                   return (
-                    <YoutubeChannelCard
+                    <YouTubeChannelCard
                       key={index}
                       id={channel.id}
                       snippet={channel.snippet}

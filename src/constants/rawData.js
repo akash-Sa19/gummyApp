@@ -3388,3 +3388,236 @@ const channelDataArray = [
     kind: "youtube#channel",
   },
 ];
+
+const mainContentArray = [
+  {
+    video: {
+      kind: "youtube#video",
+      id: "358xI2QpWKU",
+      snippet: {
+        publishedAt: "2024-10-11T07:30:02Z",
+        channelId: "UCxTFPM1NYtPVk1jBwUMJcnw",
+        title:
+          "YouTube Automation with AI | Make FACELESS YouTube Videos with AI",
+        description:
+          'YouTube Automation with AI | YouTube Automation Step By Step | YouTube Automation Full Course | How to Make Faceless YouTube Videos with AI\n\nMusic: Upbeat Corporate by Wavecont\nhttps://protunes.net​\nVideo Link: https://bit.ly/3TKIFxg​\n\n⚒️ TOOLS USED/MENTIONED IN THE VIDEO:\n• ChatGPT\n• Leonardo AI\n• ElevenLabs\n• Ideogram AI\n• VEED\n• ClipChamp \n\n💬 IMPORTANT PROMPTS:\n• Branding:\n"I\'m starting a faceless YouTube channel in the {your niche} niche. Give me 10 simple but unique channel names." \n\n"Give me 5 channel icon ideas for my {your niche} channel named {your channel name}. Also give me a detailed prompt to generate each image using Leonardo AI image generator." \n\n"Write a short and simple channel description for my {your niche} channel named {your channel name}." \n\n• Script Writing\n(This is the prompt that I used. You can modify it according to your needs or use it as an inspiration to write a completely new prompt.) \n\n"Write a sophisticated YouTube script for my faceless video on \'5 Financial Mistakes to Avoid in Your 20s\'. The video is 10 minutes long. Spend around 90 seconds on each point. My audience is 18-30 year olds living in the US who want to make wise financial decisions in life and live a wealthy lifestyle. Use an inspirational and authoritative tone. I want the script to use the three act structure storytelling framework. Use emotional triggers like fear, excitement and urgency. Include a strong intro hook. Also include pattern interrupts like humorous comments or questions to reset attention. Connect different points to transition between them seamlessly. Do incorporate cliffhangers to keep viewers hooked until the end. Lastly, add a smooth CTA at the end to redirect viewers to another video on my channel about \'power of compounding\' through an end screen." \n\n• Editing:\n"I\'m making a faceless YouTube video and I need visuals for each line/paragraph of my script. I will paste one line at a time from my script and you have to give me a simple prompt to generate visuals for that line in an AI image generator." \n\n• Thumbnail:\n"I\'m making a YouTube video titled \'{your topic}\'. Give me 5 different thumbnail ideas along with a prompt to generate each thumbnail using an AI image creator." \n\nTIMESTAMPS:\n0:00 Intro\n0:35 STEP 1: Finding a Niche\n1:26 STEP 2: Branding\n5:11 STEP 3: Script Writing (Important)\n9:29 STEP 4: Voiceover\n11:51 STEP 5: Video Editing\n16:00 Final Result\n16:42 Thumbnail\n\n🎁 Try vidIQ\'s Boost Plan at: https://vidiq.com/decodingyt and GET 90% OFF!!!\n\n📌 ABOUT ME:\nHey it\'s me DecodingYT! On this channel I upload videos where I share my learnings about YouTube Growth and video creation.\n\n🔗 FOLLOW ME HERE:\n• Instagram: https://www.instagram.com/decodingyt.ig\n• X: https://twitter.com/decodingytX\n\n⭐ Become a VIP Decoder: https://www.youtube.com/channel/UCxTFPM1NYtPVk1jBwUMJcnw/join\n\n🎙️MY MIC: https://amzn.to/44sHfJN\n\n📧 FOR BUSINESS ENQUIRIES: decodingytbusiness@gmail.com\n\n#youtube #youtubegrowth #decodingyt',
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/358xI2QpWKU/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/358xI2QpWKU/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/358xI2QpWKU/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/358xI2QpWKU/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/358xI2QpWKU/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "DecodingYT",
+      },
+      contentDetails: {
+        duration: "PT18M18S",
+      },
+      statistics: {
+        viewCount: "343574",
+        likeCount: "20312",
+        commentCount: "2222",
+      },
+    },
+    channel: {
+      kind: "youtube#channel",
+      id: "UCxTFPM1NYtPVk1jBwUMJcnw",
+      statistics: {
+        subscriberCount: "629000",
+      },
+    },
+    kind: "youtube#video",
+  },
+  {
+    video: {
+      kind: "youtube#video",
+      id: "8T1k3s49IZM",
+      snippet: {
+        publishedAt: "2024-10-13T05:00:07Z",
+        channelId: "UCqtMrF1ZSr5sPX1vgoPIefw",
+        title:
+          "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools",
+        description:
+          "In this video you will see how we made 3D cartoon animation videos using ai tools\n\nMusic : Epidemic Sound : https://share.epidemicsound.com/3qnmDP\nSFX: Multiple Sources\n\n🙏Huge thanks to all the Creative Artists for the inspiration and also for the Stocks 😊\n\n✅Follow me on Instagram\nhttps://www.instagram.com/rajphotoeditingmuchmore/reels/",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/8T1k3s49IZM/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/8T1k3s49IZM/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/8T1k3s49IZM/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/8T1k3s49IZM/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/8T1k3s49IZM/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Raj Photo Editing and Much More",
+      },
+      contentDetails: {
+        duration: "PT5M13S",
+      },
+      statistics: {
+        viewCount: "73349",
+        likeCount: "3188",
+        commentCount: "149",
+      },
+    },
+    channel: {
+      kind: "youtube#channel",
+      id: "UCqtMrF1ZSr5sPX1vgoPIefw",
+      statistics: {
+        subscriberCount: "2650000",
+      },
+    },
+    kind: "youtube#video",
+  },
+  {
+    video: {
+      kind: "youtube#video",
+      id: "Ym-zLeGjzmY",
+      snippet: {
+        publishedAt: "2024-10-03T13:00:42Z",
+        channelId: "UCrJrY9gMcbRL2APnFCXiuBQ",
+        title: "7 No-Code + AI Tools That Can Make You RICH",
+        description:
+          "❇️ FREE COURSE - Get Access Now: https://bit.ly/4aBjbaU\n⚡️ NO-CODE COURSE BUNDLE - https://bit.ly/4bq5xIO\n🚀 NO-CODE COACHING PROGRAM - https://bit.ly/4dQv3Zs\n\n🛠 TOOLS:\n\nV0: https://v0.dev/\nBuzzy: https://www.buzzy.buzz/figma?ref=yjljyzq\nFigma - https://psxid.figma.com/gesgvfztofxm\nVectorShift: https://vectorshift.ai/\nNoloco: https://noloco.io/\nGamma: https://gamma.app/signup?r=mgp7dnjaverd8n2\nClaude: https://claude.ai/\nGlide: https://join.glideapps.com/tz1wx2m34nox\n\nFull Repository: https://bit.ly/4bw2uyI\n\n🚨 SUBSCRIBE TO THE CHANNEL\nhttps://bit.ly/wearenocodeyt\n\n➡️  VISIT WeAreNoCode Website:\nhttps://www.wearenocode.com\n\n#nocode #startups #entrepreneur #saas #AI",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/Ym-zLeGjzmY/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/Ym-zLeGjzmY/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/Ym-zLeGjzmY/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/Ym-zLeGjzmY/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/Ym-zLeGjzmY/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "WeAreNoCode",
+      },
+      contentDetails: {
+        duration: "PT17M12S",
+      },
+      statistics: {
+        viewCount: "34568",
+        likeCount: "1318",
+        commentCount: "37",
+      },
+    },
+    channel: {
+      kind: "youtube#channel",
+      id: "UCrJrY9gMcbRL2APnFCXiuBQ",
+      statistics: {
+        subscriberCount: "154000",
+      },
+    },
+    kind: "youtube#video",
+  },
+  {
+    video: {
+      kind: "youtube#video",
+      id: "-maI8lNxdJE",
+      snippet: {
+        publishedAt: "2024-10-21T15:45:51Z",
+        channelId: "UCUFMgUDsqQnWFDBxUbBHR3g",
+        title: "3 Ways to Make $50k/month with FREE AI Tools",
+        description:
+          'Learn 3 LEGIT ways to make $10k, $20k, $50k/month using free AI tools in this video. \n\nThese techniques will help you increase your income without any investment!\n\nJust hustle, creativity, and building systems in place that can work for you!\n\n#aitools #incomeideas #makemoneyonlinewithchatgpt \n\n🔗 USEFUL LINKS: \n\n***Join the private community of SimplyHustlers to learn how to make $10K per month***\nhttps://swirl.cc/simplydigital\n\n- Get my Video Course to explode with short video: "2 million & 6 figures in 8 months"\n https://swirl.cc/2-million-followers-and-6-figures-in-8-months\n\n- MY AI & Business Video Course (how to start a business without investment)\nhttps://www.domestika.org/en/courses/5514-ai-tools-for-your-digital-business\n\n- Get my FREE CHEAT-SHEET to dominate with AI here: https://konstantinosimplydigital.m-pages.com/your-superpower-free-prompts-library\n\n-----------------------------\nFind my social media content (3.5 million followers combined)\n\nTikTok:  https://www.tiktok.com/@simplydigital?lang=en\n     \nInstagram:  https://www.instagram.com/simplydigital.gr/',
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/-maI8lNxdJE/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/-maI8lNxdJE/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/-maI8lNxdJE/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/-maI8lNxdJE/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/-maI8lNxdJE/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Simply Digital",
+      },
+      contentDetails: {
+        duration: "PT11M38S",
+      },
+      statistics: {
+        viewCount: "1832",
+        likeCount: "184",
+        commentCount: "37",
+      },
+    },
+    channel: {
+      kind: "youtube#channel",
+      id: "UCUFMgUDsqQnWFDBxUbBHR3g",
+      statistics: {
+        subscriberCount: "70300",
+      },
+    },
+    kind: "youtube#video",
+  },
+];

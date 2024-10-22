@@ -15,3 +15,12 @@ export function filterRawDataForVideoIdsAndChannelIds(rawData) {
   }));
   return [...new Set(ids)];
 }
+
+export function extractTitleAndDescription(rawData) {
+  // console.log(rawData);
+
+  return rawData.map((data) => ({
+    title: data.title,
+    description: data.description,
+  }));
+}

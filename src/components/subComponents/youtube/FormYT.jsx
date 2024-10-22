@@ -1,7 +1,7 @@
-import { linkIcon } from "../../assets";
-import SelectTag from "./SelectTag";
-import { timeOptions, typeOptions, whatsNewOptions } from "../../constants";
-import InputTag from "./InputTag";
+import { linkIcon } from "../../../assets";
+import { timeOptions, typeOptions, whatsNewOptions } from "../../../constants";
+import InputTag from "../tags/InputTag";
+import SelectTag from "../tags/SelectTag";
 
 const FormYT = ({ query, setQuery, handleSubmit }) => {
   const FilterOptions = [
